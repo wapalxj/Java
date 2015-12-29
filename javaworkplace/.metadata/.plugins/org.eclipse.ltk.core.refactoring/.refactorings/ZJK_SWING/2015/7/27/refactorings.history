@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;fl2.jpg&apos; to &apos;JLAB/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;ZJK_SWING&apos;&#x0D;&#x0A;- Destination element: &apos;JLAB/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;fl2.jpg&apos;" description="Copy file" destination="=JLAB/src&lt;" element1="src/Swing_05_4_selfAPI/fl2.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1435741523311" units="0" version="1.0"/>
+</session>

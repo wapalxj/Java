@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;plus.java&apos; to &apos;JLAB/src/edu.ynu.labz11_plus&apos;&#x0D;&#x0A;- Original project: &apos;JLAB&apos;&#x0D;&#x0A;- Destination element: &apos;JLAB/src/edu.ynu.labz11_plus&apos;&#x0D;&#x0A;- Original element: &apos;edu.ynu.labz11.plus.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;edu.ynu.labz11_plus" element1="/src&lt;edu.ynu.labz11{plus.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1433255777932" units="1" version="1.0"/>
+</session>

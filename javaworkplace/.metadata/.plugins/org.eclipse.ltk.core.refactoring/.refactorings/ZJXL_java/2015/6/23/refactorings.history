@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;bmw.jpg&apos; to &apos;TestMVC/src&apos;&#x0D;&#x0A;- Original project: &apos;ZJXL_java&apos;&#x0D;&#x0A;- Destination element: &apos;TestMVC/src&apos;&#x0D;&#x0A;- Original element: &apos;bmw.jpg&apos;" description="Copy file" destination="=TestMVC/src" element1="bmw.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1433516413052" units="0" version="1.0"/>
+</session>
