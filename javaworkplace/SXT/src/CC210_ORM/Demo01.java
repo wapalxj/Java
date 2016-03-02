@@ -4,7 +4,7 @@ import java.lang.annotation.Annotation;
 
 /**
  * Created by Administrator on 2015/12/10.
- * 使用反射读取注解信息，模拟处理注解信息的流程
+ * 浣跨敤鍙嶅皠璇诲彇娉ㄨВ淇℃伅锛屾ā鎷熷鐞嗘敞瑙ｄ俊鎭殑娴佺▼
  */
 public class Demo01 {
     public static void main(String[] args) {

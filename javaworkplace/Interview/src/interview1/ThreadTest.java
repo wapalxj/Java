@@ -2,7 +2,9 @@ package interview1;
 
 import java.util.LinkedList;
 
-
+/**
+ * é¢è¯•çš„é¢˜ç›®
+ */
 public class ThreadTest {
 
 	public static void main(String[] args) {
@@ -22,13 +24,13 @@ class ReadData  implements Runnable{
 	@Override
 	public void run() {
 		while (true) {
-			this.linkedList.addLast("¼ÓÎÒ½øÀ´");
+			this.linkedList.addLast("ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ï¿½");
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("¼ÓÎÒ½øÀ´");
+			System.out.println("ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ï¿½");
 			
 		}
 		
@@ -42,13 +44,13 @@ class WriteData implements Runnable{
 	@Override
 	public void run() {
 		while (true) {
-			this.linkedList.addLast("·ÅÎÒ³öÈ¥");
+			this.linkedList.addLast("ï¿½ï¿½ï¿½Ò³ï¿½È¥");
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("·ÅÎÒ³öÈ¥");
+			System.out.println("ï¿½ï¿½ï¿½Ò³ï¿½È¥");
 		}
 		
 	}

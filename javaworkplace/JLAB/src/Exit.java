@@ -48,7 +48,7 @@ public class Exit extends JFrame {
 				super.paintComponent(g);
 				g.setColor(new Color(255,0,0));
 				g.setFont(new Font(null, 30, 30));
-				g.drawString("ÄãÈ·¶¨ÒªÍË³öÂğ£¿", 100, 100);
+				g.drawString("ä½ ç¡®å®šè¦é€€å‡ºå—ï¼Ÿ", 100, 100);
 				}
 	                
 		};

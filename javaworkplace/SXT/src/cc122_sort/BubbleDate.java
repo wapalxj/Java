@@ -3,7 +3,7 @@ package cc122_sort;
 import java.util.Date;
 
 /*
- * Comperable½Ó¿Ú:DateÅÅĞò
+ * Comperableæ¥å£:Dateæ’åº
  */
 public class BubbleDate {
 
