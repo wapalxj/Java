@@ -16,3 +16,11 @@ class  StringComp implements Comparator<String> {
 	}
 	
 }
+
+class StringComparable implements Comparable<String>{
+
+	@Override
+	public int compareTo(String o) {
+		return 0;
+	}
+}

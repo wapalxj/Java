@@ -8,12 +8,12 @@ import java.text.ParseException;
 public class Test2throws {
 
 	/**
-	 * Òì³£µÄ²âÊÔ£º2.Å×³öÒì³£throws
-	 * Òì³£ÉùÃ÷µÄ·¶Î§
+	 * å¼‚å¸¸çš„æµ‹è¯•ï¼š2.æŠ›å‡ºå¼‚å¸¸throws
+	 * å¼‚å¸¸å£°æ˜çš„èŒƒå›´
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// ×¢£ºÒ²¿ÉÒÔ½«main·½·¨ÉùÃ÷Òì³££¬ÕâÑùÊÇ½«Òì³£Å×¸øJRE
+		// æ³¨ï¼šä¹Ÿå¯ä»¥å°†mainæ–¹æ³•å£°æ˜å¼‚å¸¸ï¼Œè¿™æ ·æ˜¯å°†å¼‚å¸¸æŠ›ç»™JRE
 		String str = null;
 		try {
 			str=new Test2throws().openFile();
@@ -24,7 +24,7 @@ public class Test2throws {
 		}
 		System.out.println(str);
 	}
-	//ÉùÃ÷throws2¸öÒì³££¬Ë­µ÷ÓÃ´ËÉùÃ÷Òì³£µÄ·½·¨£¬Ë­¾Í¶ÔÓ¦²¶»ñ2¸öÒì³£(JXLËµÖ»ĞèÒªcatchÆäÖĞÈÎºÎÒ»¸ö)
+	//å£°æ˜throws2ä¸ªå¼‚å¸¸ï¼Œè°è°ƒç”¨æ­¤å£°æ˜å¼‚å¸¸çš„æ–¹æ³•ï¼Œè°å°±å¯¹åº”æ•è·2ä¸ªå¼‚å¸¸(JXLè¯´åªéœ€è¦catchå…¶ä¸­ä»»ä½•ä¸€ä¸ª)
 	String openFile() throws FileNotFoundException,IOException{
 		FileReader reader=new FileReader("d:/a.txt");
 		char c=(char)reader.read();
@@ -39,7 +39,7 @@ class A{
 	}
 }
 
-//×ÓÀàthrows×Ó¾äÅ×³öµÄÒì³££¬²»ÄÜÊÇ»ùÀàÍ¬Ãû·½·¨Å×³öÒì³£µÄ¸¸Àà
+//å­ç±»throwså­å¥æŠ›å‡ºçš„å¼‚å¸¸ï¼Œä¸èƒ½æ˜¯åŸºç±»åŒåæ–¹æ³•æŠ›å‡ºå¼‚å¸¸çš„çˆ¶ç±»
 class B extends A{
 	public void method()throws FileNotFoundException {		
 	}

@@ -7,14 +7,14 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * Í³¼ÆÃ¿¸öµ¥´Ê³öÏÖµÄ´ÎÊı£º
- * ´æ´¢µ½MAPÖĞ£º
+ * ç»Ÿè®¡æ¯ä¸ªå•è¯å‡ºç°çš„æ¬¡æ•°ï¼š
+ * å­˜å‚¨åˆ°MAPä¸­ï¼š
  * key:String
- * Value:×Ô¶¨ÒåÀàĞÍ£¨´Ë´¦µÄVALUEÎª³öÏÖµÄ´ÎÊı£¬µ«ÊÇ²»ÒËÓÃInteger£©
+ * Value:è‡ªå®šä¹‰ç±»å‹ï¼ˆæ­¤å¤„çš„VALUEä¸ºå‡ºç°çš„æ¬¡æ•°ï¼Œä½†æ˜¯ä¸å®œç”¨Integerï¼‰
  * 
- * ¡±·Ö¼ğ¡°Ë¼Â·
- * 1.ÎªËùÓĞµÄKEY´´½¨MAPÈİÆ÷£¬Ö®ºóÔÙÈİÆ÷ÖĞ´æ·ÅVALUE(´ÎÊı):test1
- * 2.µÚÒ»´Î´´½¨ÈİÆ÷£¬´æ·ÅVALUE£¬µÚ¶ş´ÎÖ±½ÓÊ¹ÓÃÈİÆ÷´æ·ÅVAlue
+ * â€åˆ†æ‹£â€œæ€è·¯
+ * 1.ä¸ºæ‰€æœ‰çš„KEYåˆ›å»ºMAPå®¹å™¨ï¼Œä¹‹åå†å®¹å™¨ä¸­å­˜æ”¾VALUE(æ¬¡æ•°):test1
+ * 2.ç¬¬ä¸€æ¬¡åˆ›å»ºå®¹å™¨ï¼Œå­˜æ”¾VALUEï¼Œç¬¬äºŒæ¬¡ç›´æ¥ä½¿ç”¨å®¹å™¨å­˜æ”¾VAlue
  * @author Administrator
  *
  */
@@ -26,31 +26,31 @@ public class MapDemo01 {
 		Map<String, Letter> letters =new HashMap<String, Letter>();
 		
 		for (String temp:strArray) {
-			/*//µÚÒ»²½
+			/*//ç¬¬ä¸€æ­¥
 			if (!letters.containsKey(temp)) {
 				Letter con =new Letter();
-				con.setCount(1);//µÚÒ»´Î´æ·Å
-				letters.put(temp,con);//ÏòMAPÈİÆ÷letterÖĞputÒ»¸ö¼üÖµ¶Ô
+				con.setCount(1);//ç¬¬ä¸€æ¬¡å­˜æ”¾
+				letters.put(temp,con);//å‘MAPå®¹å™¨letterä¸­putä¸€ä¸ªé”®å€¼å¯¹
 			}else {
-				Letter con =letter.get(temp);//Í¨¹ı¼ütemp»ñÈ¡letterÕâ¸öMAPµÄÖµ£¬Ò²¾ÍÊÇLetter
+				Letter con =letter.get(temp);//é€šè¿‡é”®tempè·å–letterè¿™ä¸ªMAPçš„å€¼ï¼Œä¹Ÿå°±æ˜¯Letter
 				con.setCount(con.getCount()+1);
 			}
 		}*/
-			//ÓÅ»¯ÉÏÊö´úÂë
+			//ä¼˜åŒ–ä¸Šè¿°ä»£ç 
 			Letter con=null;
 			if (null==(con=letters.get(temp))) {
 				con=new Letter();
-				con.setCount(1);//µÚÒ»´Î´æ·Å
+				con.setCount(1);//ç¬¬ä¸€æ¬¡å­˜æ”¾
 				letters.put(temp,con);//
 			}else {
 				con.setCount(con.getCount()+1);
 			}
 		}
 		
-		Set<String> keys =letters.keySet();//½«lettersÖĞµÄkey´æ·ÅÈçkeysÖĞ
+		Set<String> keys =letters.keySet();//å°†lettersä¸­çš„keyå­˜æ”¾å¦‚keysä¸­
 		for (String key : keys) {
 			Letter con =letters.get(key);
-			System.out.println("letter :"+key+",´ÎÊı: "+con.getCount());
+			System.out.println("letter :"+key+",æ¬¡æ•°: "+con.getCount());
 		}
 	
 	}
@@ -70,22 +70,22 @@ public class MapDemo01 {
 			con.setCount(con.getCount()+1);
 		}
 		*/	
-		//ºÏ²¢ÉÏÊö2¸öÑ­»·£º
+		//åˆå¹¶ä¸Šè¿°2ä¸ªå¾ªç¯ï¼š
 		for (String temp:strArray) {
-			//µÚÒ»²½
+			//ç¬¬ä¸€æ­¥
 			if (!letters.containsKey(temp)) {
-				letters.put(temp,new Letter());//´´½¨Letter£º¼üÊÇtemp£¨×Ö·û´®µ¥´Ê£©£¬ÖµÊÇLetter
+				letters.put(temp,new Letter());//åˆ›å»ºLetterï¼šé”®æ˜¯tempï¼ˆå­—ç¬¦ä¸²å•è¯ï¼‰ï¼Œå€¼æ˜¯Letter
 			}
-			//µÚ¶ş²½
-			Letter con =letters.get(temp);//Í¨¹ı¼ütemp»ñÈ¡letterÕâ¸öMAPµÄÖµ£¬Ò²¾ÍÊÇLetter
-			con.setCount(con.getCount()+1);//´æ·Å£º½«LetterÖĞµÄcount+1
+			//ç¬¬äºŒæ­¥
+			Letter con =letters.get(temp);//é€šè¿‡é”®tempè·å–letterè¿™ä¸ªMAPçš„å€¼ï¼Œä¹Ÿå°±æ˜¯Letter
+			con.setCount(con.getCount()+1);//å­˜æ”¾ï¼šå°†Letterä¸­çš„count+1
 		}
-		//ÒÔÉÏ¹ı³Ì×ÜÆäÊµLetterÖĞµÄnameÊôĞÔÊÇÃ»ÓĞ¸Ä±äµÄ£¬ËùÒÔnameÊÇNULL
-		//Êä³öMAP
-		Set<String> keys =letters.keySet();//½«letterÖĞµÄkey´æ·ÅÈçkeysÖĞ
+		//ä»¥ä¸Šè¿‡ç¨‹æ€»å…¶å®Letterä¸­çš„nameå±æ€§æ˜¯æ²¡æœ‰æ”¹å˜çš„ï¼Œæ‰€ä»¥nameæ˜¯NULL
+		//è¾“å‡ºMAP
+		Set<String> keys =letters.keySet();//å°†letterä¸­çš„keyå­˜æ”¾å¦‚keysä¸­
 		for (String key : keys) {
 			Letter con =letters.get(key);
-			System.out.println("letter :"+key+",´ÎÊı: "+con.getCount());
+			System.out.println("letter :"+key+",æ¬¡æ•°: "+con.getCount());
 		}
 		
 	}

@@ -4,23 +4,23 @@ public class TestVoice {
 
 	public static void testVoice(Animalv c) {
 		c.voice();
-		if (c instanceof Cat) {//ÅĞ¶ÏcÉÏÊÇ²»ÊÇCatÀàµÄ¶ÔÏó
+		if (c instanceof Cat) {//åˆ¤æ–­cä¸Šæ˜¯ä¸æ˜¯Catç±»çš„å¯¹è±¡
 			((Cat) c).catchMouse();
 		}
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Animalv c= new Cat();//¸¸ÀàÒıÓÃ¸³ÖµÎª×ÓÀà¶ÔÏó
+		Animalv c= new Cat();//çˆ¶ç±»å¼•ç”¨èµ‹å€¼ä¸ºå­ç±»å¯¹è±¡
 		Animalv d =new Dog();
 		Animalv p =new Pig();
 		testVoice(c);	
 		testVoice(d);
 		testVoice(p);
 		
-		Cat c2 =(Cat)c;//Ç¿ÖÆ×ªĞÍ
-		c2.catchMouse();//×ª»»¹ıºó²ÅÄÜµ÷ÓÃÕâ¸ö·½·¨
+		Cat c2 =(Cat)c;//å¼ºåˆ¶è½¬å‹
+		c2.catchMouse();//è½¬æ¢è¿‡åæ‰èƒ½è°ƒç”¨è¿™ä¸ªæ–¹æ³•
 		
-//		Cat c3=(Cat)p;//ÔËĞĞ³ö´í£¬PigÀà²»ÄÜ×ª»»ÎªCatÀà
+//		Cat c3=(Cat)p;//è¿è¡Œå‡ºé”™ï¼ŒPigç±»ä¸èƒ½è½¬æ¢ä¸ºCatç±»
 	}
 
 }

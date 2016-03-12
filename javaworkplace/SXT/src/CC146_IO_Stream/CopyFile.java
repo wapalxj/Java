@@ -9,20 +9,20 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 /*
- * 1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó £ºÔ´Í·+Ä¿µÄµØ
-2¡¢Ñ¡ÔñÁ÷  £º  ÎÄ¼şÊä³öÁ÷ InputStream FileInputStream
-				     ÎÄ¼şÊä³öÁ÷  OutputStream FileOutputStream
-3¡¢²Ù×÷£º   ¿½±´
+ * 1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ ï¼šæºå¤´+ç›®çš„åœ°
+2ã€é€‰æ‹©æµ  ï¼š  æ–‡ä»¶è¾“å‡ºæµ InputStream FileInputStream
+				     æ–‡ä»¶è¾“å‡ºæµ  OutputStream FileOutputStream
+3ã€æ“ä½œï¼š   æ‹·è´
                        byte[] car =new byte[1024]
 				Int len=0;
-				While(-1!=(len=ÊäÈëÁ÷.read(flush))){
-					Êä³öÁ÷.write(flush,0,len)
+				While(-1!=(len=è¾“å…¥æµ.read(flush))){
+					è¾“å‡ºæµ.write(flush,0,len)
 				}
 				
-				Êä³öÁ÷.flush()
+				è¾“å‡ºæµ.flush()
 
 
-4¡¢ÊÍ·Å×ÊÔ´£º¹Ø±ÕÁ½¸öÁ÷
+4ã€é‡Šæ”¾èµ„æºï¼šå…³é—­ä¸¤ä¸ªæµ
  */
 public class CopyFile {
 
@@ -34,42 +34,42 @@ public class CopyFile {
 			copyFile(src,dest);
 		} catch ( FileNotFoundException e) {
 			e.printStackTrace();
-			System.out.println("ÎÄ¼ş²»´æÔÚ");
+			System.out.println("æ–‡ä»¶ä¸å­˜åœ¨");
 		}catch (IOException e) {
 			e.printStackTrace();
-			System.out.println("¸´ÖÆÊ§°Ü»òÔò¹Ø±ÕÁ÷Ê§°Ü");
+			System.out.println("å¤åˆ¶å¤±è´¥æˆ–åˆ™å…³é—­æµå¤±è´¥");
 		}
 	}
 
 	/*
-	 * ÎÄ¼şµÄ¿½±´
-	 * Ô´ÎÄ¼şÂ·¾¶
-	 * Ä¿±êÎÄ¼şÂ·¾¶
+	 * æ–‡ä»¶çš„æ‹·è´
+	 * æºæ–‡ä»¶è·¯å¾„
+	 * ç›®æ ‡æ–‡ä»¶è·¯å¾„
 	 * IOException
 	 */
 	public static void copyFile(String srcPath,String destPath) throws FileNotFoundException,IOException {
-		//1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó£ºÔ´(±ØĞë´æÔÚ)ºÍÄ¿µÄ(ÎÄ¼ş¿ÉÒÔ²»´æÔÚ)
+		//1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ï¼šæº(å¿…é¡»å­˜åœ¨)å’Œç›®çš„(æ–‡ä»¶å¯ä»¥ä¸å­˜åœ¨)
 		File src =new File(srcPath);
 		File dest =new File(destPath);
 		if (!src.isFile()) {
-			System.out.println("Ö»ÄÜ¿½±´ÎÄ¼ş£¡£¡£¡");
-			throw new IOException("Ö»ÄÜ¿½±´ÎÄ¼ş£¡£¡£¡");
+			System.out.println("åªèƒ½æ‹·è´æ–‡ä»¶ï¼ï¼ï¼");
+			throw new IOException("åªèƒ½æ‹·è´æ–‡ä»¶ï¼ï¼ï¼");
 		}
 		
-		//2.Ñ¡ÔñÁ÷:
+		//2.é€‰æ‹©æµ:
 		InputStream is =new FileInputStream(src);
 		OutputStream os=new FileOutputStream(dest);
-		//3.ÎÄ¼ş¿½±´:Ñ­»·£º¶ÁÈ¡+Ğ´³ö
+		//3.æ–‡ä»¶æ‹·è´:å¾ªç¯ï¼šè¯»å–+å†™å‡º
 		byte[] flush =new byte[1024];
 		int len =0;
-		//¶ÁÈ¡
+		//è¯»å–
 		while (-1!=(len=is.read(flush))) {
-			//Ğ´³ö
+			//å†™å‡º
 			os.write(flush, 0, len);
 		}
-		os.flush();//Ç¿ÖÆË¢³ö
+		os.flush();//å¼ºåˆ¶åˆ·å‡º
 		
-		//¹Ø±ÕÁ÷£¨¹æÔò£ºÏÈ´ò¿ªµÄºó¹Ø±Õ£©
+		//å…³é—­æµï¼ˆè§„åˆ™ï¼šå…ˆæ‰“å¼€çš„åå…³é—­ï¼‰
 		os.close();
 		is.close();
 	}

@@ -1,11 +1,11 @@
 package C06_inher;
 /*
- * ½Ó¿Ú£ºÑ¼×ÓÎÊÌâ
+ * æ¥å£ï¼šé¸­å­é—®é¢˜
  */
 public class Bird {
 
 	public void run() {
-		System.out.println("·É·É·É·É");
+		System.out.println("é£é£é£é£");
 	}
 	
 	public static void main(String[] args) {
@@ -21,10 +21,10 @@ public class Bird {
 class Duck extends Bird implements ISwim,IFood{
 	
 	public void swim() {
-		System.out.println("ÓÎÓÎÓÎÓÎÓÎ");
+		System.out.println("æ¸¸æ¸¸æ¸¸æ¸¸æ¸¸");
 	}
 	public void cook() {
-		System.out.println("¿¾Ñ¼");
+		System.out.println("çƒ¤é¸­");
 	}
 }
 

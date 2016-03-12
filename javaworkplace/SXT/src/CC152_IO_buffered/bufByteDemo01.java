@@ -10,8 +10,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 /*
- * ×Ö½ÚÁ÷ÎÄ¼ş¿½±´+»º³åÁ÷£ºÌá¸ßĞÔÄÜ
- * »º³åÁ÷°ü¹ü½ÚµãÁ÷£ºnew BufferedInputStream(new FileInputStream(src));
+ * å­—èŠ‚æµæ–‡ä»¶æ‹·è´+ç¼“å†²æµï¼šæé«˜æ€§èƒ½
+ * ç¼“å†²æµåŒ…è£¹èŠ‚ç‚¹æµï¼šnew BufferedInputStream(new FileInputStream(src));
  */
 public class bufByteDemo01 {
 
@@ -20,28 +20,28 @@ public class bufByteDemo01 {
 
 	}
 	public static void copyFile(String srcPath,String destPath) throws FileNotFoundException,IOException {
-		//1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó£ºÔ´(±ØĞë´æÔÚ)ºÍÄ¿µÄ(ÎÄ¼ş¿ÉÒÔ²»´æÔÚ)
+		//1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ï¼šæº(å¿…é¡»å­˜åœ¨)å’Œç›®çš„(æ–‡ä»¶å¯ä»¥ä¸å­˜åœ¨)
 		File src =new File(srcPath);
 		File dest =new File(destPath);
 		if (!src.isFile()) {
-			System.out.println("Ö»ÄÜ¿½±´ÎÄ¼ş£¡£¡£¡");
+			System.out.println("åªèƒ½æ‹·è´æ–‡ä»¶ï¼ï¼ï¼");
 			throw new IOException();
 		}
 		
-		//2.Ñ¡ÔñÁ÷£¨»º³åÁ÷£©:
+		//2.é€‰æ‹©æµï¼ˆç¼“å†²æµï¼‰:
 		InputStream is =new BufferedInputStream(new FileInputStream(src));
 		OutputStream os=new BufferedOutputStream(new FileOutputStream(dest));
-		//3.ÎÄ¼ş¿½±´:Ñ­»·£º¶ÁÈ¡+Ğ´³ö
+		//3.æ–‡ä»¶æ‹·è´:å¾ªç¯ï¼šè¯»å–+å†™å‡º
 		byte[] flush =new byte[1024];
 		int len =0;
-		//¶ÁÈ¡
+		//è¯»å–
 		while (-1!=(len=is.read(flush))) {
-			//Ğ´³ö
+			//å†™å‡º
 			os.write(flush, 0, len);
 		}
-		os.flush();//Ç¿ÖÆË¢³ö
+		os.flush();//å¼ºåˆ¶åˆ·å‡º
 		
-		//¹Ø±ÕÁ÷£¨¹æÔò£ºÏÈ´ò¿ªµÄºó¹Ø±Õ£©
+		//å…³é—­æµï¼ˆè§„åˆ™ï¼šå…ˆæ‰“å¼€çš„åå…³é—­ï¼‰
 		os.close();
 		is.close();
 	}

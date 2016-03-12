@@ -38,7 +38,7 @@ class Test implements Runnable{
 			}
 		
 			synchronized (money) {
-				System.out.println("һ�ָ�Ǯ");
+				System.out.println("一手给钱");
 			}
 		}
 	}
@@ -66,7 +66,7 @@ class Test2 implements Runnable{
 				e.printStackTrace();
 			}
 			synchronized (goods) {
-				System.out.println("һ�ָ���");
+				System.out.println("一手给货");
 			}
 		}
 	}

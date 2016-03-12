@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 public class Test3throw {
 
 	/**
-	 * Òì³£3£ºthrow:ÊÖ¶¯Å×³öÒì³£(ºÜÉÙÊ¹ÓÃ£¬ÁË½á¼´¿É)
+	 * å¼‚å¸¸3ï¼šthrow:æ‰‹åŠ¨æŠ›å‡ºå¼‚å¸¸(å¾ˆå°‘ä½¿ç”¨ï¼Œäº†ç»“å³å¯)
 	 * @param args
 	 */
 	public static void main(String[] args) {

@@ -8,21 +8,21 @@ import java.io.Reader;
 public class Test1Exception2 {
 
 	/**
-	 * 异常的测试：1.异常捕获try/catch
+	 * 寮傚父鐨勬祴璇曪細1.寮傚父鎹曡幏try/catch
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FileReader reader=null;
 		try {
-			reader =new FileReader("d:/a.txt");//(FileNotFoundException异常
-			char c=(char)reader.read();//抛出了IO异常
+			reader =new FileReader("d:/a.txt");//(FileNotFoundException寮傚父
+			char c=(char)reader.read();//鎶涘嚭浜咺O寮傚父
 			char c2=(char)reader.read();
 			System.out.println(""+c+c2);
 		} catch (FileNotFoundException e) {
 			
 			e.printStackTrace();
-		} catch (IOException e) {//IOException是FileNotFoundException的父类，所以放下面
+		} catch (IOException e) {//IOException鏄疐ileNotFoundException鐨勭埗绫伙紝鎵�浠ユ斁涓嬮潰
 			
 			e.printStackTrace();
 		}finally{

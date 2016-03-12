@@ -1,6 +1,6 @@
 package CC151_IO_Char;
 /**
- * ´¿ÎÄ±¾µÄ¿½±´
+ * çº¯æ–‡æœ¬çš„æ‹·è´
  */
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,16 +13,16 @@ import java.io.Writer;
 public class copyFileDemo {
 
 	public static void main(String[] args) {
-		// ´´½¨Ô´
+		// åˆ›å»ºæº
 		String src ="F:/others/char.txt";
 		File dest =new File("F:/others/char20.txt");
-		//Ñ¡ÔñÁ÷
+		//é€‰æ‹©æµ
 		Reader reader =null;
 		Writer wr=null;	
 		try {
 			reader=new FileReader(src);
-			wr=new FileWriter(dest);//Èç¹û×·¼ÓÄÚÈİÔòFileWriter(dest,true)
-			//¶ÁÈ¡
+			wr=new FileWriter(dest);//å¦‚æœè¿½åŠ å†…å®¹åˆ™FileWriter(dest,true)
+			//è¯»å–
 			char [] flush =new char[10];
 			int len=0;
 			while (-1!=(len=reader.read(flush))) {
@@ -31,24 +31,24 @@ public class copyFileDemo {
 			wr.flush();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.out.println("Ô´ÎÄ¼ş²»´æÔÚ£¡");
+			System.out.println("æºæ–‡ä»¶ä¸å­˜åœ¨ï¼");
 		} catch (IOException e) {
-			System.out.println("¶ÁÈ¡Ê§°Ü£¡");
+			System.out.println("è¯»å–å¤±è´¥ï¼");
 			e.printStackTrace();
-		}finally{//ÏÈ´ò¿ªµÄºó¹Ø±Õ
+		}finally{//å…ˆæ‰“å¼€çš„åå…³é—­
 			try {
 				if (null!=wr) {
 					wr.close();
 				}
 			} catch (IOException e) {
-				System.out.println("¹Ø±ÕÊ§°Ü£¡");
+				System.out.println("å…³é—­å¤±è´¥ï¼");
 				e.printStackTrace();
 			}
 			if (null!=reader) {
 				try {
 					reader.close();
 				} catch (IOException e) {
-					System.out.println("¹Ø±ÕÊ§°Ü£¡");
+					System.out.println("å…³é—­å¤±è´¥ï¼");
 					e.printStackTrace();
 				}
 			}

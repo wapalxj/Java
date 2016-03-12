@@ -15,59 +15,59 @@ public class T3_Movie2 {
 
 }
 
-//³¡µØ
+//åœºåœ°
 class Movie2{
 	private String pic;
-	//ĞÅºÅµÆ-->true:Éú²úÕßÉú³É£¬Ïû·ÑÕßµÈ´ı£¬Éú³ÉÍê³ÉºóÍ¨ÖªÏû·ÑÕß
-	//ĞÅºÅµÆ-->false:Ïû·ÑÕßÏû·Ñ£¬Éú²úÕßµÈ´ı£¬Ïû·ÑÍê³ÉÍ¨ÖªÉú²úÕß
+	//ä¿¡å·ç¯-->true:ç”Ÿäº§è€…ç”Ÿæˆï¼Œæ¶ˆè´¹è€…ç­‰å¾…ï¼Œç”Ÿæˆå®Œæˆåé€šçŸ¥æ¶ˆè´¹è€…
+	//ä¿¡å·ç¯-->false:æ¶ˆè´¹è€…æ¶ˆè´¹ï¼Œç”Ÿäº§è€…ç­‰å¾…ï¼Œæ¶ˆè´¹å®Œæˆé€šçŸ¥ç”Ÿäº§è€…
 	private boolean flag=true;
 	
 	public synchronized void play(String pic) {
-		if (!flag) {//Éú²úÕßµÈ´ı
+		if (!flag) {//ç”Ÿäº§è€…ç­‰å¾…
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		//¿ªÊ¼Éú²ú
+		//å¼€å§‹ç”Ÿäº§
 		try {
-			Thread.sleep(500);//Ä£ÄâÉú²úÊ±¼ä
+			Thread.sleep(500);//æ¨¡æ‹Ÿç”Ÿäº§æ—¶é—´
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		this.pic=pic;
 		
-		//Éú²úÍê³É£¬Éú²úÕßÍ£ÏÂ£¬Í¨ÖªÏû·ÑÕß(»½ĞÑ)
+		//ç”Ÿäº§å®Œæˆï¼Œç”Ÿäº§è€…åœä¸‹ï¼Œé€šçŸ¥æ¶ˆè´¹è€…(å”¤é†’)
 		this.notify();
-		//Í£Ö¹Éú²ú
+		//åœæ­¢ç”Ÿäº§
 		this.flag=false;
 	}
 	public synchronized void watch() {
-		if (flag) {//Ïû·ÑÕßµÈ´ı
+		if (flag) {//æ¶ˆè´¹è€…ç­‰å¾…
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		//¿ªÊ¼Ïû·Ñ
+		//å¼€å§‹æ¶ˆè´¹
 		try {
-			Thread.sleep(500);//Ä£ÄâÏû·ÑÊ±¼ä
+			Thread.sleep(500);//æ¨¡æ‹Ÿæ¶ˆè´¹æ—¶é—´
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		System.out.println(pic);
 		
-		//Ïû·ÑÍê±Ï,Ïû·ÑÕßÍ£ÏÂ£¬Í¨ÖªÉú²úÕß
+		//æ¶ˆè´¹å®Œæ¯•,æ¶ˆè´¹è€…åœä¸‹ï¼Œé€šçŸ¥ç”Ÿäº§è€…
 		this.notify();
-		//Í£Ö¹Ïû·Ñ
+		//åœæ­¢æ¶ˆè´¹
 		this.flag=true;
 	}
 }
-//Éú²úÕß
+//ç”Ÿäº§è€…
 class Player2 implements Runnable{
 	private Movie2 m;
 	public Player2(Movie2 m) {
@@ -77,15 +77,15 @@ class Player2 implements Runnable{
 	public void run() {
 		for (int i = 0; i < 20; i++) {
 			if (0==i%2) {
-				m.play("ÏÈÉú²ú£ºppppppppppp");
+				m.play("å…ˆç”Ÿäº§ï¼šppppppppppp");
 			}else {
-				m.play("ÔÙÏû·Ñ£ºwwwwwwwwwwwww");
+				m.play("å†æ¶ˆè´¹ï¼šwwwwwwwwwwwww");
 			}
 		}
 	}
 	
 }
-//Ïû·ÑÕß
+//æ¶ˆè´¹è€…
 class Watcher2 implements Runnable{
 	private Movie2 m;
 	

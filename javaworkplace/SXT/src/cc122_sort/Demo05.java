@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
- * Ê¹ÓÃCollections¶ÔÈÝÆ÷±È½Ï
+ * ä½¿ç”¨Collectionså¯¹å®¹å™¨æ¯”è¾ƒ
  */
 public class Demo05 {
 

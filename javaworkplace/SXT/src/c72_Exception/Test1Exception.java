@@ -13,14 +13,14 @@ public class Test1Exception {
 		 * Checked exception
 		 */
 //		try {
-//			Thread.sleep(3000);//³ÌĞòÔİÍ£3ÃëÖÓ
+//			Thread.sleep(3000);//ç¨‹åºæš‚åœ3ç§’é’Ÿ
 //		} catch (Exception e) {
 //			// TODO: handle exception
 //			e.printStackTrace();
 //		}
 		
 		/**
-		 * ¿ÕÖ¸ÕëÒì³£
+		 * ç©ºæŒ‡é’ˆå¼‚å¸¸
 		 */
 		Computer c=null;
 		c.start();

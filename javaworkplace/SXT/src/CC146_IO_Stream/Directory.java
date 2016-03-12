@@ -5,17 +5,17 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 /*
- * ÎÄ¼ş¼ĞµÄ¿½±´
- * 1.ÎÄ¼ş¸´ÖÆ£ºcopyFile
- * 2.ÎÄ¼ş¼Ğ´´½¨£ºmkdirs
- * 3.µİ¹é²éÕÒ×ÓÄ¿Â¼
+ * æ–‡ä»¶å¤¹çš„æ‹·è´
+ * 1.æ–‡ä»¶å¤åˆ¶ï¼šcopyFile
+ * 2.æ–‡ä»¶å¤¹åˆ›å»ºï¼šmkdirs
+ * 3.é€’å½’æŸ¥æ‰¾å­ç›®å½•
  */
 public class Directory {
 	public static void main(String[] args) {
-		//Ô´
+		//æº
 		String srcPath="F:/others/copy";
 //		String srcPath="E:/others/xp.txt";
-		//Ä¿±ê
+		//ç›®æ ‡
 //		String destPath="F:/others/p12";
 		String destPath="F:/ccc";
 		copyDir(srcPath,destPath);
@@ -23,7 +23,7 @@ public class Directory {
 		
 	}
 	/*
-	 *¿½±´ÎÄ¼ş¼Ğ
+	 *æ‹·è´æ–‡ä»¶å¤¹
 	 */
 	public static void copyDir(String srcPath,String destPath) {
 		File src =new File(srcPath);
@@ -32,7 +32,7 @@ public class Directory {
 		
 	}
 	/*
-	 *¿½±´ÎÄ¼ş¼Ğ
+	 *æ‹·è´æ–‡ä»¶å¤¹
 	 */
 	public static void copyDir(File src,File dest) {
 		if (src.isDirectory()) {
@@ -41,7 +41,7 @@ public class Directory {
 		copyDirDetail(src,dest);
 	}
 	/*
-	 * ¿½±´Ï¸½Ú
+	 * æ‹·è´ç»†èŠ‚
 	 */
 	public static void copyDirDetail(File src,File dest) {
 		if (src.isFile()) {
@@ -53,7 +53,7 @@ public class Directory {
 				e.printStackTrace();
 			}
 		}else if(src.isDirectory()){
-			dest.mkdirs();//È·±£Ä¿Â¼ÎÄ¼ş¼Ğ´æÔÚ
+			dest.mkdirs();//ç¡®ä¿ç›®å½•æ–‡ä»¶å¤¹å­˜åœ¨
 			for (File sub : src.listFiles()) {
 				copyDirDetail(sub, new File(dest,sub.getName()));
 				

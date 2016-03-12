@@ -5,16 +5,16 @@ package c08_poly;
 public class Zoo2 {
 
     public static void main(String args[]) {
-        Feeder2 f = new Feeder2("Ğ¡Àî");
+        Feeder2 f = new Feeder2("å°æ");
         Animal[] ans = new Animal[16];
 
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÒ»Ö»Ê¨×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»ä¸€åªç‹®å­
         ans[0] = new Lion2();
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÊ®Ö»ºï×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»ååªçŒ´å­
         for (int i = 0; i < 10; i++) {
             ans[1 + i] = new Monkey2();
         }
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹Ñø5Ö»¸ë×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»5åªé¸½å­
         for (int i = 0; i < 5; i++) {
             ans[11 + i] = new Pigeon2();
         }
@@ -46,21 +46,21 @@ abstract class Animal {
 class Lion2 extends Animal {
 
     public void eat() {
-        System.out.println("ÎÒ²»³ÔÈâË­¸Ò³ÔÈâ£¡");
+        System.out.println("æˆ‘ä¸åƒè‚‰è°æ•¢åƒè‚‰ï¼");
     }
 }
 
 class Monkey2 extends Animal {
 
     public void eat() {
-        System.out.println("ÎÒÊ²Ã´¶¼³Ô£¬ÓÈÆäÏ²»¶Ïã½¶¡£");
+        System.out.println("æˆ‘ä»€ä¹ˆéƒ½åƒï¼Œå°¤å…¶å–œæ¬¢é¦™è•‰ã€‚");
     }
 }
 
 class Pigeon2 extends Animal {
 
     public void eat() {
-        System.out.println("ÎÒÒª¼õ·Ê£¬ËùÒÔÃ¿ÌìÖ»³ÔÒ»µã´óÃ×¡£");
+        System.out.println("æˆ‘è¦å‡è‚¥ï¼Œæ‰€ä»¥æ¯å¤©åªåƒä¸€ç‚¹å¤§ç±³ã€‚");
     }
 }
 

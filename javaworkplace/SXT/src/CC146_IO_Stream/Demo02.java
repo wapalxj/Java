@@ -7,44 +7,44 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /*
- * ¶ş¡¢Ğ´³öÎÄ¼ş
-1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó £ºÄ¿µÄµØ
-2¡¢Ñ¡ÔñÁ÷  £º  ÎÄ¼şÊä³öÁ÷ OutputStream FileOutputStream
-3¡¢²Ù×÷   write+flush
+ * äºŒã€å†™å‡ºæ–‡ä»¶
+1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ ï¼šç›®çš„åœ°
+2ã€é€‰æ‹©æµ  ï¼š  æ–‡ä»¶è¾“å‡ºæµ OutputStream FileOutputStream
+3ã€æ“ä½œ   write+flush
 
-4¡¢ÊÍ·Å×ÊÔ´£º¹Ø±Õ
+4ã€é‡Šæ”¾èµ„æºï¼šå…³é—­
  */
 public class Demo02 {
 
 	public static void main(String[] args) {
-		//1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó£ºÄ¿µÄµØ
+		//1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ï¼šç›®çš„åœ°
 		File dest =new File("F:/others/xp1.txt");
-		//2.Ñ¡ÔñÁ÷:ÎÄ¼şÊä³öÁ÷
+		//2.é€‰æ‹©æµ:æ–‡ä»¶è¾“å‡ºæµ
 		OutputStream os =null;
-		//ÒÔ×·¼ÓĞÎÊ½ Ğ´³öÎÄ¼ş:true,·ñÔòÔòÊÇ¸²¸Ç(²»Ğ´»òÕßÊÇfalse)
+		//ä»¥è¿½åŠ å½¢å¼ å†™å‡ºæ–‡ä»¶:true,å¦åˆ™åˆ™æ˜¯è¦†ç›–(ä¸å†™æˆ–è€…æ˜¯false)
 		try {
 			os=new FileOutputStream(dest,true);
-			//3.²Ù×÷
+			//3.æ“ä½œ
 			String str="veroVnix\r\n";
-			//×Ö·û´®×ª×Ö½ÚÊı×é
+			//å­—ç¬¦ä¸²è½¬å­—èŠ‚æ•°ç»„
 			byte[] data= str.getBytes();
 			os.write(data,0, data.length);
 			
-			os.flush();//Ç¿ÖÆË¢ĞÂ³öÈ¥
+			os.flush();//å¼ºåˆ¶åˆ·æ–°å‡ºå»
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.err.println("ÎÄ¼şÎ´ÕÒµ½");
+			System.err.println("æ–‡ä»¶æœªæ‰¾åˆ°");
 		} catch (IOException e) {
 			e.printStackTrace();
-			System.err.println("ÎÄ¼şĞ´³öÊ§°Ü");
+			System.err.println("æ–‡ä»¶å†™å‡ºå¤±è´¥");
 		} finally{
-			//4.ÊÍ·Å×ÊÔ´
+			//4.é‡Šæ”¾èµ„æº
 			if (null!=os) {
 				try {
 					os.close();
 				} catch (IOException e) {
 					e.printStackTrace();
-					System.err.println("¹Ø±ÕÊä³öÁ÷Ê§°Ü");
+					System.err.println("å…³é—­è¾“å‡ºæµå¤±è´¥");
 				}
 			}
 		}

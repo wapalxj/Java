@@ -1,12 +1,12 @@
 package CC127_1TreeSet;
 /*
- * ÊµÏÖComparator½Ó¿ÚµÄ²âÊÔ
+ * å®ç°Comparatoræ¥å£çš„æµ‹è¯•
  */
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 /*
- * ÊµÏÖComparator½Ó¿ÚµÄ²âÊÔ
+ * å®ç°Comparatoræ¥å£çš„æµ‹è¯•
  */
 public class TreeSetDemo {
 

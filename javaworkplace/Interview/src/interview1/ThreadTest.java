@@ -3,7 +3,7 @@ package interview1;
 import java.util.LinkedList;
 
 /**
- * 面试的题目
+ * 闈㈣瘯鐨勯鐩�
  */
 public class ThreadTest {
 
@@ -24,13 +24,13 @@ class ReadData  implements Runnable{
 	@Override
 	public void run() {
 		while (true) {
-			this.linkedList.addLast("���ҽ���");
+			this.linkedList.addLast("锟斤拷锟揭斤拷锟斤拷");
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("���ҽ���");
+			System.out.println("锟斤拷锟揭斤拷锟斤拷");
 			
 		}
 		
@@ -44,13 +44,13 @@ class WriteData implements Runnable{
 	@Override
 	public void run() {
 		while (true) {
-			this.linkedList.addLast("���ҳ�ȥ");
+			this.linkedList.addLast("锟斤拷锟揭筹拷去");
 			try {
 				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println("���ҳ�ȥ");
+			System.out.println("锟斤拷锟揭筹拷去");
 		}
 		
 	}

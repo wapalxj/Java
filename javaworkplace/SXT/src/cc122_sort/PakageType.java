@@ -1,14 +1,14 @@
 package cc122_sort;
 /*
- * Comperable½Ó¿Ú
+ * Comperableæ¥å£
  */
 public class PakageType {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Integer a;//¸ù¾İ»ù±¾Êı¾İÀàĞÍ£¨value£©´óĞ¡±È½Ï
-		Character ch;//¸ù¾İUnicode±àÂëË³Ğò±È½Ï
-		String str="abc";//Èç¹ûÆäÖĞÒ»¸öÊÇÁíÍâÒ»¸öÆğÊ¼¿ªÊ¼µÄ×Ö´®£¬·µ»Ø³¤¶ÈÖ®²î£¬·ñÔò·µ»¹µÚÒ»¸ö²»ÏàµÈ×Ô·ûµÄUnicodeÖ®²î
+		Integer a;//æ ¹æ®åŸºæœ¬æ•°æ®ç±»å‹ï¼ˆvalueï¼‰å¤§å°æ¯”è¾ƒ
+		Character ch;//æ ¹æ®Unicodeç¼–ç é¡ºåºæ¯”è¾ƒ
+		String str="abc";//å¦‚æœå…¶ä¸­ä¸€ä¸ªæ˜¯å¦å¤–ä¸€ä¸ªèµ·å§‹å¼€å§‹çš„å­—ä¸²ï¼Œè¿”å›é•¿åº¦ä¹‹å·®ï¼Œå¦åˆ™è¿”è¿˜ç¬¬ä¸€ä¸ªä¸ç›¸ç­‰è‡ªç¬¦çš„Unicodeä¹‹å·®
 		String str2="abcde";
 		System.out.println(str.compareTo(str2));
 	}

@@ -5,16 +5,16 @@ import java.util.Vector;
 public class Zoo3 {
 
     public static void main(String args[]) {
-        Feeder3 f = new Feeder3("Ğ¡Àî");
+        Feeder3 f = new Feeder3("å°æ");
         Vector<Animal3> ans = new Vector<Animal3>();
 
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÒ»Ö»Ê¨×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»ä¸€åªç‹®å­
         ans.add(new Lion3());
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÊ®Ö»ºï×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»ååªçŒ´å­
         for (int i = 0; i < 10; i++) {
             ans.add(new Monkey3());
         }
-        //ËÇÑøÔ±Ğ¡ÀîÎ¹Ñø5Ö»¸ë×Ó
+        //é¥²å…»å‘˜å°æå–‚å…»5åªé¸½å­
         for (int i = 0; i < 5; i++) {
             ans.add(new Pigeon3());
         }
@@ -45,20 +45,20 @@ abstract class Animal3 {
 class Lion3 extends Animal3 {
 
     public void eat() {
-        System.out.println("ÎÒ²»³ÔÈâË­¸Ò³ÔÈâ£¡");
+        System.out.println("æˆ‘ä¸åƒè‚‰è°æ•¢åƒè‚‰ï¼");
     }
 }
 
 class Monkey3 extends Animal3 {
 
     public void eat() {
-        System.out.println("ÎÒÊ²Ã´¶¼³Ô£¬ÓÈÆäÏ²»¶Ïã½¶¡£");
+        System.out.println("æˆ‘ä»€ä¹ˆéƒ½åƒï¼Œå°¤å…¶å–œæ¬¢é¦™è•‰ã€‚");
     }
 }
 
 class Pigeon3 extends Animal3 {
 
     public void eat() {
-        System.out.println("ÎÒÒª¼õ·Ê£¬ËùÒÔÃ¿ÌìÖ»³ÔÒ»µã´óÃ×¡£");
+        System.out.println("æˆ‘è¦å‡è‚¥ï¼Œæ‰€ä»¥æ¯å¤©åªåƒä¸€ç‚¹å¤§ç±³ã€‚");
     }
 }

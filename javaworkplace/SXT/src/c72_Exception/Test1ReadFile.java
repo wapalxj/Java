@@ -7,13 +7,13 @@ import java.io.IOException;
 public class Test1ReadFile {
 
 	/**
-	 * Òì³£²âÊÔ£º
-	 * Ö´ĞĞË³Ğò£º
-	 * 1.Ö´ĞĞtry,catch,¸ø·µ»ØÖµ¸³Öµ£¨µ«²»·µ»Ø£©
-	 * 2.Ö´ĞĞfinally
-	 * 3.return(returnÖ»ÄÜÒ»¸öÖµ£¬ºóÖ´ĞĞµÄreturn»á¸²¸ÇÏÈÖ´ĞĞµÄ
-	 * ÓÚÊÇfinallyÖĞreturn "fff"»á¸²¸ÇÇ°ÃæµÄreturn£©
-	 * ËùÒÔfinallyÖĞÒ»°ã²»¼Óreturn
+	 * å¼‚å¸¸æµ‹è¯•ï¼š
+	 * æ‰§è¡Œé¡ºåºï¼š
+	 * 1.æ‰§è¡Œtry,catch,ç»™è¿”å›å€¼èµ‹å€¼ï¼ˆä½†ä¸è¿”å›ï¼‰
+	 * 2.æ‰§è¡Œfinally
+	 * 3.return(returnåªèƒ½ä¸€ä¸ªå€¼ï¼Œåæ‰§è¡Œçš„returnä¼šè¦†ç›–å…ˆæ‰§è¡Œçš„
+	 * äºæ˜¯finallyä¸­return "fff"ä¼šè¦†ç›–å‰é¢çš„returnï¼‰
+	 * æ‰€ä»¥finallyä¸­ä¸€èˆ¬ä¸åŠ return
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class Test1ReadFile {
 	String openFile(){
 		try {
 			System.out.println("aaa");
-			FileInputStream fis=new FileInputStream("d:/a.txt");//½«´ò¿ªµÄÎÄ¼ş»»³É´íÎóµÄ£¬Ôò»áÅ×³öÒì³£
+			FileInputStream fis=new FileInputStream("d:/a.txt");//å°†æ‰“å¼€çš„æ–‡ä»¶æ¢æˆé”™è¯¯çš„ï¼Œåˆ™ä¼šæŠ›å‡ºå¼‚å¸¸
 			int a=fis.read();
 			System.out.println("bbb");
 			return "step1";

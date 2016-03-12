@@ -1,15 +1,15 @@
 package CC15_2_ListAndQueue;
 import java.util.*;
 /*
- * ±È½ÏArrayListºÍLinkedList±éÀúĞ§ÂÊ
+ * æ¯”è¾ƒArrayListå’ŒLinkedListéå†æ•ˆç‡
  */
 public class TestPerformance
 {
 	public static void main(String[] args) 
 	{
-		//´´½¨Ò»¸ö×Ö·û´®Êı×é
+		//åˆ›å»ºä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„
 		String[] tst1 = new String[900000];
-		//¶¯Ì¬³õÊ¼»¯Êı×éÔªËØ
+		//åŠ¨æ€åˆå§‹åŒ–æ•°ç»„å…ƒç´ 
 		for (int i = 0; i < 900000; i++)
 		{
 			tst1[i] = String.valueOf(i);
@@ -18,9 +18,9 @@ public class TestPerformance
 	
 		LinkedList ll = new LinkedList();
 		
-		//µü´ú·ÃÎÊArrayList¼¯ºÏµÄËùÓĞÔªËØ£¬²¢Êä³öµü´úÊ±¼ä
+		//è¿­ä»£è®¿é—®ArrayListé›†åˆçš„æ‰€æœ‰å…ƒç´ ï¼Œå¹¶è¾“å‡ºè¿­ä»£æ—¶é—´
 		long start = System.nanoTime();
-		//½«ËùÓĞÊı×éÔªËØ¼ÓÈëArrayList¼¯ºÏÖĞ
+		//å°†æ‰€æœ‰æ•°ç»„å…ƒç´ åŠ å…¥ArrayListé›†åˆä¸­
 		for (int i = 0; i < 900000 ; i++)
 		{
 			al.add(tst1[i]);
@@ -29,11 +29,11 @@ public class TestPerformance
 		{
 			it.next();
 		}
-		System.out.println("µü´úArrayList¼¯ºÏÔªËØµÄÊ±¼ä:" + (System.nanoTime() - start));
+		System.out.println("è¿­ä»£ArrayListé›†åˆå…ƒç´ çš„æ—¶é—´:" + (System.nanoTime() - start));
 		
-		//µü´ú·ÃÎÊLinkedList¼¯ºÏµÄËùÓĞÔªËØ£¬²¢Êä³öµü´úÊ±¼ä
+		//è¿­ä»£è®¿é—®LinkedListé›†åˆçš„æ‰€æœ‰å…ƒç´ ï¼Œå¹¶è¾“å‡ºè¿­ä»£æ—¶é—´
 		start = System.nanoTime();
-		//½«ËùÓĞÊı×éÔªËØ¼ÓÈëLinkedList¼¯ºÏÖĞ
+		//å°†æ‰€æœ‰æ•°ç»„å…ƒç´ åŠ å…¥LinkedListé›†åˆä¸­
 		for (int i = 0; i < 900000 ; i++)
 		{
 			ll.add(tst1[i]);
@@ -42,6 +42,6 @@ public class TestPerformance
 		{
 			it.next();
 		}
-		System.out.println("µü´úLinkedList¼¯ºÏÔªËØµÄÊ±¼ä:" + (System.nanoTime() - start));
+		System.out.println("è¿­ä»£LinkedListé›†åˆå…ƒç´ çš„æ—¶é—´:" + (System.nanoTime() - start));
 	}
 }

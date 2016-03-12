@@ -1,7 +1,7 @@
 package c36;
 
 import c31.Computer;
-//static:Àà±äÁ¿£¬Àà·½·¨
+//static:ç±»å˜é‡ï¼Œç±»æ–¹æ³•
 public class Static {
 	String name;
 	int id;
@@ -9,10 +9,10 @@ public class Static {
 	
 	public static void prints() {
 		System.out.println(age);
-//		this.id=2;¾²Ì¬µÄ·½·¨¸Ä±ä¶ÔÏóµÄ×´Ì¬¡£
-//		study();´íÎó£¬¾²Ì¬µÄ·½·¨ÖĞ²»ÄÜµ÷ÓÃ·Ç¾²Ì¬·½·¨»ò×Ö¶Î
-//		ÒÔÉÏËµÃ÷£ºstaticÊÇÊôÓÚÀàµÄ£¬¶ÔÏó¿ÉÒÔ¸Ä±ästaticµÄ×´Ì¬£¬
-//		µ«ÊÇstatic²»¿ÉÒÔ¸Ä±ä¶ÔÏó×´Ì¬
+//		this.id=2;é™æ€çš„æ–¹æ³•æ”¹å˜å¯¹è±¡çš„çŠ¶æ€ã€‚
+//		study();é”™è¯¯ï¼Œé™æ€çš„æ–¹æ³•ä¸­ä¸èƒ½è°ƒç”¨éé™æ€æ–¹æ³•æˆ–å­—æ®µ
+//		ä»¥ä¸Šè¯´æ˜ï¼šstaticæ˜¯å±äºç±»çš„ï¼Œå¯¹è±¡å¯ä»¥æ”¹å˜staticçš„çŠ¶æ€ï¼Œ
+//		ä½†æ˜¯staticä¸å¯ä»¥æ”¹å˜å¯¹è±¡çŠ¶æ€
 	}
 
 	public void sayHello(String sname) {

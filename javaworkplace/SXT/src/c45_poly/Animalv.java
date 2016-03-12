@@ -2,30 +2,30 @@ package c45_poly;
 
 public class Animalv {
 	public void voice () {
-		System.out.println("ÆÕÍ¨¶¯ÎïµÄ½ĞÉù");
+		System.out.println("æ™®é€šåŠ¨ç‰©çš„å«å£°");
 	}
 	
 }
 
 class Cat extends Animalv{
 	public void voice () {
-		System.out.println("ß÷ß÷");
+		System.out.println("å–µå–µ");
 	}
 	public void catchMouse () {
-		System.out.println("×¥ÀÏÊó");
+		System.out.println("æŠ“è€é¼ ");
 	}
 }
 
 class Dog extends Animalv{
 	public void voice () {
-		System.out.println("ÍôÍôÍô");
+		System.out.println("æ±ªæ±ªæ±ª");
 	}
 	public void careDoor () {
-		System.out.println("¿´ÃÅ£¡");
+		System.out.println("çœ‹é—¨ï¼");
 	}
 }
 class Pig extends Animalv{
 	public void voice () {
-		System.out.println("ºßºßºß");
+		System.out.println("å“¼å“¼å“¼");
 	}
 }

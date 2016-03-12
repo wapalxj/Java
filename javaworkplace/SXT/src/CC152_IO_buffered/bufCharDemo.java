@@ -1,6 +1,6 @@
 package CC152_IO_buffered;
 /*
- *×Ö·û»º³åÁ÷+ĞÂÔö·½·¨£¨²»ÄÜ·¢Éú¶àÌ¬£©
+ *å­—ç¬¦ç¼“å†²æµ+æ–°å¢æ–¹æ³•ï¼ˆä¸èƒ½å‘ç”Ÿå¤šæ€ï¼‰
  */
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -15,50 +15,50 @@ import java.io.Writer;
 public class bufCharDemo {
 
 	public static void main(String[] args) {
-		// ´´½¨Ô´
+		// åˆ›å»ºæº
 		String src ="E:/others/char.txt";
 		File dest =new File("E:/others/char3.txt");
-		//Ñ¡ÔñÁ÷
-		//Ê¹ÓÃĞÂÔö·½·¨²»ÄÜ·¢Éú¶àÌ¨ËùÒÔ´ËĞĞ²»ÄÜĞ´³É£ºReader reader =null;Writer wr=null;
+		//é€‰æ‹©æµ
+		//ä½¿ç”¨æ–°å¢æ–¹æ³•ä¸èƒ½å‘ç”Ÿå¤šå°æ‰€ä»¥æ­¤è¡Œä¸èƒ½å†™æˆï¼šReader reader =null;Writer wr=null;
 		BufferedReader reader =null;
 		BufferedWriter wr=null;	
 		try {
 			reader=new BufferedReader(new FileReader(src));
-			wr=new BufferedWriter(new FileWriter(dest));//Èç¹û×·¼ÓÄÚÈİÔòFileWriter(dest,true)
-			//¶ÁÈ¡
+			wr=new BufferedWriter(new FileWriter(dest));//å¦‚æœè¿½åŠ å†…å®¹åˆ™FileWriter(dest,true)
+			//è¯»å–
 //			
 //			char [] flush =new char[1024];
 //			int len=0;
 //			while (-1!=(len=reader.read(flush))) {
 //				wr.write(flush,0,len);
 //			}
-			//°´ĞĞ¶ÁÈ¡:ĞÂÔöµÄ·½·¨
+			//æŒ‰è¡Œè¯»å–:æ–°å¢çš„æ–¹æ³•
 			String line =null;
 			while (null!=(line=reader.readLine())) {
 				wr.write(line);
-				wr.newLine();//»»ĞĞ
+				wr.newLine();//æ¢è¡Œ
 			}
 			wr.flush();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.out.println("Ô´ÎÄ¼ş²»´æÔÚ£¡");
+			System.out.println("æºæ–‡ä»¶ä¸å­˜åœ¨ï¼");
 		} catch (IOException e) {
-			System.out.println("¶ÁÈ¡Ê§°Ü£¡");
+			System.out.println("è¯»å–å¤±è´¥ï¼");
 			e.printStackTrace();
-		}finally{//ÏÈ´ò¿ªµÄºó¹Ø±Õ
+		}finally{//å…ˆæ‰“å¼€çš„åå…³é—­
 			try {
 				if (null!=wr) {
 					wr.close();
 				}
 			} catch (IOException e) {
-				System.out.println("¹Ø±ÕÊ§°Ü£¡");
+				System.out.println("å…³é—­å¤±è´¥ï¼");
 				e.printStackTrace();
 			}
 			if (null!=reader) {
 				try {
 					reader.close();
 				} catch (IOException e) {
-					System.out.println("¹Ø±ÕÊ§°Ü£¡");
+					System.out.println("å…³é—­å¤±è´¥ï¼");
 					e.printStackTrace();
 				}
 			}

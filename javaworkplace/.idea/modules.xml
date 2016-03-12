@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.metadata/.plugins/org.eclipse.dltk.core/.org.eclipse.dltk.core.external.folders/.org.eclipse.dltk.core.external.folders.iml" filepath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.dltk.core/.org.eclipse.dltk.core.external.folders/.org.eclipse.dltk.core.external.folders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1_test/1_test.iml" filepath="$PROJECT_DIR$/1_test/1_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interview/Interview.iml" filepath="$PROJECT_DIR$/Interview/Interview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JLAB/JLAB.iml" filepath="$PROJECT_DIR$/JLAB/JLAB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyVideoPlayer/MyVideoPlayer.iml" filepath="$PROJECT_DIR$/MyVideoPlayer/MyVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OBook/OBook.iml" filepath="$PROJECT_DIR$/OBook/OBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OMyTest/OMyTest.iml" filepath="$PROJECT_DIR$/OMyTest/OMyTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object/Object.iml" filepath="$PROJECT_DIR$/Object/Object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PHP/PHP.iml" filepath="$PROJECT_DIR$/PHP/PHP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SXT/SXT.iml" filepath="$PROJECT_DIR$/SXT/SXT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TMyVideoPlayer/TMyVideoPlayer.iml" filepath="$PROJECT_DIR$/TMyVideoPlayer/TMyVideoPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZJK_SWING/ZJK_SWING.iml" filepath="$PROJECT_DIR$/ZJK_SWING/ZJK_SWING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZJK_java/ZJK_java.iml" filepath="$PROJECT_DIR$/ZJK_java/ZJK_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ZJXL_java/ZJXL_java.iml" filepath="$PROJECT_DIR$/ZJXL_java/ZJXL_java.iml" />
+    </modules>
+  </component>
+</project>

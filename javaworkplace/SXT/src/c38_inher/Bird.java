@@ -4,12 +4,12 @@ public class Bird extends Animal{
 
 	public void run()
 	{
-		super.run();//Ò²¿ÉÒÔµ÷ÓÃ¸¸ÀàµÄrun
-		System.out.println("·ÉÑ½·É");//ÖØĞ´
+		super.run();//ä¹Ÿå¯ä»¥è°ƒç”¨çˆ¶ç±»çš„run
+		System.out.println("é£å‘€é£");//é‡å†™
 	}
 	
 	public void eggSheng()
 	{
-		System.out.println("ÎÒÊÇÂÑÉú");
+		System.out.println("æˆ‘æ˜¯åµç”Ÿ");
 	}
 }

@@ -4,7 +4,7 @@ public class T2_Movie1 {
 
 	public static void main(String[] args) {
 		Movie m=new Movie();
-		//2¸öÏß³ÌÊ¹ÓÃÒ»¸ö×ÊÔ´
+		//2ä¸ªçº¿ç¨‹ä½¿ç”¨ä¸€ä¸ªèµ„æº
 		Player p= new Player(m);
 		Watcher w=new Watcher(m);
 		
@@ -15,7 +15,7 @@ public class T2_Movie1 {
 
 }
 
-//³¡µØ
+//åœºåœ°
 class Movie{
 	private String pic;
 	public  void play(String pic) {
@@ -25,7 +25,7 @@ class Movie{
 		System.out.println(pic);
 	}
 }
-//Éú²úÕß
+//ç”Ÿäº§è€…
 class Player implements Runnable{
 	private Movie m;
 	public Player(Movie m) {
@@ -42,7 +42,7 @@ class Player implements Runnable{
 		}
 	}
 }
-//Ïû·ÑÕß
+//æ¶ˆè´¹è€…
 class Watcher implements Runnable{
 	private Movie m;
 	

@@ -2,14 +2,14 @@ package c08_poly;
 
 public class Zoo1 {
 	public static void main(String args[]) {
-		Feeder f = new Feeder("Ğ¡Àî");
-		// ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÒ»Ö»Ê¨×Ó
+		Feeder f = new Feeder("å°æ");
+		// é¥²å…»å‘˜å°æå–‚å…»ä¸€åªç‹®å­
 		f.feedLion(new Lion());
-		// ËÇÑøÔ±Ğ¡ÀîÎ¹ÑøÊ®Ö»ºï×Ó
+		// é¥²å…»å‘˜å°æå–‚å…»ååªçŒ´å­
 		for (int i = 0; i < 10; i++) {
 			f.feedMonkey(new Monkey());
 		}
-		// ËÇÑøÔ±Ğ¡ÀîÎ¹Ñø5Ö»¸ë×Ó
+		// é¥²å…»å‘˜å°æå–‚å…»5åªé¸½å­
 		for (int i = 0; i < 5; i++) {
 			f.feedPigeon(new Pigeon());
 		}
@@ -40,20 +40,20 @@ class Feeder {
 class Lion {
 
 	public void eat() {
-		System.out.println("ÎÒ²»³ÔÈâË­¸Ò³ÔÈâ£¡");
+		System.out.println("æˆ‘ä¸åƒè‚‰è°æ•¢åƒè‚‰ï¼");
 	}
 }
 
 class Monkey {
 
 	public void eat() {
-		System.out.println("ÎÒÊ²Ã´¶¼³Ô£¬ÓÈÆäÏ²»¶Ïã½¶¡£");
+		System.out.println("æˆ‘ä»€ä¹ˆéƒ½åƒï¼Œå°¤å…¶å–œæ¬¢é¦™è•‰ã€‚");
 	}
 }
 
 class Pigeon {
 
 	public void eat() {
-		System.out.println("ÎÒÒª¼õ·Ê£¬ËùÒÔÃ¿ÌìÖ»³ÔÒ»µã´óÃ×¡£");
+		System.out.println("æˆ‘è¦å‡è‚¥ï¼Œæ‰€ä»¥æ¯å¤©åªåƒä¸€ç‚¹å¤§ç±³ã€‚");
 	}
 }

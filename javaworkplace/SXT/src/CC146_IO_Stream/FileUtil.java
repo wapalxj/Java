@@ -10,51 +10,51 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 /*
- * ÎÄ¼ş²Ù×÷
- * 1.¿½±´:²ÎÊı£ºÔ´ÎÄ¼şÂ·¾¶£¬Ä¿±êÎÄ¼şÂ·¾¶
+ * æ–‡ä»¶æ“ä½œ
+ * 1.æ‹·è´:å‚æ•°ï¼šæºæ–‡ä»¶è·¯å¾„ï¼Œç›®æ ‡æ–‡ä»¶è·¯å¾„
  */
 public class FileUtil {
 	public static void copyFile(String srcPath,String destPath) throws FileNotFoundException,IOException {
-		//1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó£ºÔ´(±ØĞë´æÔÚ)ºÍÄ¿µÄ(ÎÄ¼ş¿ÉÒÔ²»´æÔÚ)
+		//1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡ï¼šæº(å¿…é¡»å­˜åœ¨)å’Œç›®çš„(æ–‡ä»¶å¯ä»¥ä¸å­˜åœ¨)
 		File src =new File(srcPath);
 		File dest =new File(destPath);
 		copyFile(src,dest);
 	}
 	/*
-	 * ÎÄ¼ş²Ù×÷
-	 * ¿½±´£ºÔ´ÎÄ¼şµÄFile¶ÔÏó£¬Ä¿±êÎÄ¼şµÄFile¶ÔÏó
+	 * æ–‡ä»¶æ“ä½œ
+	 * æ‹·è´ï¼šæºæ–‡ä»¶çš„Fileå¯¹è±¡ï¼Œç›®æ ‡æ–‡ä»¶çš„Fileå¯¹è±¡
 	 */
 	public static void copyFile(File src,File dest) throws FileNotFoundException,IOException {
 		
 		if (!src.isFile()) {
-			System.out.println("Ö»ÄÜ¿½±´ÎÄ¼ş£¡£¡£¡");
+			System.out.println("åªèƒ½æ‹·è´æ–‡ä»¶ï¼ï¼ï¼");
 			throw new IOException();
 		}
-		//Èç¹ûdestÎªÒÑ¾­´æÔÚµÄÎÄ¼ş¼Ğ£¨²»ÄÜ½¨Á¢ÓëÎÄ¼ş¼ĞÍ¬ÃûµÄÎÄ¼ş£©
+		//å¦‚æœdestä¸ºå·²ç»å­˜åœ¨çš„æ–‡ä»¶å¤¹ï¼ˆä¸èƒ½å»ºç«‹ä¸æ–‡ä»¶å¤¹åŒåçš„æ–‡ä»¶ï¼‰
 //		if (dest.isDirectory()) {
-//			System.out.println("²»ÄÜ½¨Á¢ÓëÎÄ¼ş¼ĞÍ¬ÃûµÄÎÄ¼ş£¡£¡£¡");
-//			throw new IOException("²»ÄÜ½¨Á¢ÓëÎÄ¼ş¼ĞÍ¬ÃûµÄÎÄ¼ş£¡£¡£¡");
+//			System.out.println("ä¸èƒ½å»ºç«‹ä¸æ–‡ä»¶å¤¹åŒåçš„æ–‡ä»¶ï¼ï¼ï¼");
+//			throw new IOException("ä¸èƒ½å»ºç«‹ä¸æ–‡ä»¶å¤¹åŒåçš„æ–‡ä»¶ï¼ï¼ï¼");
 //		}
-		//½«Ô´ÎÄ¼ş¿½±´µ½Ä¿±êÎÄ¼ş¼ĞÖĞ,Èç¹ûdest²»´æÔÚÔòÊ§°Ü
+		//å°†æºæ–‡ä»¶æ‹·è´åˆ°ç›®æ ‡æ–‡ä»¶å¤¹ä¸­,å¦‚æœdestä¸å­˜åœ¨åˆ™å¤±è´¥
 		
 		if (dest.isDirectory()) {
 			dest =new File(dest,src.getName());
 		}
 		
-		//2.Ñ¡ÔñÁ÷:
+		//2.é€‰æ‹©æµ:
 		InputStream is =new BufferedInputStream(new FileInputStream(src));
 		OutputStream os=new BufferedOutputStream(new FileOutputStream(dest));
-		//3.ÎÄ¼ş¿½±´:Ñ­»·£º¶ÁÈ¡+Ğ´³ö
+		//3.æ–‡ä»¶æ‹·è´:å¾ªç¯ï¼šè¯»å–+å†™å‡º
 		byte[] flush =new byte[1024];
 		int len =0;
-		//¶ÁÈ¡
+		//è¯»å–
 		while (-1!=(len=is.read(flush))) {
-			//Ğ´³ö
+			//å†™å‡º
 			os.write(flush, 0, len);
 		}
-		os.flush();//Ç¿ÖÆË¢³ö
+		os.flush();//å¼ºåˆ¶åˆ·å‡º
 		
-		//¹Ø±ÕÁ÷£¨¹æÔò£ºÏÈ´ò¿ªµÄºó¹Ø±Õ£©
+		//å…³é—­æµï¼ˆè§„åˆ™ï¼šå…ˆæ‰“å¼€çš„åå…³é—­ï¼‰
 		os.close();
 		is.close();
 	}

@@ -7,7 +7,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 import c37.This;
 
 /**
- * Á´±í
+ * é“¾è¡¨
  * @author Administrator
  *
  */
@@ -64,8 +64,8 @@ public class MyLinkedList {
 		}
 		return temp;
 		/**
-		 * JDKÔ´Âë£º
-		 * if(index<(size>>1)){//ÏòÓÒÒÆÎ»£¬Ïàµ±ÓÚ³ıÒÔ2£¬ÒâË¼¾ÍÊÇ£ºµ±indexĞ¡ÓÚsize/2µÄÊ±ºò£¬´ÓÍ·¿ªÊ¼±éÀú£¬·ñÔò´ÓÎ²¿ªÊ¼±éÀú
+		 * JDKæºç ï¼š
+		 * if(index<(size>>1)){//å‘å³ç§»ä½ï¼Œç›¸å½“äºé™¤ä»¥2ï¼Œæ„æ€å°±æ˜¯ï¼šå½“indexå°äºsize/2çš„æ—¶å€™ï¼Œä»å¤´å¼€å§‹éå†ï¼Œå¦åˆ™ä»å°¾å¼€å§‹éå†
 		 * 	  Node temp =first;
 			  for (int i = 0; i < index; i++) {
 				temp=temp.next;		
@@ -122,7 +122,7 @@ public class MyLinkedList {
 	private void RangeCheck(int index) {
 		if (index<0||index>=this.size) {
 			try {
-				throw new Exception("Ô½½çÁË");
+				throw new Exception("è¶Šç•Œäº†");
 			} catch (Exception e) {
 				e.printStackTrace();
 			}

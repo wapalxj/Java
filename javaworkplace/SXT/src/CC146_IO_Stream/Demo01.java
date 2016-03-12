@@ -9,48 +9,48 @@ import java.util.Arrays;
 
 import jdk.internal.org.xml.sax.InputSource;
 
-/*Ò»¡¢¶ÁÈ¡ÎÄ¼ş
- * 1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó
-2¡¢Ñ¡ÔñÁ÷  £º  ÎÄ¼şÊäÈëÁ÷ InputStream FilenputStream
-3¡¢²Ù×÷   Êı×é´óĞ¡+read\write
-4¡¢ÊÍ·Å×ÊÔ´£º¹Ø±Õ
+/*ä¸€ã€è¯»å–æ–‡ä»¶
+ * 1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡
+2ã€é€‰æ‹©æµ  ï¼š  æ–‡ä»¶è¾“å…¥æµ InputStream FilenputStream
+3ã€æ“ä½œ   æ•°ç»„å¤§å°+read\write
+4ã€é‡Šæ”¾èµ„æºï¼šå…³é—­
 
  */
 public class Demo01 {
 
 	public static void main(String[] args) {
-		//1¡¢½¨Á¢ÁªÏµ £ºFile¶ÔÏó:Ô´Í·
+		//1ã€å»ºç«‹è”ç³» ï¼šFileå¯¹è±¡:æºå¤´
 		File src =new File("F:/others/xp.txt");
-		//2¡¢Ñ¡ÔñÁ÷:ÎÄ¼şÊäÈëÁ÷ 
+		//2ã€é€‰æ‹©æµ:æ–‡ä»¶è¾“å…¥æµ 
 		InputStream is=null;
 		try {
 			is =new FileInputStream(src);
-			//3¡¢²Ù×÷ :²»¶Ï¶ÁÈ¡:Ã¿´Î¶Á10¸ö×Ö½Ú£º»º³åÊı×é
+			//3ã€æ“ä½œ :ä¸æ–­è¯»å–:æ¯æ¬¡è¯»10ä¸ªå­—èŠ‚ï¼šç¼“å†²æ•°ç»„
 			byte[] car =new byte[10];
-			int len=0;//½ÓÊÕÊµ¼Ê¶ÁÈ¡´óĞ¡
-			//Ñ­»·¶ÁÈ¡
+			int len=0;//æ¥æ”¶å®é™…è¯»å–å¤§å°
+			//å¾ªç¯è¯»å–
 			try {
 				while (-1!=(len=is.read(car))) {
-					//Êä³ö£º½«×Ö½ÚÊı×é×ª»¯Îª×Ö·û´®
+					//è¾“å‡ºï¼šå°†å­—èŠ‚æ•°ç»„è½¬åŒ–ä¸ºå­—ç¬¦ä¸²
 //					System.err.println("car: "+car.toString());
 					String info=new String(car,0,len);
 					System.err.println(info);
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
-				System.err.println("ÎÄ¼ş²»´æÔÚ");
+				System.err.println("æ–‡ä»¶ä¸å­˜åœ¨");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
-			System.err.println("¶ÁÈ¡ÎÄ¼şÊ§°Ü");
+			System.err.println("è¯»å–æ–‡ä»¶å¤±è´¥");
 		}finally{
-			//4.ÊÍ·Å
+			//4.é‡Šæ”¾
 			if (null!=is) {
 				try {
 					is.close();
 				} catch (IOException e) {
 					e.printStackTrace();
-					System.err.println("¹Ø±ÕÎÄ¼şÊäÈëÁ÷Ê§°Ü");
+					System.err.println("å…³é—­æ–‡ä»¶è¾“å…¥æµå¤±è´¥");
 				}
 				
 			}

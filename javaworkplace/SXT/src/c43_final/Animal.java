@@ -2,9 +2,9 @@ package c43_final;
 
 public class Animal {
 
-	public /*final*/ void run()//²»¿ÉÒÔ±»ÖØĞ´
+	public /*final*/ void run()//ä¸å¯ä»¥è¢«é‡å†™
 	{
-		System.out.println("ÅÜÑ½ÅÜ");
+		System.out.println("è·‘å‘€è·‘");
 	}
 	
 }
@@ -12,8 +12,8 @@ public class Animal {
 
 	public void run()
 	{
-		super.run();//Ò²¿ÉÒÔµ÷ÓÃ¸¸ÀàµÄrun
-		System.out.println("·ÉÑ½·É");//ÖØĞ´
+		super.run();//ä¹Ÿå¯ä»¥è°ƒç”¨çˆ¶ç±»çš„run
+		System.out.println("é£å‘€é£");//é‡å†™
 	}
 	
 	
