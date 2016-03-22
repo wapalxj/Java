@@ -8,7 +8,7 @@ import java.awt.Image;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 /**
- * ÓÎÏ·´°¿ÚÀà
+ * ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
  * @param args
  */
 public class GameFrame extends Frame{
@@ -21,7 +21,7 @@ public class GameFrame extends Frame{
 		setLocation(100,100);
 		setVisible(true);
 		
-		new PaintThread().start();//Æô¶¯ÖØ»æÏß³Ì
+		new PaintThread().start();//ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ß³ï¿½
 		addWindowListener(new WindowAdapter() {
 			
 			@Override
@@ -38,22 +38,22 @@ public class GameFrame extends Frame{
 	@Override
 	public void paint(Graphics g) {
 		System.out.println("!!!");
-		g.drawLine(100, 100, 200, 200);//»­Ö±Ïß
+		g.drawLine(100, 100, 200, 200);//ï¿½ï¿½Ö±ï¿½ï¿½
 		
 		g.setColor(Color.RED);
-		g.drawRect(100, 100, 200, 200);//»­Õý·½ÐÎ
+		g.drawRect(100, 100, 200, 200);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		
-		Font f=new Font("ËÎÌå",Font.BOLD,100);//»­×Ö·û´®
+		Font f=new Font("ï¿½ï¿½ï¿½ï¿½",Font.BOLD,100);//ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 		g.setFont(f);
-		g.drawString("qwe", 200, 200);
+		g.drawString("java1", 200, 200);
 		
-		g.drawImage(img, (int)x,(int)y,null);//»¨Í¼Æ¬
+		g.drawImage(img, (int)x,(int)y,null);//ï¿½ï¿½Í¼Æ¬
 		
 		x+=3;
 		y+=3;
 	}
 	/**
-	 * ¶¨ÒåÒ»¸öÖØ»æÏß³ÌµÄÄÚ²¿Àà
+	 * ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ß³Ìµï¿½ï¿½Ú²ï¿½ï¿½ï¿½
 	 * @author Administrator
 	 *
 	 */

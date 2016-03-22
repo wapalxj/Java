@@ -4,7 +4,7 @@ public class Animalv {
 	public void voice () {
 		System.out.println("普通动物的叫声");
 	}
-	
+
 }
 
 class Cat extends Animalv{

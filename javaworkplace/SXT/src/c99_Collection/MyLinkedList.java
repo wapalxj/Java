@@ -141,3 +141,4 @@ public class MyLinkedList {
 		System.out.println(list.get(1));
 	}
 }
+

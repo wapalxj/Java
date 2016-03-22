@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 /**
- * Ê¹ÓÃ·ºÐÍ
+ * ä½¿ç”¨æ³›åž‹
  * @author Administrator
  *
  */
@@ -17,7 +17,8 @@ public class Test01_2 {
 		list.add("aaad");
 		list.add("aaaff");
 		
-		//setÒòÎªÊÇÎÞÐòµÄ£¬ÎÞ·¨ÕâÑù½øÐÐ±éÀú
+		//setå› ä¸ºæ˜¯æ— åºçš„ï¼Œæ— æ³•è¿™æ ·è¿›è¡ŒéåŽ†
+		System.out.println("----list--->for------");
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		}
@@ -26,20 +27,22 @@ public class Test01_2 {
 		set.add("2222");
 		set.add("3333");
 		/**
-		 * Ê¹ÓÃµü´úÆ÷±éÀú
+		 * ä½¿ç”¨è¿­ä»£å™¨éåŽ†
 		 */
+		System.out.println("----set--->iterator------");
 		Iterator<String> iter =set.iterator();
 		while (iter.hasNext()) {
 			String str =iter.next();
 			System.out.println(str);
 		}
 		
-		//Í¨¹ýµü´úÆ÷Ò²¿ÉÒÔ±éÀúList
+		//é€šè¿‡è¿­ä»£å™¨ä¹Ÿå¯ä»¥éåŽ†List
+		System.out.println("----list--->foreach------");
 		Iterator<String> iter2 =list.iterator();
 		while (iter2.hasNext()) {
 			String str2 =iter2.next();
 			System.out.println(str2);
-			iter2.remove();//°¤¸öÉ¾³ý
+			iter2.remove();//æŒ¨ä¸ªåˆ é™¤
 		}
 		System.out.println(list.size());
 	}

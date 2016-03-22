@@ -1,10 +1,10 @@
 package CC177_Thread4_priority;
 
 /*
- * �������ģʽ:���̵߳�
- * 1.������˽�л�
- * 2.����һ��˽�о�̬����
- * 3.�ṩ����Ĺ�����̬����
+ * 单例设计模式:单线程的
+ * 1.构造器私有化
+ * 2.声明一个私有静态变量
+ * 3.提供对外的公共静态方法
  */
 public class T4_Singgleton_simple {
 

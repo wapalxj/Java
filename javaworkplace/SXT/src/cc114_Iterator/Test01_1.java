@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 /**
- * Ê¹ÓÃµü´úÆ÷±éÀúSetºÍList
+ * ä½¿ç”¨è¿­ä»£å™¨éåŽ†Setå’ŒList
  * @author Administrator
  *
  */
@@ -18,36 +18,41 @@ public class Test01_1 {
 		list.add("aaad");
 		list.add("aaaff");
 		
-		//setÒòÎªÊÇÎÞÐòµÄ£¬ÎÞ·¨ÕâÑù½øÐÐ±éÀú
+		//setå› ä¸ºæ˜¯æ— åºçš„ï¼Œæ— æ³•è¿™æ ·è¿›è¡ŒéåŽ†
+		System.out.println("----list--->for------");
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i));
 		}
+
+		/**
+		 * ä½¿ç”¨è¿­ä»£å™¨éåŽ†set
+		 */
+		System.out.println("----set--->iterator------");
 		Set set =new HashSet();
 		set.add("1111");
 		set.add("2222");
 		set.add("3333");
-		/**
-		 * Ê¹ÓÃµü´úÆ÷±éÀúset
-		 */
 		Iterator iter =set.iterator();
 		while (iter.hasNext()) {
 			String str =(String)iter.next();
 			System.out.println(str);
 		}
 		
-		/*
-		 * µ«ÊÇ¿ÉÒÔÓÃforeach±éÀúset:foreachÊµ¼ÊÊÇIteratorÊµÏÖµÄ
+		/**
+		 * ä½†æ˜¯å¯ä»¥ç”¨foreachéåŽ†set:foreachå®žé™…æ˜¯Iteratorå®žçŽ°çš„
 		 */
+		System.out.println("----list--->foreach------");
 		for (Object object : set) {
 			String s=(String) object;
 			System.out.println(s);
 		}
-		//Í¨¹ýµü´úÆ÷Ò²¿ÉÒÔ±éÀúList
+		//é€šè¿‡è¿­ä»£å™¨ä¹Ÿå¯ä»¥éåŽ†List
+		System.out.println("----list--->iterator------");
 		Iterator iter2 =list.iterator();
 		while (iter2.hasNext()) {
 			String str2 =(String)iter2.next();
 			System.out.println(str2);
-			iter2.remove();//°¤¸öÉ¾³ý
+			iter2.remove();//æŒ¨ä¸ªåˆ é™¤
 		}
 		System.out.println(list.size());
 		

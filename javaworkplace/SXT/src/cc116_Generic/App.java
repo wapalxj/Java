@@ -1,32 +1,38 @@
 package cc116_Generic;
+
+import c36.Static;
+
 /**
- * ²âÊÔÀàĞÍ×ª»»
+ * æµ‹è¯•ç±»å‹è½¬æ¢
  * @author Administrator
  *
  */
-public class App {
+public class App<T>{
+	public  T say(){
+		return null;
+	}
 	public static void main(String[] args) {
-		Object obj =80; //×Ô¶¯×°Ïä
-		System.out.println(obj.getClass());//×Ô¶¯×°Ïä
-		//JDK1.7ÒÔÒÔºó¿ÉÒÔÖ±½ÓÕâÃ´×ª
+		Object obj =80; //è‡ªåŠ¨è£…ç®±
+		System.out.println(obj.getClass());//è‡ªåŠ¨è£…ç®±
+		//JDK1.7ä»¥ä»¥åå¯ä»¥ç›´æ¥è¿™ä¹ˆè½¬
 //		int score =(int)obj;
 //		System.out.println(score);
 		
-		//JDK1.7.ÒÔÇ°ÒªÕâÃ´×ª
+		//JDK1.7.ä»¥å‰è¦è¿™ä¹ˆè½¬
 //		int v = Integer.parseInt(String.valueOf(obj));
 //		System.out.println(v);
-//		»òÕß
+//		æˆ–è€…
 //		int v=(Integer) obj;
 //		System.out.println(v);
 		
-		// ´æÈëÕûÊıint--->Integer--->Object
+		// å­˜å…¥æ•´æ•°int--->Integer--->Object
 		Student stu =new Student(80,90);
 		int javaseScore =(Integer)stu.getJavase();
 		
 		String oralcleScore=null;
 		oralcleScore =stu.getOracle().toString();
 		
-//		if (stu.getOracle() instanceof String) {//ÉĞÑ§ÌÃÅàĞÂĞ´´íÁË£¿£¿£¿£¿
+//		if (stu.getOracle() instanceof String) {//å°šå­¦å ‚åŸ¹æ–°å†™é”™äº†ï¼Ÿï¼Ÿï¼Ÿï¼Ÿ
 //			oralcleScore =(String)stu.getOracle();
 //		}
 	

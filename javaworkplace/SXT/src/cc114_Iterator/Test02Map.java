@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 /**
- * mapµü´úÆ÷µÄÁ½ÖÖ·½Ê½£º
- * keySetºÍentrySet
+ * mapè¿­ä»£å™¨çš„ä¸¤ç§æ–¹å¼ï¼š
+ * keySetå’ŒentrySet
  * @author Administrator
  *
  */
@@ -21,29 +21,29 @@ public class Test02Map {
 		map.put(11111, "22222");
 		
 		/**
-		 * keySet:Í¨¹ıµ÷ÓÃkeySet£¬
-			·Å»ØÒ»¸öSet¼¯ºÏ£¬Õâ¸ö¼¯ºÏ´æ·ÅµÄ¶¼ÊÇkey,
-			È»ºó¶Ôset¼¯ºÏ½øĞĞµü´úµÃµ½keyÖµ£¬È»ºó¸ù¾İµÃµ½µÄkeyÖµ£¬
-			ÔÙ·µ»Øµ½mapÖĞ½øĞĞ²éÑ¯¡£
+		 * keySet:é€šè¿‡è°ƒç”¨keySetï¼Œ
+			æ”¾å›ä¸€ä¸ªSeté›†åˆï¼Œè¿™ä¸ªé›†åˆå­˜æ”¾çš„éƒ½æ˜¯key,
+			ç„¶åå¯¹seté›†åˆè¿›è¡Œè¿­ä»£å¾—åˆ°keyå€¼ï¼Œç„¶åæ ¹æ®å¾—åˆ°çš„keyå€¼ï¼Œ
+			å†è¿”å›åˆ°mapä¸­è¿›è¡ŒæŸ¥è¯¢ã€‚
 		 */
-		Set iter =map.keySet();//½«mapÖĞËùÓĞµÄkey·ÅÈëiterÖĞ
-		Iterator dataIte = iter.iterator();//µ÷ÓÃiterµÄµü´úÆ÷£¬¸³¸ødataIte 
+		Set iter =map.keySet();//å°†mapä¸­æ‰€æœ‰çš„keyæ”¾å…¥iterä¸­
+		Iterator dataIte = iter.iterator();//è°ƒç”¨iterçš„è¿­ä»£å™¨ï¼Œèµ‹ç»™dataIte 
 		while (dataIte.hasNext()) {
 			Object key = (Object)dataIte.next();
 			Object value = map.get(key);
 			System.out.println(key + "----->" + value);
 		}
 		
-		System.out.println("@@@@@@@@@@@@@@@@@@@@" );
+		System.out.println("------------------------------" );
 		/**
-		 * )Í¨¹ıµ÷ÓÃentrySet(),
-			·µ»ØµÄÊÇÒ»¸ö×°Entry¶ÔÏóµÄSet¼¯ºÏ£¬
-			È»ºó¶ÔSet¼¯ºÏ½øĞĞµü´úµÃµ½entry¶ÔÏó£¬
-			È»ºóÍ¨¹ıEntry.getKey()ºÍEntry.getValue()
-			µÃµ½keyºÍvalueÖµ¡£
+		 * )é€šè¿‡è°ƒç”¨entrySet(),
+			è¿”å›çš„æ˜¯ä¸€ä¸ªè£…Entryå¯¹è±¡çš„Seté›†åˆï¼Œ
+			ç„¶åå¯¹Seté›†åˆè¿›è¡Œè¿­ä»£å¾—åˆ°entryå¯¹è±¡ï¼Œ
+			ç„¶åé€šè¿‡Entry.getKey()å’ŒEntry.getValue()
+			å¾—åˆ°keyå’Œvalueå€¼ã€‚
 		 */
-		Set entrySet =map.entrySet();//½«mapÖĞµÄkey-value¶Ô·ÅÈëentrySetÖĞ
-		Iterator entryIte = entrySet.iterator();//µ÷ÓÃentrySetµÄµü´úÆ÷£¬¸³¸øentryIte
+		Set entrySet =map.entrySet();//å°†mapä¸­çš„key-valueå¯¹æ”¾å…¥entrySetä¸­
+		Iterator entryIte = entrySet.iterator();//è°ƒç”¨entrySetçš„è¿­ä»£å™¨ï¼Œèµ‹ç»™entryIte
 		while (entryIte.hasNext()) {
 			Entry entry =(Entry)entryIte.next();
 			Object key = entry.getKey();
