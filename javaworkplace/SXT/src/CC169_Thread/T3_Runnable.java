@@ -1,33 +1,33 @@
 package CC169_Thread;
 /*
- *  Ê¹ÓÃRunnable´´½¨Ïß³Ì
- *  1.Runnable+run()---¡·ÕæÊµ½ÇÉ«
- *  2.Æô¶¯¶àÏß³Ì:Ê¹ÓÃ¾²Ì¬´úÀí
- *  	´´½¨´úÀí½ÇÉ«+ÕæÊµ½ÇÉ«µÄÒıÓÃ
- *  	Æô¶¯Ïß³Ì
+ *  ä½¿ç”¨Runnableåˆ›å»ºçº¿ç¨‹
+ *  1.Runnable+run()---ã€‹çœŸå®è§’è‰²
+ *  2.å¯åŠ¨å¤šçº¿ç¨‹:ä½¿ç”¨é™æ€ä»£ç†
+ *  	åˆ›å»ºä»£ç†è§’è‰²+çœŸå®è§’è‰²çš„å¼•ç”¨
+ *  	å¯åŠ¨çº¿ç¨‹
  */
 public class T3_Runnable {
 
 	public static void main(String[] args) {
 		//1
-		Programer programer=new Programer();
+		Programmer programmer=new Programmer();
 		//2
-		Thread proxy=new Thread(programer);
+		Thread proxy=new Thread(programmer);
 		//3
 		proxy.start();
 		for(int i=0;i<100;i++){
-			System.out.println("Ò»±ßÇÃÁÄQQ");
+			System.out.println("ä¸€è¾¹æ•²èŠQQ");
 		}
 	}
 
 }
-//ÕæÊµ½ÇÉ«
-class Programer implements Runnable{
+//çœŸå®è§’è‰²
+class Programmer implements Runnable{
 
 	@Override
 	public void run() {
 		for(int i=0;i<100;i++){
-			System.out.println("Ò»±ßÇÃhello world");
+			System.out.println("ä¸€è¾¹æ•²hello world");
 		}
 	}
 		

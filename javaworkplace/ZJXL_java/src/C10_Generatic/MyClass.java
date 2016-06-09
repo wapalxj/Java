@@ -3,27 +3,27 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * ÎªÊ²Ã´ÒªÒıÈë·ºĞÍ
+ * ä¸ºä»€ä¹ˆè¦å¼•å…¥æ³›å‹
  * @author Administrator
  *
  */
 public class MyClass {
 	public static void main(String[] args) {
-		//²»Ê¹ÓÃ·ºĞÍ
-		List strL =new ArrayList();//´´½¨Ò»¸öÖµÏë´æ·Å×Ö·û´®µÄList
+		//ä¸ä½¿ç”¨æ³›å‹
+		List strL =new ArrayList();//åˆ›å»ºä¸€ä¸ªå€¼æƒ³å­˜æ”¾å­—ç¬¦ä¸²çš„List
 		strL.add("aaaa");
 		strL.add("aaaa");
 		
-		strL.add(1);//²»Ğ¡ĞÄ°ÑÊı×Ö´æ½øÈ¥ÁË£¬ÔÚÏÂĞĞµ±×öString´¦Àí
+		strL.add(1);//ä¸å°å¿ƒæŠŠæ•°å­—å­˜è¿›å»äº†ï¼Œåœ¨ä¸‹è¡Œå½“åšStringå¤„ç†
 		
 	
-		String s=(String)strL.get(1);//µ±×öString´¦Àí
-		System.out.println(s.length());//ÔËĞĞÊ±Òì³££ºjava.lang.ClassCastException
+		String s=(String)strL.get(1);//å½“åšStringå¤„ç†
+		System.out.println(s.length());//è¿è¡Œæ—¶å¼‚å¸¸ï¼šjava.lang.ClassCastException
 		
-		//Ê¹ÓÃ·ºĞÍ
-		List<String> strL2 =new ArrayList<String>();//´´½¨Ò»¸öÖµÏë´æ·Å×Ö·û´®µÄList
+		//ä½¿ç”¨æ³›å‹
+		List<String> strL2 =new ArrayList<String>();//åˆ›å»ºä¸€ä¸ªå€¼æƒ³å­˜æ”¾å­—ç¬¦ä¸²çš„List
 		strL2.add("aaaa");//
-		//strL2.add(138);//±àÒëÍ¨²»¹ı
+		//strL2.add(138);//ç¼–è¯‘é€šä¸è¿‡
 		
 	}
 }

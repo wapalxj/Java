@@ -4,7 +4,7 @@ public class Mammal extends Animal {
 	
 	public void taiSheng()
 	{
-		System.out.println("ÎÒÊÇÌ¥Éú");
+		System.out.println("é´æˆæ§¸é‘³åº£æ•“");
 	}
 }
 

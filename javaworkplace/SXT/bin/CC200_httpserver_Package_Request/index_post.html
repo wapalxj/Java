@@ -1,0 +1,25 @@
+HTML
+	<html>
+		<head>
+			<title></title>
+			<body>
+				<pre>
+					Method请求方式:get(默认)/post
+						Get:数据量小，安全性不高，默认方式
+						Post: 数据量大，安全性较高
+					Action:请求的服务器路径
+					id: 编号，前端区分唯一性，JS中使用
+					name:名称，后端区分唯一性，获取值
+					只要数据提交给后台，必须存在name
+				</pre>
+				<form method="post" action="http://localhost:8888/">
+					用户名：<input type="test" name="username" id="name">
+					密码：<input type="password" name="pwd" id="pass">
+					兴趣：<input type="checkbox" name="fav" value="ball">篮球
+							<input type="checkbox" name="fav" value="socc">足球
+							<input type="checkbox" name="fav" value="LOL">LOL
+					<input type="submit" value="登录"/>
+				</form>
+			</body>
+		</head>
+	</html>

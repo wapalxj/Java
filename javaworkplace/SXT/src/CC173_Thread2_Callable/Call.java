@@ -12,23 +12,23 @@ import sun.reflect.generics.tree.Tree;
 public class Call {
 
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
-		//´´½¨2¸öÏß³Ì
+		//åˆ›å»º2ä¸ªçº¿ç¨‹
 		ExecutorService ser=Executors.newFixedThreadPool(2);
-		Race tortoise=new Race("Ç§ÄêÍõ°Ë",1000);
-		Race rabbit=new Race("Ğ¡ÍÃ×Ó",500);
-		//»ñÈ¡Öµ
+		Race tortoise=new Race("åƒå¹´ç‹å…«",1000);
+		Race rabbit=new Race("å°å…”å­",500);
+		//è·å–å€¼
 		Future<Integer> res1=ser.submit(tortoise);
 		Future<Integer> res2=ser.submit(rabbit);
 		
-		Thread.sleep(2000);//2Ãëºó
-		tortoise.setFlag(false);//ÎÚ¹êÍ£ÏÂ
-		rabbit.setFlag(false);//ÍÃ×ÓÍ£ÏÂ
+		Thread.sleep(2000);//2ç§’å
+		tortoise.setFlag(false);//ä¹Œé¾Ÿåœä¸‹
+		rabbit.setFlag(false);//å…”å­åœä¸‹
 		
 		int num1 =res1.get();
 		int num2 =res2.get();
-		System.out.println("ÎÚ¹êÅÜÁË£º"+num1+"²½");
-		System.out.println("ÍÃ×ÓÅÜÁË£º"+num2+"²½");
-		//Í£Ö¹·şÎñ(Ïß³Ì)
+		System.out.println("ä¹Œé¾Ÿè·‘äº†ï¼š"+num1+"æ­¥");
+		System.out.println("å…”å­è·‘äº†ï¼š"+num2+"æ­¥");
+		//åœæ­¢æœåŠ¡(çº¿ç¨‹)
 		ser.shutdown();
 	}
 
@@ -57,7 +57,7 @@ class Race implements Callable<Integer>{
 	@Override
 	public Integer call() throws Exception {
 		while (flag) {
-			Thread.sleep(time);//ÑÓÊ±
+			Thread.sleep(time);//å»¶æ—¶
 			step++;
 		}
 		return step;

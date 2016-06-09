@@ -1,9 +1,9 @@
 package cc118_Ge2_poly;
 /**
- * ·ºÐÍÀà
+ * æ³›åž‹ç±»
  * @author Administrator
  *
  */
 public class GeA<T> {
-String score;
+    String score;
 }

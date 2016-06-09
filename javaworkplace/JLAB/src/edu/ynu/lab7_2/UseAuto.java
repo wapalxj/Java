@@ -9,7 +9,7 @@ public class UseAuto {
 		chevy.setPrice(1);
 		System.out.println("A new "+ford.getMaker()+" costs $"+ford.getPrice());
 		System.out.println("A new "+chevy.getMaker()+" costs $"+chevy.getPrice());
-		System.out.println("########�¹�20121120138###########");
+		System.out.println("########穆桂海20121120138###########");
 	}
 
 }

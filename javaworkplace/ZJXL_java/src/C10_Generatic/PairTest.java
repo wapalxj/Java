@@ -1,6 +1,6 @@
 package C10_Generatic;
 /**
- * 泛型使用
+ * 娉涘瀷浣跨敤
  * @author Administrator
  *
  */
@@ -21,7 +21,7 @@ public class PairTest {
 			}
 		}
 		
-		return new Pair<String>(min,max);//返回一个Pair<String>,调用第二个构造器
+		return new Pair<String>(min,max);//杩斿洖涓�涓狿air<String>,璋冪敤绗簩涓瀯閫犲櫒
 	}
 	
 	public static void main(String[] args) {

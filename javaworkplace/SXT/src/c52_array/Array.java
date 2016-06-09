@@ -13,10 +13,17 @@ public class Array {
 		b=new int[5];
 	
 		
-		Car []cars= {new Car("±¼³Û"),
-					 new Car("±¦Âí"),
-					 new Car("±ÈÑÇµÏ"),
-					 new Car("´óÖÚ"),};
+		Car []cars= {new Car("å¥”é©°"),
+					 new Car("å®é©¬"),
+					 new Car("æ¯”äºšè¿ª"),
+					 new Car("å¤§ä¼—"),};
+
+		//è‡ªåŠ¨åˆå§‹åŒ–ä¸º0
+		int []c =new int[10];
+		for (int i=0;i<c.length;i++){
+			System.out.print(c[i]+"--");
+		}
+
 		
 	}
 

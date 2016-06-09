@@ -1,20 +1,20 @@
 package cc118_Ge2_poly;
 /**
- * Ò»°ã¶àÌ¬µÄÁ½ÖÖĞÎÊ½£¬
+ * ä¸€èˆ¬å¤šæ€çš„ä¸¤ç§å½¢å¼ï¼Œ
  * @author Administrator
  *
  */
 public class FruitTest01{
 	public static void main(String[] args) {
 		Fruit f=new Fruit(); 
-		test(new Apple());//ĞÎ²ÎÊ¹ÓÃ¶àÌ¬
+		test(new Apple());//å½¢å‚ä½¿ç”¨å¤šæ€
 	}
 	
-	//ĞÎ²ÎÊ¹ÓÃ¶àÌ¬
+	//å½¢å‚ä½¿ç”¨å¤šæ€
 	public static void test(Fruit f) {
 		
 	}
-	//·µ»ØÊ¹ÓÃ¶àÌ¬
+	//è¿”å›ä½¿ç”¨å¤šæ€
 	public static Fruit test2() {
 		return new Apple();
 	}

@@ -6,7 +6,7 @@ public class QianTao<T> {
 	
 	public static void main(String[] args) { 
 		/**
-		 * Á½²ã:´ÓÍâµ½ÄÚ²ð·Ö£º
+		 * ä¸¤å±‚:ä»Žå¤–åˆ°å†…æ‹†åˆ†ï¼š
 		 * 1.QianTao:room
 		 * 2.GeA:t=room.ti
 		 * 3.String:s

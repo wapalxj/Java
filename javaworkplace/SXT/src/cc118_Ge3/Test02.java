@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * JDK1.7¶Ô·ºĞÍµÄ¸Ä½ø:Ö»ÓÃÔÚÉùÃ÷Ê±Ğ´ÀàĞÍ
+ * JDK1.7å¯¹æ³›å‹çš„æ”¹è¿›:åªç”¨åœ¨å£°æ˜æ—¶å†™ç±»å‹
  * @author Administrator
  *
  */

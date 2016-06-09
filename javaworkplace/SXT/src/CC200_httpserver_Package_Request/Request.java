@@ -12,8 +12,8 @@ import java.util.StringTokenizer;
 
 
 /*
- * 封装Request:
- * GET个POST头信息
+ * 封装Request:GET和POST头信息中拿东西
+ *
  */
 public class Request {
 	//1.请求方式
@@ -48,6 +48,9 @@ public class Request {
 		//分析头信息
 		parseRequestInfo();
 	}
+	/**
+		分析头信息
+	 */
 	private void parseRequestInfo() {
 		if (requestInfo==null||(requestInfo=requestInfo.trim()).equals("")) {
 			return;
@@ -66,11 +69,11 @@ public class Request {
 		int idx=requestInfo.indexOf("/");
 		this.method=firstLine.substring(0, idx).trim();
 		String urlstr=firstLine.substring(idx, firstLine.indexOf("HTTP/")).trim();
-		if (this.method.equalsIgnoreCase("post")) {
+		if (this.method.equalsIgnoreCase("POST")) {
 			this.url=urlstr;
 			//参数：POST的参数在最后一个换行下面
 			paramString=requestInfo.substring(requestInfo.lastIndexOf(CRLF));
-		}else if(this.method.equalsIgnoreCase("get")){
+		}else if(this.method.equalsIgnoreCase("GET")){
 			if (urlstr.contains("?")) {//是否存在参数
 				String[] urlArray=urlstr.split("\\?");//分割出？前面的即是url
 				this.url=urlArray[0];
@@ -80,14 +83,19 @@ public class Request {
 			}
 		}
 		
-		//2.将请求参数封装到MAP中
+
 		
 		if (paramString.equals("")) {//不存在请求参数
 			return;
 		}
+		//2.将请求参数封装到MAP中
 		parseParam(paramString);
 		
 	}
+	/**
+	 * 将请求参数封装到MAP中
+	 */
+
 	public void  parseParam(String paramString) {
 		//1.分割 将字符串转成数组//也可以用split
 		StringTokenizer token=new StringTokenizer(paramString,"&");
@@ -99,19 +107,21 @@ public class Request {
 				keyValues[1]=null;
 			}
 			//转成MAP
+			//先拿key
 			String key=keyValues[0].trim();
 				//这里解码
+			//再拿value
 			String value=(null==keyValues[1])?null:decoder(keyValues[1].trim(),"GBK");
 			if (!paramMapValues.containsKey(key)) {
 				paramMapValues.put(key, new ArrayList<String>());
-				
+
 			}
 			List<String> values =paramMapValues.get(key);
 			values.add(value);
 		}
 	}
 	/*
-	 * 解码:解决中文乱码
+	 * 解码:解决登录用户名中文乱码
 	 */
 	private String decoder(String value,String code) {
 		try {
@@ -133,7 +143,7 @@ public class Request {
 		}
 	}
 	/*
-	 * 根据页面的name 获取对应的单个值
+	 * 根据页面的name 获取对应的单个值(第一个)values[0]
 	 */
 	public String getParamet(String name) {
 		 String[] values=getParametValues(name);

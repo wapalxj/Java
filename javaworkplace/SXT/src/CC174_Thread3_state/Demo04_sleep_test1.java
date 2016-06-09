@@ -1,6 +1,6 @@
 package CC174_Thread3_state;
 /*
- * µ¹¼ÆÊ±ÊµÏÖ
+ * å€’è®¡æ—¶å®žçŽ°
  */
 import java.sql.Date;
 import java.text.SimpleDateFormat;
@@ -13,11 +13,11 @@ public class Demo04_sleep_test1 {
 		long end =endTime.getTime();
 		while (true) {
 			System.out.println(new SimpleDateFormat("mm:ss").format(endTime));
-			//¹¹½¨ÏÂÒ»ÃëÊ±¼ä
+			//æž„å»ºä¸‹ä¸€ç§’æ—¶é—´
 			endTime=new Date(endTime.getTime()-1000);
-			//ÑÓÊ±Ò»Ãë
+			//å»¶æ—¶ä¸€ç§’
 			Thread.sleep(1000);
-			//Èç¹ûÔÚ10ÃëÒÔÄÚ¾Í¼ÌÐø
+			//å¦‚æžœåœ¨10ç§’ä»¥å†…å°±ç»§ç»­
 			if (end-10000>endTime.getTime()) {
 				break;
 			}

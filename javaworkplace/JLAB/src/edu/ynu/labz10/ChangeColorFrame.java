@@ -12,30 +12,30 @@ public class ChangeColorFrame extends JFrame{
 		 private static final int DEFAULT_HEIGHT = 960; 
 	 
 		 public ChangeColorFrame(){ 
-			   setTitle("ÑÕÉ«±ä»»"); 
+			   setTitle("é¢œè‰²å˜æ¢"); 
 			   setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);       
 			   drawball = new DrawBall(); 
-			   drawball.setColor(Color.WHITE);  //ÉèÖÃÔ²µÄ³õÊ¼ÑÕÉ«       
+			   drawball.setColor(Color.WHITE);  //è®¾ç½®åœ†çš„åˆå§‹é¢œè‰²       
 			   
 			   JPanel northPanel = new JPanel(); 
-			   blueButton = new JButton();  //ÊµÀı»¯°´Å¥   
+			   blueButton = new JButton();  //å®ä¾‹åŒ–æŒ‰é’®   
 			   redButton = new JButton();
-			   blueButton.setText("blue");  //ÉèÖÃÀ¶É«°´Å¥        
+			   blueButton.setText("blue");  //è®¾ç½®è“è‰²æŒ‰é’®        
 			   blueButton.setForeground(Color.WHITE);       
 			   blueButton.setBackground(Color.blue);       
-			   redButton.setText("red");  //ÉèÖÃºìÉ«°´Å¥     
+			   redButton.setText("red");  //è®¾ç½®çº¢è‰²æŒ‰é’®     
 			   redButton.setForeground(Color.WHITE);       
 			   redButton.setBackground(Color.red);  
 			   
-			   northPanel.add(blueButton);  //Ìí¼Ó°´Å¥     
+			   northPanel.add(blueButton);  //æ·»åŠ æŒ‰é’®     
 			   northPanel.add(redButton);           
-			   add(northPanel,BorderLayout.NORTH);   //Ìí¼ÓÃæ°å           
+			   add(northPanel,BorderLayout.NORTH);   //æ·»åŠ é¢æ¿           
 			   add(drawball); 
 			   
 			   blueButton.addActionListener(new ActionListener(){ 
 				   public void actionPerformed(ActionEvent evt) {
 					   drawball.setColor(Color.BLUE); 
-			           drawball.repaint();  //ÖØĞÂ»­À¶É«Ô²               
+			           drawball.repaint();  //é‡æ–°ç”»è“è‰²åœ†               
 			       }       
 			   });     
 			   
@@ -43,7 +43,7 @@ public class ChangeColorFrame extends JFrame{
 			
 				   public void actionPerformed(ActionEvent evt) { 
 					   drawball.setColor(Color.RED); 
-			           drawball.repaint();  //ÖØĞÂ»­ºìÉ«Ô²            
+			           drawball.repaint();  //é‡æ–°ç”»çº¢è‰²åœ†            
 			 	   } 
 			   });
 		 } 

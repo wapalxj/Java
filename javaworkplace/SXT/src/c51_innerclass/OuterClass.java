@@ -12,23 +12,22 @@ public class OuterClass {
 
 class Face{
 	int type;
-	static String color="ºìÈó";
+	static String color="çº¢æ¶¦";
 	
 	class Nose{
 		String type;
 		
 		void breathe(){
 			System.out.println(Face.this.type);
-			System.out.println("ºôÎü");
+			System.out.println("å‘¼å¸");
 		}
 	}
 	
     static class Ear{
 		String type;
-		
 		void listen(){
 //			System.out.println(Face.this.type);
-			System.out.println("Ìı");
+			System.out.println("å¬");
 			System.out.println(color);
 		}
 	}

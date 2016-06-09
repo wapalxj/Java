@@ -2,28 +2,29 @@ package CC174_Thread3_state;
 
 public class Demo01_stop {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		Study s=new Study();
 		new Thread(s).start();
-		//Íâ²¿¸ÉÉæ
-		for (int i = 0; i < 1000; i++) {
-			if (i==500) {
+		//å¤–éƒ¨å¹²æ¶‰
+		for (int i = 0; i < 100; i++) {
+			if (i==50) {//åªè¦i==50ï¼Œå­çº¿ç¨‹ä¸€å®šç»“æŸ
+				Thread.sleep(10);
 				s.Stop();
 			}
-			System.out.println("main,,,"+i);
+			System.out.println("main------>"+i);
 		}
 	}
 }
 
 class Study implements Runnable{
-	private boolean flag=true;//1.Ïß³ÌÀàÖĞ ¶¨Òå Ïß³ÌÌåÊ¹ÓÃ±êÊ¶
+	private boolean flag=true;//1.çº¿ç¨‹ç±»ä¸­ å®šä¹‰ çº¿ç¨‹ä½“ä½¿ç”¨æ ‡è¯†
 	@Override
 	public void run() {
-		while (flag) {//2.Ïß³ÌÌåÊ¹ÓÃ¸Ã±êÊ¶
+		while (flag) {//2.çº¿ç¨‹ä½“ä½¿ç”¨è¯¥æ ‡è¯†
 			System.out.println("vero is studying,,,");
 		}
 	}
-	public void Stop() {//3.¶ÔÍâÌá¹©·½·¨¸Ä±ä±êÊ¶
+	public void Stop() {//3.å¯¹å¤–æä¾›æ–¹æ³•æ”¹å˜æ ‡è¯†
 		this.flag=false;
 	}
 }

@@ -1,18 +1,20 @@
 package CC169_Thread;
 
 public class T1_myThread {
-	//Ö÷Ïß³Ì
-	public static void main(String[] args) {
-		//¶àÏß³Ì1
+	//ä¸»çº¿ç¨‹
+	public static void main(String[] args) throws InterruptedException {
+		//å¤šçº¿ç¨‹1
 		Animal rabbit=new Animal();
-		//¶àÏß³Ì2
+		//å¤šçº¿ç¨‹2
 		Animal pig=new Animal();
-		rabbit.start();//Æô¶¯Ïß³Ì
-		pig.start();//Æô¶¯Ïß³Ì
+		rabbit.start();//å¯åŠ¨çº¿ç¨‹
+		Thread.sleep(3000);
+		rabbit.start();//å¯åŠ¨çº¿ç¨‹:ä¸èƒ½å¯åŠ¨å¤šæ¬¡
+		pig.start();//å¯åŠ¨çº¿ç¨‹
 		
-		for(int i=0;i<100;i++){
-			System.out.println("main=>>"+i);
-		}
+//		for(int i=0;i<100;i++){
+//			System.out.println("main=>>"+i);
+//		}
 	}
 
 }
@@ -21,7 +23,7 @@ class Animal extends Thread{
 	@Override
 	public void run() {
 		for(int i=0;i<100;i++){
-			System.out.println("ÅÜÁË"+i+"²½");
+			System.out.println("è·‘äº†"+i+"æ­¥");
 		}
 	}
 }

@@ -1,6 +1,6 @@
 package cc116_Generic;
 /**
- * ·ºĞÍ½Ó¿Ú:Óë¼Ì³ĞÍ¬Àí
+ * æ³›å‹æ¥å£:ä¸ç»§æ‰¿åŒç†
  * @author Administrator
  *
  * @param <T>
@@ -8,32 +8,32 @@ package cc116_Generic;
 public interface Comparable<T> {
 	void compare(T t);
 }
-//ÉùÃ÷×ÓÀà¾ßÌåÀàĞÍ
+//å£°æ˜å­ç±»å…·ä½“ç±»å‹
 class Comp4<T> implements Comparable<Integer>{
 	public void compare(Integer t) {
 		
 	}
 }
 
-//¶¼²Á³ı
+//éƒ½æ“¦é™¤
 class Comp1 implements Comparable{
 	public void compare(Object t) {
 		
 	}
 }
-//¸¸Àà²Á³ı£¬×ÓÀà·ºĞÍ
+//çˆ¶ç±»æ“¦é™¤ï¼Œå­ç±»æ³›å‹
 class Comp2<T> implements Comparable{
 	public void compare(Object t) {
 		
 	}
 }
-//×ÓÀà·ºĞÍ¡·=¸¸Àà·ºĞÍ
+//å­ç±»æ³›å‹ã€‹=çˆ¶ç±»æ³›å‹
 class Comp3<T> implements Comparable<T>{
 	public void compare(T t) {
 		
 	}
 }
-//¸¸Àà·ºĞÍ£¬×ÓÀà²Á³ı´íÎó
+//çˆ¶ç±»æ³›å‹ï¼Œå­ç±»æ“¦é™¤é”™è¯¯
 //class Comp6 implements Comparable<T>{
 //	
 //}

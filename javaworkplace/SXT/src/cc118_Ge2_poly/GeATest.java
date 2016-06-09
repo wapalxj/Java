@@ -4,23 +4,24 @@ public class GeATest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//´íÎó£¬²»ÄÜĞÎ³É¶àÌ¬
-		//GeA<Fruit> f=new GeA<Apple>();
+		//é”™è¯¯ï¼Œä¸èƒ½å½¢æˆå¤šæ€
+//		GeA<Fruit> f=new GeA<Apple>();
 		
 		GeA<Fruit> f2=new GeA<Fruit>();	
 		
 		test(new GeA<Fruit>());
-		//test(new GeA<Apple>());//´íÎó£¬²»ÄÜĞÎ³É¶àÌ¬
+		//é”™è¯¯ï¼Œä¸èƒ½å½¢æˆå¤šæ€
+//		test(new GeA<Apple>());
 	}
-	
-	//ĞÎ²ÎÊ¹ÓÃ¶àÌ¬
+	//å½¢å‚ä½¿ç”¨å¤šæ€
 	public static void test(GeA<Fruit> f) {
 		
 	}
-	//·µ»ØÊ¹ÓÃ¶àÌ¬
+
+	//è¿”å›ä½¿ç”¨å¤šæ€
 	public static GeA<Fruit> test2() {
-		//´íÎó£¬²»ÄÜĞÎ³É¶àÌ¬
-		//return (GeA<Apple>)(new GeA<Apple>());
+		//é”™è¯¯ï¼Œä¸èƒ½å½¢æˆå¤šæ€
+//		return (GeA<Apple>)(new GeA<Apple>());
 		return null;
 	}
 

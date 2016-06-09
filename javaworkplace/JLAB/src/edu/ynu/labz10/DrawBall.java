@@ -14,20 +14,20 @@ public class DrawBall extends JPanel {
 	 public void paintComponent(Graphics g)  { 
 		  Graphics2D g2 = (Graphics2D)g;
 		  super.paintComponent(g);    
-		  //ÉèÖÃ×ø±êµÄ³õÊ¼Öµ 
+		  //è®¾ç½®åæ ‡çš„åˆå§‹å€¼ 
 		  double ballX = 400;
 		  double ballY = 300;
 		  double radius = 100;    
 		  Ellipse2D circle = new Ellipse2D.Double();  
 		  circle.setFrameFromCenter(ballX,  
 		  ballY,ballX+radius,ballY+radius); 
-		  g2.setPaint(color);  //ÉèÖÃÔ²µÄÑÕÉ« 
+		  g2.setPaint(color);  //è®¾ç½®åœ†çš„é¢œè‰² 
 		  g2.fill(circle); 
-		  g2.draw(circle);   //»­Ô² 
+		  g2.draw(circle);   //ç”»åœ† 
 		  
-		  Font f=new Font("ËÎÌå",Font.BOLD,30);//»­Ãû×Ö
+		  Font f=new Font("å®‹ä½“",Font.BOLD,30);//ç”»åå­—
 		  g2.setFont(f);
-		  g2.drawString("20121120138ÄÂ¹ğº£", 350, 600);
+		  g2.drawString("20121120138ç©†æ¡‚æµ·", 350, 600);
 	 }
 }
 

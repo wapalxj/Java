@@ -13,5 +13,10 @@ public class TestDigit {
             System.out.println(c+"是数字："+d);
         }
     }
+    public interface III{
 
+
+    }
 }
+
+

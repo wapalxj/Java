@@ -10,9 +10,9 @@ public class AverageNumbers2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner in =new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÒ»¸ö½áÎ²µÄÊı×Ö£º");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸ªç»“å°¾çš„æ•°å­—ï¼š");
 		int nums=in.nextInt();
-		System.out.println("ÊäÈëµÄ×î´óÊı×ÖÎª£º "+nums);
+		System.out.println("è¾“å…¥çš„æœ€å¤§æ•°å­—ä¸ºï¼š "+nums);
 		double sum=0.0;
 		int i=0;
 		while(true)
@@ -22,9 +22,9 @@ public class AverageNumbers2 {
 		}
 		double avg=sum/nums;
 
-		System.out.println("ÓÃwhileÑ­»·¼ÆËã´Ó1µ½"+nums+"µÄÆ½¾ùÊıÎª£º "+avg);
+		System.out.println("ç”¨whileå¾ªç¯è®¡ç®—ä»1åˆ°"+nums+"çš„å¹³å‡æ•°ä¸ºï¼š "+avg);
 
-		System.out.println("ÄÂ¹ğº££¬20121120138");
+		System.out.println("ç©†æ¡‚æµ·ï¼Œ20121120138");
 
 }
 

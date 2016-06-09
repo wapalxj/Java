@@ -7,11 +7,11 @@ public class Animal {
 	
 	public void run()
 	{
-		System.out.println("ÅÜÑ½ÅÜ");
+		System.out.println("è·‘å‘€è·‘");
 	}
 	public void eat()
 	{
-		System.out.println("³Ô³Ô£¡");
+		System.out.println("åƒåƒï¼");
 	}
 	public void sleep()
 	{

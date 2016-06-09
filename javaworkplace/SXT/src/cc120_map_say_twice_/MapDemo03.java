@@ -10,7 +10,7 @@ import java.util.Set;
 import cc118_Ge3.Array;
 
 /**
- * ½«Èô¸É¸östudent·ÅÈëList,¼ÆËãÃ¿¸ö°à¼¶µÄ×ÜÆ½¾ù·Ö
+ * å°†è‹¥å¹²ä¸ªstudentæ”¾å…¥List,è®¡ç®—æ¯ä¸ªç­çº§çš„æ€»å¹³å‡åˆ†
  * @author Administrator
  *
  */
@@ -26,7 +26,7 @@ public class MapDemo03 {
 	
 	}
 	/**
-	 * ´òÓ¡×Ü·ÖºÍÆ½¾ù·Ö
+	 * æ‰“å°æ€»åˆ†å’Œå¹³å‡åˆ†
 	 * @param rooms
 	 * @param list
 	 */
@@ -37,8 +37,8 @@ public class MapDemo03 {
 			Map.Entry<String, ClassRoom> entry =it.next();
 			ClassRoom room =entry.getValue();
 			double avg =room.getTotal()/room.getStus().size();
-			System.out.println("°à¼¶ºÅÎª£º"+room.getNo()+",×Ü·Ö: "+room.getTotal()
-					+"Æ½¾ù·Ö£º "+avg);
+			System.out.println("ç­çº§å·ä¸ºï¼š"+room.getNo()+",æ€»åˆ†: "+room.getTotal()
+					+"å¹³å‡åˆ†ï¼š "+avg);
 			
 		}
 		
@@ -50,15 +50,15 @@ public class MapDemo03 {
 		for (Student stu:list) {
 			String no =stu.getNo();
 			double score =stu.getScore();
-			//¸ù¾İ°à¼¶±àºÅ²é¿´MAPÖĞÊÇ·ñ´æÔÚÕâ¸ö°à¼¶-¡··Ö¼ğ
+			//æ ¹æ®ç­çº§ç¼–å·æŸ¥çœ‹MAPä¸­æ˜¯å¦å­˜åœ¨è¿™ä¸ªç­çº§-ã€‹åˆ†æ‹£
 			ClassRoom room =rooms.get(no);
-			if (null==room) {//µÚÒ»´Î£º´´½¨
+			if (null==room) {//ç¬¬ä¸€æ¬¡ï¼šåˆ›å»º
 				room=new ClassRoom(no);
 				rooms.put(no, room);
 			}
-			//µÚ¶ş´Î£º´æ´¢×Ü·Ö
+			//ç¬¬äºŒæ¬¡ï¼šå­˜å‚¨æ€»åˆ†
 			room.setTotal(room.getTotal()+score);
-			room.getStus().add(stu);//½«Ñ§Éú¼Ó½øÈ¥£¨.getStus()·µ»ØÖµÊÇÒ»¸öÊı×éÁĞ±í£©
+			room.getStus().add(stu);//å°†å­¦ç”ŸåŠ è¿›å»ï¼ˆ.getStus()è¿”å›å€¼æ˜¯ä¸€ä¸ªæ•°ç»„åˆ—è¡¨ï¼‰
 		}
 	}
 	public static void exam(List<Student> list) {

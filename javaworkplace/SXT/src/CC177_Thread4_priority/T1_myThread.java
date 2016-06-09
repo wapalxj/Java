@@ -7,7 +7,7 @@ public class T1_myThread {
 	public static void main(String[] args) throws InterruptedException {
 //		System.out.println(Thread.currentThread().getName());
 		MyThread t1=new MyThread();
-		//����ȡ��it,����Զ����һ�����֣�Thread-0
+		//若不取名it,则会自动编号一个名字：Thread-0
 		Thread proxy =new Thread(t1,"it");
 		System.out.println(proxy.getName());
 		
@@ -16,13 +16,13 @@ public class T1_myThread {
 		
 		proxy.start();
 		
-		System.out.println("�������״̬��"+proxy.isAlive());
+		System.out.println("启动后的状态："+proxy.isAlive());
 		
 		Thread.sleep(20);
 		t1.stop();
 		Thread.sleep(100);
 		
-		System.out.println("ֹͣ���״̬��"+proxy.isAlive());
+		System.out.println("停止后的状态："+proxy.isAlive());
 	}
 
 }

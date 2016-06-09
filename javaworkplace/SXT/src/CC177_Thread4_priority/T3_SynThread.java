@@ -4,11 +4,11 @@ package CC177_Thread4_priority;
 public class T3_SynThread {
 
 	public static void main(String[] args) {
-		Web12306 w=new Web12306();
+		Web12308 w=new Web12308();
 		
-		Thread p1=new Thread(w,"»ÆÅ£1");
-		Thread p2=new Thread(w,"»ÆÅ£2");
-		Thread p3=new Thread(w,"»ÆÅ£3");
+		Thread p1=new Thread(w,"é»„ç‰›1");
+		Thread p2=new Thread(w,"é»„ç‰›2");
+		Thread p3=new Thread(w,"é»„ç‰›3");
 		
 		p1.start();
 		p2.start();
@@ -16,47 +16,47 @@ public class T3_SynThread {
 	}
 
 }
-class Web12306 implements Runnable{
+class Web12308 implements Runnable{
 	private int num=10;
 	private boolean flag=true;
 	public void run(){
 		while (flag) {
-//			test1();//Ïß³Ì²»°²È«µÄ
-//			test2();//Ïß³Ì°²È«µÄ:Í¬²½·½·¨
-//			test3();//Ïß³Ì°²È«µÄ:Í¬²½¿é
-			test4();
+			test1();//çº¿ç¨‹ä¸å®‰å…¨çš„
+//			test2();//çº¿ç¨‹å®‰å…¨çš„:åŒæ­¥æ–¹æ³•
+//			test3();//çº¿ç¨‹å®‰å…¨çš„:åŒæ­¥å—
+//			test4();
 		}
 	}
-	//Ïß³Ì²»°²È«µÄ
+	//çº¿ç¨‹ä¸å®‰å…¨çš„
 	public void  test1() {
 		if (num<=0) {
 			this.flag=false;
 			return;
 		}
 		try {
-			Thread.sleep(500);//Ôö¼ÓÑÓÊ±£º»áµ¼ÖÂ½á¹û¿ÉÄÜ²»×¼È·
+			Thread.sleep(500);//å¢åŠ å»¶æ—¶ï¼šä¼šå¯¼è‡´ç»“æœå¯èƒ½ä¸å‡†ç¡®
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+		System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 	
 	}
-	//Ïß³Ì°²È«:Í¬²½·½·¨
+	//çº¿ç¨‹å®‰å…¨:åŒæ­¥æ–¹æ³•
 	public synchronized void  test2() {
 		if (num<=0) {
 			this.flag=false;
 			return;
 		}
 		try {
-			Thread.sleep(500);//Ôö¼ÓÑÓÊ±£º»áµ¼ÖÂ½á¹û¿ÉÄÜ²»×¼È·
+			Thread.sleep(500);//å¢åŠ å»¶æ—¶ï¼šä¼šå¯¼è‡´ç»“æœå¯èƒ½ä¸å‡†ç¡®
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+		System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 	
 	}
 	
-	//Ïß³Ì°²È«:Í¬²½¿é
+	//çº¿ç¨‹å®‰å…¨:åŒæ­¥å—
 		public  void  test3() {
 			synchronized(this){
 				if (num<=0) {
@@ -64,27 +64,29 @@ class Web12306 implements Runnable{
 					return;
 				}
 				try {
-					Thread.sleep(500);//Ôö¼ÓÑÓÊ±£º»áµ¼ÖÂ½á¹û¿ÉÄÜ²»×¼È·
+					Thread.sleep(500);//å¢åŠ å»¶æ—¶ï¼šä¼šå¯¼è‡´ç»“æœå¯èƒ½ä¸å‡†ç¡®
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+				System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 			}
 		}
 		
-	//Ïß³Ì²»°²È«:
+	//çº¿ç¨‹ä¸å®‰å…¨:
 	public  void  test4() {
 		synchronized((Integer)num){
 			if (num<=0) {
 				this.flag=false;
 				return;
 			}
+
+
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+			System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 		}
 	}
 }

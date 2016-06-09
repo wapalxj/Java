@@ -12,7 +12,7 @@ interface MoreC extends MoreInhertanceOfInterface,MoreB {
 	void ccc();
 }
 
-class TestClass implements MoreC{//¶à¼Ì³Ğ±ØĞëÖØĞ´Ëù¼Ì³ĞÀàµÄËùÓĞ·½·¨
+class TestClass implements MoreC{//å¤šç»§æ‰¿å¿…é¡»é‡å†™æ‰€ç»§æ‰¿ç±»çš„æ‰€æœ‰æ–¹æ³•
 	public void aaa() {
 		
 	}

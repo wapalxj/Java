@@ -5,7 +5,7 @@ public class Textends<T extends Number>{
 		Textends<Integer> ai =new Textends<Integer>();
 		Textends<Double> ad =new Textends<Double>();
 
-//String²»ÊÇNumberµÄ×ÓÀà
+//Stringä¸æ˜¯Numberçš„å­ç±»
 //		Textends<String> as =new Textends<String>();
 //		Textends<Object> ab =new Textends<Object>();
 		

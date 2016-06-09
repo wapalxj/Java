@@ -3,10 +3,10 @@ package c48_abstract;
 public abstract class Animal {
 
 	public abstract void run();
-//	public abstract void catchS();//×ÓÀà±ØĞëÊµÏÖËùÓĞ³éÏó¸¸ÀàµÄ³éÏó·½·¨
+//	public abstract void catchS();//å­ç±»å¿…é¡»å®ç°æ‰€æœ‰æŠ½è±¡çˆ¶ç±»çš„æŠ½è±¡æ–¹æ³•
 	
 	public void breathe() {
-		System.out.println("ºôÎü");
+		System.out.println("å‘¼å¸");
 
 	}
 }
@@ -15,15 +15,15 @@ public abstract class Animal {
  class Cat extends Animal {
 	@Override
 	public void run() {
-		System.out.println("Ã¨²½Ğ¡ÅÜ");
+		System.out.println("çŒ«æ­¥å°è·‘");
 	}
 	public void eat() {
-		System.out.println("×¥ÀÏÊó£¡");
+		System.out.println("æŠ“è€é¼ ï¼");
 	}
 }
 class Dog extends Animal {
 	@Override
 	public void run() {
-		System.out.println("¹·ÅÜ");
+		System.out.println("ç‹—è·‘");
 	}
 }

@@ -3,7 +3,7 @@ package C10_Generatic_method;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * 定义个数可变的参数：T...
+ * 瀹氫箟涓暟鍙彉鐨勫弬鏁帮細T...
  * @author Administrator
  *
  */

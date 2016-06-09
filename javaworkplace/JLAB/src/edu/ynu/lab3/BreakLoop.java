@@ -20,7 +20,7 @@ public class BreakLoop {
 		}
 		
 		System.out.println("Broke out of the loop at count = 5 ");
-		System.out.println("�¹𺣣�20121120138");
+		System.out.println("穆桂海，20121120138");
 		}
 
 	

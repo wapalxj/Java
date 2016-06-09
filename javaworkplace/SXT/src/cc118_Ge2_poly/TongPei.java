@@ -1,15 +1,15 @@
 package cc118_Ge2_poly;
 /**
- * Í¨Åä·û£¿µÄÊ¹ÓÃ£º
- * Ö»ÄÜÓÃÓÚÉùÃ÷ÀàĞÍºÍ·½·¨ÉÏ£¬²»ÄÜÉùÃ÷Àà»òÊ¹ÓÃÊ±
+ * é€šé…ç¬¦ï¼Ÿçš„ä½¿ç”¨ï¼š
+ * åªèƒ½ç”¨äºå£°æ˜ç±»å‹å’Œæ–¹æ³•ä¸Šï¼Œä¸èƒ½å£°æ˜ç±»æˆ–ä½¿ç”¨æ—¶
  * 
- * ?extends ±íÊ¾£º<=ÉÏÏŞ
- * £¿super ±íÊ¾£º>=ÏÂÏŞ
+ * ?extends è¡¨ç¤ºï¼š<=ä¸Šé™
+ * ï¼Ÿsuper è¡¨ç¤ºï¼š>=ä¸‹é™
  * @author Administrator
  *
  * @param <T>
  */
-//public class TongPei<?>//´íÎó
+//public class TongPei<?>//é”™è¯¯
 public class TongPei<T> {
 	T score;
 	
@@ -20,16 +20,16 @@ public class TongPei<T> {
 		TongPei<?> t = new TongPei<String>();
 		test(new TongPei<Integer>());
 		test2(new TongPei<Apple>());//<=
-		//test3(new TongPei<Apple>());//·ºĞÍÃ»ÓĞ¶àÌ¬
+		//test3(new TongPei<Apple>());//æ³›å‹æ²¡æœ‰å¤šæ€
 		
 		
 		//test4(new TongPei<Integer>());//<=
 		//test4(new TongPei<Apple>());//<=
-		test4(new TongPei<Fruit>());//×ÔÉí
+		test4(new TongPei<Fruit>());//è‡ªèº«
 		test4(new TongPei<Object>());//>=
-		//test4(t);//Ê¹ÓÃÊ±Ó¦¸ÃÈ·¶¨ÀàĞÍ
+		//test4(t);//ä½¿ç”¨æ—¶åº”è¯¥ç¡®å®šç±»å‹
 	}
-	public static void test(TongPei<?> t) {//½«?¸ÄÎªTÔò´íÎó
+	public static void test(TongPei<?> t) {//å°†?æ”¹ä¸ºTåˆ™é”™è¯¯
 		
 	}
 	//<=

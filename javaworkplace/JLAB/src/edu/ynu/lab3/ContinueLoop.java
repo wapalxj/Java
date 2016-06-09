@@ -21,7 +21,7 @@ public class ContinueLoop {
 		}
 		
 		System.out.println("Used continue statement to skip printing 5 ");
-		System.out.println("�¹𺣣�20121120138");
+		System.out.println("穆桂海，20121120138");
 
 
 	}

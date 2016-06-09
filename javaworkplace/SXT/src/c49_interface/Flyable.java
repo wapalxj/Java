@@ -1,12 +1,12 @@
 package c49_interface;
 
-public interface Flyable {//½Ó¿Ú1
+public interface Flyable {//æ¥å£1
 	int MAX_SPEED=10000;
 	int MIN_HIGHT=1;
-	void fly();//×ÜÊÇpublic abstract
+	void fly();//æ€»æ˜¯public abstract
 }
 
-interface Attack{//½Ó¿Ú2
+interface Attack{//æ¥å£2
 	void attack();	
 }
 
@@ -14,23 +14,23 @@ interface Attack{//½Ó¿Ú2
 class Plane implements Flyable{
 	public void fly ()
 	{
-		System.out.println("·É»úÓĞ·¢¶¯»ú");
+		System.out.println("é£æœºæœ‰å‘åŠ¨æœº");
 	}
 }
 
 class Man implements Flyable{
 	public void fly ()
 	{
-		System.out.println("ÌøÆğÀ´£¬·É");
+		System.out.println("è·³èµ·æ¥ï¼Œé£");
 	}
 }
 class Stone implements Flyable,Attack{
 	int weight;
 	public void fly ()
 	{
-		System.out.println("±»ÈÓ³öÈ¥");
+		System.out.println("è¢«æ‰”å‡ºå»");
 	}
 	public void attack () {
-		System.out.println("ÈÓ!!!");
+		System.out.println("æ‰”!!!");
 	}
 }

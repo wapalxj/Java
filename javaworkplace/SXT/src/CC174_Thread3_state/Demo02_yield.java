@@ -5,11 +5,11 @@ public class Demo02_yield {
 	public static void main(String[] args) {
 		Dyield demo=new Dyield();
 		Thread t=new Thread(demo);
-		t.start();//就绪
+		t.start();//灏辩华
 		
 		for (int i = 0; i < 100; i++) {
-			if (i==50) {
-				//暂停main线程
+			if (i>=50) {
+				//鏆傚仠main绾跨▼
 				Thread.yield();
 			}
 			System.out.println("main,,,"+i);

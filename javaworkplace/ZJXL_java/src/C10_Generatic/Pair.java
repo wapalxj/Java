@@ -1,6 +1,6 @@
 package C10_Generatic;
 /**
- * ·ºĞÍÀà
+ * æ³›å‹ç±»
  * @author Administrator
  *
  */

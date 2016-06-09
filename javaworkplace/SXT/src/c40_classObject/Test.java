@@ -12,7 +12,7 @@ public class Test {
 
 		Object obj=new Object();
 		Object obj2=new Object();
-		//Ãû×Ö+@+hashCode
+		//åå­—+@+hashCode
 		System.out.println(obj.toString());
 		System.out.println(obj2.toString());
 		

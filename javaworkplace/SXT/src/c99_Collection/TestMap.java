@@ -8,7 +8,7 @@ import org.xml.sax.HandlerBase;
 public class TestMap {
 
 	/**
-	 * map:Í¨¹ı¼üÕÒÖµ
+	 * map:é€šè¿‡é”®æ‰¾å€¼
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -19,7 +19,7 @@ public class TestMap {
 		System.out.println(m.containsKey("vnix"));
 		
 		Wife w=(Wife)m.get("vnix");
-		m.remove("vnix");//½«½¨-Öµ¶ÔÕûÌåÒÆ³ı
+		m.remove("vnix");//å°†å»º-å€¼å¯¹æ•´ä½“ç§»é™¤
 	
 
 		System.out.println(w.name);

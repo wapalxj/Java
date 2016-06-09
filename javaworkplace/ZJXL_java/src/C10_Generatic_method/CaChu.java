@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * ²Á³ı:±àÒëÊ±£º±àÒëÆ÷»á½«<>ÖĞµÄÀàĞÍ×ªÎªObject
+ * æ“¦é™¤:ç¼–è¯‘æ—¶ï¼šç¼–è¯‘å™¨ä¼šå°†<>ä¸­çš„ç±»å‹è½¬ä¸ºObject
  * @author Administrator
  *
  */
@@ -14,7 +14,7 @@ public class CaChu <T,V>{
     T obj1=null;
     V obj2=null;
 
-    //ÒòÎª²Á³ı£¬ÏÂÃæÁ½¸ö·½·¨²»ÄÜÍ¬Ê±´æÔÚ
+    //å› ä¸ºæ“¦é™¤ï¼Œä¸‹é¢ä¸¤ä¸ªæ–¹æ³•ä¸èƒ½åŒæ—¶å­˜åœ¨
     void setValue(T obj){
 
     }
@@ -29,7 +29,7 @@ public class CaChu <T,V>{
 		List<Integer> intList =new ArrayList<Integer>();
 				
 		System.out.println(
-				strList.getClass()==intList.getClass()//ÒòÎª²Á³ıÔ­Àí£¬Á½¸öÀàĞÍ¶¼»áÊÇObject
+				strList.getClass()==intList.getClass()//å› ä¸ºæ“¦é™¤åŸç†ï¼Œä¸¤ä¸ªç±»å‹éƒ½ä¼šæ˜¯Object
 				);
 		
 	}

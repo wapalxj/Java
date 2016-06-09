@@ -2,18 +2,18 @@ package c38_inher;
 
 import c37.This;
 
-//²âÊÔ×éºÏ
+//æµ‹è¯•ç»„åˆ
 public class Animal2 {
 	private String eyes="eyes";
 	
 	
 	public void run()
 	{
-		System.out.println("ÅÜÑ½ÅÜ");
+		System.out.println("è·‘å‘€è·‘");
 	}
 	public void eat()
 	{
-		System.out.println("³Ô³Ô£¡");
+		System.out.println("åƒåƒï¼");
 	}
 	public void sleep()
 	{
@@ -44,12 +44,12 @@ public class Animal2 {
 	}
 	public void run()
 	{
-		animal2.run();//Ò²¿ÉÒÔµ÷ÓÃ¸¸ÀàµÄrun
-		System.out.println("·ÉÑ½·É");//ÖØĞ´
+		animal2.run();//ä¹Ÿå¯ä»¥è°ƒç”¨çˆ¶ç±»çš„run
+		System.out.println("é£å‘€é£");//é‡å†™
 	}
 	
 	public void eggSheng()
 	{
-		System.out.println("ÎÒÊÇÂÑÉú");
+		System.out.println("æˆ‘æ˜¯åµç”Ÿ");
 	}
 }

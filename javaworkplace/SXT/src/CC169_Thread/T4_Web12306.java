@@ -1,30 +1,21 @@
 package CC169_Thread;
 
-import c54_stri.Str;
-
 public class T4_Web12306 {
 
 	public static void main(String[] args) {
-		//ÕæÊµ½ÇÉ«
+		//çœŸå®žè§’è‰²
 		Web12306 w=new Web12306();
 		
-		Thread t1=new Thread(w,"»ÆÅ£1");
-		Thread t2=new Thread(w,"»ÆÅ£2");
-		Thread t3=new Thread(w,"»ÆÅ£3");
+		Thread t1=new Thread(w,"é»„ç‰›1");
+		Thread t2=new Thread(w,"é»„ç‰›2");
+		Thread t3=new Thread(w,"é»„ç‰›3");
 		
 		t1.start();
 		t2.start();
 		t3.start();
 
 	}
-//	public static void main(String[] args) {
-//		WebWhole w1=new WebWhole("vero1");
-//		WebWhole w2=new WebWhole("vero2");
-//		WebWhole w3=new WebWhole("vero3");
-//		w1.start();
-//		w2.start();
-//		w3.start();
-//	}
+
 }
 
 class Web12306 implements Runnable{
@@ -34,13 +25,29 @@ class Web12306 implements Runnable{
 			if (num<=0) {
 				break;
 			}
-			System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+			System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 		}
 	}
 }
 
+
+
+
+
+/**
+ * ç»§æ‰¿è‡ªThread
+ */
 class WebWhole extends Thread{
-	
+//	public static void main(String[] args) {
+//		WebWhole w1=new WebWhole("vero1");
+//		WebWhole w2=new WebWhole("vero2");
+//		WebWhole w3=new WebWhole("vero3");
+//		w1.start();
+//		w2.start();
+//		w3.start();
+//	}
+
+
 	private String name;
 	private int num=10; 
 	public WebWhole(String name) {
@@ -52,7 +59,7 @@ class WebWhole extends Thread{
 			if (num<=0) {
 				break;
 			}
-			System.out.println(this.getName1()+"ÇÀµ½ÁË"+num--);
+			System.out.println(this.getName1()+"æŠ¢åˆ°äº†"+num--);
 		}
 	}
 	

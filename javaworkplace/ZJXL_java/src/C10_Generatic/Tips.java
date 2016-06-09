@@ -5,7 +5,7 @@ package C10_Generatic;
 public class Tips {
 	
 	public static void main(String[] args) {
-		// 2.1²»ÄÜ¶¨ÒåÒ»¸ö·ºĞÍ»¯Êı×é
+		// 2.1ä¸èƒ½å®šä¹‰ä¸€ä¸ªæ³›å‹åŒ–æ•°ç»„
 		//Pair<String>[] table =new Pair<String>[10];
 		
 	
@@ -13,7 +13,7 @@ public class Tips {
 	
 }
 
-//2.2²»ÄÜÖ±½Ó´´½¨·ºĞÍÊµÀı
+//2.2ä¸èƒ½ç›´æ¥åˆ›å»ºæ³›å‹å®ä¾‹
 class P<T>{
 	T first;
 	T second;
@@ -22,32 +22,32 @@ class P<T>{
 //	this.second =new T();
 	}
 }
-//3.1²»ÄÜÖ±½Ó»ò¼ä½Ó¼Ì³Ğ×ÔThrowable:
+//3.1ä¸èƒ½ç›´æ¥æˆ–é—´æ¥ç»§æ‰¿è‡ªThrowable:
 //class Problem<T> extends Exception {
 //	
 //}
-//3.2ÎŞ·¨Å×³ö»ò²¶»ñ·ºĞÍÀàĞÍµÄ¶ÔÏó
+//3.2æ— æ³•æŠ›å‡ºæˆ–æ•è·æ³›å‹ç±»å‹çš„å¯¹è±¡
 //try {
 //	System.out.println(1);
 //} catch (T e) {
 //	e.printStackTrace();
 //  }
 
-//4.ÎŞ·¨¶¨Òå¸ĞĞÔ¾²Ì¬³ÉÔ±£¬ÎŞ·¨Í¨¹ı±àÒë
+//4.æ— æ³•å®šä¹‰æ„Ÿæ€§é™æ€æˆå‘˜ï¼Œæ— æ³•é€šè¿‡ç¼–è¯‘
 class MyC<T>{
 //	public static T value;
-//	public static  T f2(){´íÎó
+//	public static  T f2(){é”™è¯¯
 //	}
 }
 
-//5.1´Ó·ºĞÍÀàÅÉÉú×ÓÀà£¬²»ÔÊĞíÓĞ·ºĞÍ²ÎÊı
+//5.1ä»æ³›å‹ç±»æ´¾ç”Ÿå­ç±»ï¼Œä¸å…è®¸æœ‰æ³›å‹å‚æ•°
 //class MyP extends P<T>{	
 //}
-//µ«ÊÇ¿ÉÒÔÓĞ¾ßÌå²ÎÊı£º
+//ä½†æ˜¯å¯ä»¥æœ‰å…·ä½“å‚æ•°ï¼š
 class MyP extends P<String>{	
 }
 
-//5.2Èç¹ûPÊÇ·ºĞÍÀà£¬ÔÚ¶¨Òå×ÓÀàÊ±²»Ö¸¶¨·ºĞÍ²ÎÊı£¬ÔòPµÄ·ºĞÍÄ¬ÈÏÊÇObject
+//5.2å¦‚æœPæ˜¯æ³›å‹ç±»ï¼Œåœ¨å®šä¹‰å­ç±»æ—¶ä¸æŒ‡å®šæ³›å‹å‚æ•°ï¼Œåˆ™Pçš„æ³›å‹é»˜è®¤æ˜¯Object
 class MyP2 extends P{
 }
 

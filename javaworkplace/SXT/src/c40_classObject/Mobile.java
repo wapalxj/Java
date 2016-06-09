@@ -1,9 +1,9 @@
 package c40_classObject;
 
 public class Mobile {
-//ÖØĞ´toString·½·¨
+//é‡å†™toStringæ–¹æ³•
 	public String toString() {
-		return"ÎÒÊÇÒ»²¿µç»°" ;
+		return"æˆ‘æ˜¯ä¸€éƒ¨ç”µè¯" ;
 	}
 		
 	

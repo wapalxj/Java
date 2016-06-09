@@ -18,7 +18,7 @@ public class AverageNumbers {
 
 		System.out.println("average of numbers is : "+avg);
 		System.out.println("square root of average is : "+avgRoot);
-		System.out.println("�¹𺣣�20121120138");
+		System.out.println("穆桂海，20121120138");
 	}
 
 }

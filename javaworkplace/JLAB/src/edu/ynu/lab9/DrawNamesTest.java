@@ -6,8 +6,7 @@ import javax.swing.JFrame;
 public class DrawNamesTest {
 
 	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable()
-		{
+		EventQueue.invokeLater(new Runnable(){
 			public void run()
 			{
 				NamesFrame frame = new NamesFrame();
@@ -15,7 +14,7 @@ public class DrawNamesTest {
 	            frame.setVisible(true);
 			}	
 		}); 
-		System.out.println("20121120138�¹�");
+		System.out.println("20121120138穆桂海");
 	}
 	
 }

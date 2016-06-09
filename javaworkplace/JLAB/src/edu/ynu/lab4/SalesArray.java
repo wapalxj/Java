@@ -49,7 +49,7 @@ public class SalesArray {
 			System.out.print("\t"+total[j]+"\t");
 		}
 		System.out.println();
-		System.out.println("�¹𺣣�20121120138");
+		System.out.println("穆桂海，20121120138");
 	}
 
 }

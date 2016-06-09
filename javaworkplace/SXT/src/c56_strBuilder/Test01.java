@@ -8,14 +8,14 @@ public class Test01 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		StringBuilder sb =new StringBuilder("qwerrttyyui1234");
-		sb.delete(0, 3);//Í¬Ñù¿ÉÒÔ×ö³É·½·¨Á´
+		sb.delete(0, 3);//åŒæ ·å¯ä»¥åšæˆæ–¹æ³•é“¾
 		System.out.println(sb);
 		
 		sb.insert(2, "1");
 		System.out.println(sb);
 		
 		
-		sb.reverse();//µ¹Ğò
+		sb.reverse();//å€’åº
 		System.out.println(sb);
 		
 		StringBuffer sbb =new StringBuffer("qjksdfncelkn");

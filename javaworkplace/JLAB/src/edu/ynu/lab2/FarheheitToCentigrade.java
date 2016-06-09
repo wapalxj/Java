@@ -12,7 +12,7 @@ public class FarheheitToCentigrade {
 		
 		double Centigrade = 5/9.0* (tempFarenheit -32);
 		System.out.println("Centigrade equivalent is "+Centigrade);
-		System.out.println("�¹𺣣�20121120138");
+		System.out.println("穆桂海，20121120138");
 	}
 
 }

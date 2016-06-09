@@ -65,11 +65,9 @@ public class Response {
 			break;
 		case 404:
 			headInfo.append("NOT FOUND");
-			content=new StringBuilder("NOT FOUND");
 			break;	
 		case 505:
-			headInfo.append("SEVER ERROR");
-			content=new StringBuilder("SEVER ERROR");
+			headInfo.append("SERVER ERROR");
 			break;	
 //		default:
 //			break;

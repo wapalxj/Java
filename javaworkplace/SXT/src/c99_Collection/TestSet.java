@@ -6,10 +6,10 @@ import java.util.Set;
 public class TestSet {
 
 	public static void main(String[] args) {
-		Set s =new HashSet();
+		Set<String> s =new HashSet<>();
 		s.add("aaa");
 		s.add("bbbb");
-		s.add(new String("aaa"));//重复的判断依据是equals
+		s.add(new String("aaa"));//閲嶅鐨勫垽鏂緷鎹槸equals
 		System.out.println(s.size());
 		
 	}

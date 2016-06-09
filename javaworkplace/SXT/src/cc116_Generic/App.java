@@ -2,14 +2,18 @@ package cc116_Generic;
 
 import c36.Static;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 /**
  * 测试类型转换
  * @author Administrator
  *
  */
 public class App<T>{
-	public  T say(){
-		return null;
+	public  <T> List<T> say(){
+		return new ArrayList<T>();
 	}
 	public static void main(String[] args) {
 		Object obj =80; //自动装箱

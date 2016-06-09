@@ -2,17 +2,17 @@ package CC174_Thread3_state;
 
 
 /*
- * sleepÄ£ÄâÍøÂçÑÓÊ±
+ * sleepæ¨¡æ‹Ÿç½‘ç»œå»¶æ—¶
  */
 public class Demo05_sleep_test2 {
 
 	public static void main(String[] args) {
-		//ÕæÊµ½ÇÉ«
-				Web12306 w=new Web12306();
+		//çœŸå®è§’è‰²
+				Web12307 w=new Web12307();
 				
-				Thread t1=new Thread(w,"»ÆÅ£1");
-				Thread t2=new Thread(w,"»ÆÅ£2");
-				Thread t3=new Thread(w,"»ÆÅ£3");
+				Thread t1=new Thread(w,"é»„ç‰›1");
+				Thread t2=new Thread(w,"é»„ç‰›2");
+				Thread t3=new Thread(w,"é»„ç‰›3");
 				
 				t1.start();
 				t2.start();
@@ -21,7 +21,7 @@ public class Demo05_sleep_test2 {
 
 }
 
-class Web12306 implements Runnable{
+class Web12307 implements Runnable{
 	private int num=10;
 	public void run(){
 		while (true) {
@@ -29,11 +29,11 @@ class Web12306 implements Runnable{
 				break;
 			}
 			try {
-				Thread.sleep(500);//Ôö¼ÓÑÓÊ±£º»áµ¼ÖÂ½á¹û¿ÉÄÜ²»×¼È·
+				Thread.sleep(500);//å¢åŠ å»¶æ—¶ï¼šä¼šå¯¼è‡´ç»“æœå¯èƒ½ä¸å‡†ç¡®
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println(Thread.currentThread().getName()+"ÇÀµ½ÁË"+num--);
+			System.out.println(Thread.currentThread().getName()+"æŠ¢åˆ°äº†"+num--);
 		}
 	}
 }

@@ -1,16 +1,19 @@
 package cc118_Ge3;
 /*
- * Ã»ÓĞ·ºĞÍÊı×é
+ * æ²¡æœ‰æ³›å‹æ•°ç»„
  */
 public class Array {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Integer[] arr =new Integer[4];
-		//ÉùÃ÷¿ÉÒÔ£¬µ«ÊÇ´´½¨Ê§°Ü
+		//å£°æ˜ç”¨?å¯ä»¥ï¼Œä½†æ˜¯åˆ›å»ºå¤±è´¥
 //		Student<String>[] arr2 =new Student<String>[4];
-		Student<?> [] arr2 =new Student[5];
-		
+		Student<?> [] arr3 =new Student[5];
+		arr3[3]=new Student<String>();
+//		arr3[3].tag="student";
+		System.out.println();
+
 		MyArrayList<String> strList =new MyArrayList<String>();
 		strList.add(0, "a");
 		String elem=strList.getEle(0);
@@ -19,10 +22,10 @@ public class Array {
 
 }
 class Student<T>{
-	
+	public T tag;
 }
 class MyArrayList<E>{
-	//²»ÄÜĞ´³ÉE[] c=new Object[10];//Ã»ÓĞ·ºĞÍÊı×é
+	//ä¸èƒ½å†™æˆE[] c=new Object[10];//æ²¡æœ‰æ³›å‹æ•°ç»„
 	Object[] c =new Object[10];
 	
 	public void add(int idx,E e) {

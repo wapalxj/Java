@@ -10,8 +10,11 @@ public class Test {
         //声明题
 //        char c='a';
 //        boolean bo=null;
-//        float f=1.3;
-//        byte b=253;
+//        float f=1.33;
+//        byte b=255;
+//        short s=32768;
+//        long l=20l;
+//        double d=2.00d;
 
         //数组题
 //        System.out.println(arr[2]);

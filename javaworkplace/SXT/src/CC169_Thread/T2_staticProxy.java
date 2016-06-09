@@ -1,26 +1,25 @@
 package CC169_Thread;
 /*
- * ¾²Ì¬´úÀíÉè¼ÆÄ£Ê½:´ËÀıÖĞµÄWeddingCompany¾ÍÀàËÆÓÚThread
+ * é™æ€ä»£ç†è®¾è®¡æ¨¡å¼:æ­¤ä¾‹ä¸­çš„WeddingCompanyå°±ç±»ä¼¼äºThread
  */
 public class T2_staticProxy {
 
 	public static void main(String[] args) {
-		//´´½¨ÕæÊµ½ÇÉ«
+		//åˆ›å»ºçœŸå®è§’è‰²
 		You you=new You();
-		//´´½¨´úÀí½ÇÉ«+ÕæÊµ½ÇÉ«µÄÒıÓÃ
+		//åˆ›å»ºä»£ç†è§’è‰²+çœŸå®è§’è‰²çš„å¼•ç”¨
 		WeddingCompany company=new WeddingCompany(you);
-		//Ö´ĞĞÈÎÎñ
+		//æ‰§è¡Œä»»åŠ¡
 		company.marry();
-
 	}
 
 }
 
-//½Ó¿Ú(Ïàµ±ÓÚRunable)
+//æ¥å£(ç›¸å½“äºRunable)
 interface Marry{
-	public void marry();//(Ïàµ±ÓÚrun)
+	public void marry();//(ç›¸å½“äºrun)
 }
-//ÕæÊµ½ÇÉ«
+//çœŸå®è§’è‰²
 class You implements Marry{
 	@Override
 	public void marry() {
@@ -28,7 +27,7 @@ class You implements Marry{
 	}
 }
 
-//´úÀí½ÇÉ«
+//ä»£ç†è§’è‰²
 class WeddingCompany implements Marry{
 	private Marry you;
 	public WeddingCompany() {
@@ -38,10 +37,10 @@ class WeddingCompany implements Marry{
 		this.you=you;
 	}
 	private void before() {
-		System.out.println("²¼ÖÃÖíÎÑ!");
+		System.out.println("å¸ƒç½®çŒªçª!");
 	}
 	private void after() {
-		System.out.println("ÄÖ¶´·¿!");
+		System.out.println("é—¹æ´æˆ¿!");
 	}
 	@Override
 	public void marry() {

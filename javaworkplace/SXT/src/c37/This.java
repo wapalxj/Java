@@ -1,7 +1,5 @@
 package c37;
 
-import c31.Computer;
-
 public class This {
 
 	String name;
@@ -9,7 +7,7 @@ public class This {
 	
 	public This(String name,int id)
 	{
-		this(name);//µ÷ÓÃÁíÍâÒ»¸ö¹¹ÔìÆ÷,´Ë´úÂë±ØĞë·ÅÔÚµÚÒ»ĞĞ
+		this(name);//è°ƒç”¨å¦å¤–ä¸€ä¸ªæ„é€ å™¨,æ­¤ä»£ç å¿…é¡»æ”¾åœ¨ç¬¬ä¸€è¡Œ
 		this.name=name;
 		this.id=id;
 	}

@@ -1,9 +1,12 @@
 package c49_interface;
 
-public interface MyInterface {
-	String MAX_GREAD="BOSS";
+public  interface MyInterface {
+	//æ¥å£ä¸­å®šä¹‰çš„å¸¸é‡ï¼Œå†™ä¸å†™public static final,éƒ½å­˜åœ¨
+
+	public static final String MAX_GREAD="BOSS";
 	int MAX_SPEED=120;
-	//½Ó¿ÚÖĞ³£Á¿¶¨ÒåÊ±£¬Ğ´²»Ğ´public static final,¶¼´æÔÚ
+
+	//æ¥å£ä¸­å®šä¹‰çš„æ–¹æ³•ï¼Œå†™ä¸å†™public,éƒ½å­˜åœ¨
 	public void test01();
 	public int test02(int a,int b);		
 }

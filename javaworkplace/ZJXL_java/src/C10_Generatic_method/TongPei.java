@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 /**
- * Í¨Åä·û£¬¿ÉÒÔÆ¥ÅäÈÎºÎÒ»¸ö·ºĞÍ¼¯ºÏ£º£¿
+ * é€šé…ç¬¦ï¼Œå¯ä»¥åŒ¹é…ä»»ä½•ä¸€ä¸ªæ³›å‹é›†åˆï¼šï¼Ÿ
  * @author Administrator
  *
  */
@@ -18,7 +18,7 @@ public class TongPei {
 		
 		
 		/**
-		 * JDKÖĞÓĞÒ»ÏÂÉùÃ÷£¬ËùÒÔÏÂÃæµÄ´úÂëÊÇ¶ÔµÄ
+		 * JDKä¸­æœ‰ä¸€ä¸‹å£°æ˜ï¼Œæ‰€ä»¥ä¸‹é¢çš„ä»£ç æ˜¯å¯¹çš„
 	interface Collection<E>{
 		public boolean addAll(Collection<? extends E> c) {
 			

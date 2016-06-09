@@ -10,7 +10,7 @@ class TV{
     }
     public static void main(String[] args) {
         TV tv = new LeTV();
-//        ((LeTV)tv).show();
+        ((LeTV)tv).show();
         tv.show();//TV类中有private的方法时，优先使用
     }
 }
@@ -19,3 +19,5 @@ class LeTV extends TV{
         System.out.println("LeTV");
     }
 }
+
+

@@ -14,7 +14,7 @@ public class InputParms {
 		String []name=new String [3];
 		boolean isExsit=false;
 		
-		System.out.println("ÇëÊäÈë3¸öÃû×Ö´æ·ÅÔÚÎÒÕâÀï:");
+		System.out.println("è¯·è¾“å…¥3ä¸ªåå­—å­˜æ”¾åœ¨æˆ‘è¿™é‡Œ:");
 		
 		for(int i=0;i<3;i++)
 		{
@@ -22,20 +22,20 @@ public class InputParms {
 		
 		}
 		
-		System.out.println("ÇëÊäÈëÒ»¾ä»°£¬ÎÒÒª¿´¿´ÄãÓĞÃ»ÓĞÔÚÀïÃæ:");
+		System.out.println("è¯·è¾“å…¥ä¸€å¥è¯ï¼Œæˆ‘è¦çœ‹çœ‹ä½ æœ‰æ²¡æœ‰åœ¨é‡Œé¢:");
 		String myname=in.nextLine();
 		for(int i=0;i<3;i++)
 		{
 			if(myname.contains(name[i]))
 			{
 				isExsit=true;
-				System.out.println("ÄãµÄÃû×Ö "+ name[i]+" ±»·¢ÏÖÁËÅ¶!");
+				System.out.println("ä½ çš„åå­— "+ name[i]+" è¢«å‘ç°äº†å“¦!");
 				
 			}
 		}
 			if(isExsit!=true)
 			{
-				System.out.println("ÄãµÄÃû×ÖÃ»ÓĞ±»ÕÒµ½!");
+				System.out.println("ä½ çš„åå­—æ²¡æœ‰è¢«æ‰¾åˆ°!");
 			}
 			
 		

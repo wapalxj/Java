@@ -1,25 +1,25 @@
 package C10_Generatic_method;
 /**
- * ·ºĞÍ£ºÀàËÆ¶àÌ¬
+ * æ³›å‹ï¼šç±»ä¼¼å¤šæ€
  */
 import java.util.ArrayList;
 import java.util.List;
 
 public class GenericPolymorphism {
 	public static void main(String[] args) {
-		//ÀàËÆ¶àÌ¬
+		//ç±»ä¼¼å¤šæ€
 		List<Number> nums=new ArrayList<Number>();
-		nums.add(2);//NumberÊÇÒ»¸ö³éÏóÀà£¬ËùÒÔÕâÀïÌí¼ÓµÄÊµ¼ÊÉÏÊÇNumber×ÓÀàIntegerµÄ¶ÔÏó,¿ÉÔÚ±¾³ÌĞò½á¹ûÖĞ¿´µ½
-		nums.add(3.14);//NumberÊÇÒ»¸ö³éÏóÀà£¬ËùÒÔÕâÀïÌí¼ÓµÄÊµ¼ÊÉÏÊÇNumber×ÓÀàDoubleµÄ¶ÔÏó,¿ÉÔÚ±¾³ÌĞò½á¹ûÖĞ¿´µ½
+		nums.add(2);//Numberæ˜¯ä¸€ä¸ªæŠ½è±¡ç±»ï¼Œæ‰€ä»¥è¿™é‡Œæ·»åŠ çš„å®é™…ä¸Šæ˜¯Numberå­ç±»Integerçš„å¯¹è±¡,å¯åœ¨æœ¬ç¨‹åºç»“æœä¸­çœ‹åˆ°
+		nums.add(3.14);//Numberæ˜¯ä¸€ä¸ªæŠ½è±¡ç±»ï¼Œæ‰€ä»¥è¿™é‡Œæ·»åŠ çš„å®é™…ä¸Šæ˜¯Numberå­ç±»Doubleçš„å¯¹è±¡,å¯åœ¨æœ¬ç¨‹åºç»“æœä¸­çœ‹åˆ°
 		for (Number number : nums) {
 			System.out.println(number.getClass().getName());
 		}
 		
-		//Êµ¼Ê²»ÄÜĞÎ³É¶àÌ¬
+		//å®é™…ä¸èƒ½å½¢æˆå¤šæ€
 		List<Integer> ints =new ArrayList<Integer>();
 		ints.add(1);
 		ints.add(2);
-//		List<Number> nums2 =ints;//´íÎó£¬¿Î¼şÊµ¼ÊÒâÒåÉÏµÄ¶àÌ¬ÊÇ²»¿ÉĞĞµÄ
+//		List<Number> nums2 =ints;//é”™è¯¯ï¼Œè¯¾ä»¶å®é™…æ„ä¹‰ä¸Šçš„å¤šæ€æ˜¯ä¸å¯è¡Œçš„
 //		nums2.add(3.14);
 	}
 }
