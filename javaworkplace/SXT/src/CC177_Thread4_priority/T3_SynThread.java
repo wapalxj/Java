@@ -21,10 +21,10 @@ class Web12308 implements Runnable{
 	private boolean flag=true;
 	public void run(){
 		while (flag) {
-			test1();//线程不安全的
+//			test1();//线程不安全的
 //			test2();//线程安全的:同步方法
 //			test3();//线程安全的:同步块
-//			test4();
+			test4();
 		}
 	}
 	//线程不安全的
@@ -38,7 +38,9 @@ class Web12308 implements Runnable{
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		System.out.println(Thread.currentThread().getName()+"抢到了"+num--);
+		System.out.println(Thread.currentThread().getName()+"抢到了"+num);
+		//当线程1和2同时走到这个位置：出现问题
+		num--;
 	
 	}
 	//线程安全:同步方法
@@ -68,25 +70,42 @@ class Web12308 implements Runnable{
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
-				System.out.println(Thread.currentThread().getName()+"抢到了"+num--);
+				System.out.println(Thread.currentThread().getName()+"抢到了"+num);
+				num--;
 			}
 		}
-		
+
+	private Integer integer=10;
 	//线程不安全:
 	public  void  test4() {
+//		synchronized((Integer)num){
+//			//当线程1和2同时走到这个位置：出现问题：其中1个有锁，而另外1个没有锁：不能改变num
+//			if (num<=0) {
+//				this.flag=false;
+//				return;
+//			}
+//			try {
+//				Thread.sleep(500);
+//			} catch (InterruptedException e) {
+//				e.printStackTrace();
+//			}
+//			System.out.println(Thread.currentThread().getName()+"抢到了"+num--);
+//		}
+
+
+		//线程不安全:
 		synchronized((Integer)num){
-			if (num<=0) {
+			if (integer<=0) {
 				this.flag=false;
 				return;
 			}
-
-
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println(Thread.currentThread().getName()+"抢到了"+num--);
+			System.out.println(Thread.currentThread().getName()+"抢到了"+integer--);
+
 		}
 	}
 }

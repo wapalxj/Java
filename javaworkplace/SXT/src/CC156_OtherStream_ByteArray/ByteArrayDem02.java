@@ -27,61 +27,61 @@ public class ByteArrayDem02 {
 		toFileFromByteArray(data, "E:/others/1c.PNG");
 	}
 	/**
-	 * 1.ÎÄ¼ş---³ÌĞò---×Ö½ÚÊı×é
+	 * 1.æ–‡ä»¶---ç¨‹åº---å­—èŠ‚æ•°ç»„
 	 * @param srcPath
 	 * @return
 	 * @throws IOException
 	 */
 	public static byte[] getByteFromFile(String srcPath) throws IOException {
-		//´´½¨ÎÄ¼şÔ´
+		//åˆ›å»ºæ–‡ä»¶æº
 		File src=new File(srcPath);
-		//´´½¨×Ö½ÚÊı×éÄ¿µÄµØ
+		//åˆ›å»ºå­—èŠ‚æ•°ç»„ç›®çš„åœ°
 		byte[] dest =null;
-		//Ñ¡ÔñÁ÷
-		//ÎÄ¼şÊäÈëÁ÷
+		//é€‰æ‹©æµ
+		//æ–‡ä»¶è¾“å…¥æµ
 		InputStream is=new BufferedInputStream(new FileInputStream(src));
-		//×Ö½ÚÊı×éÊä³öÁ÷
+		//å­—èŠ‚æ•°ç»„è¾“å‡ºæµ
 		ByteArrayOutputStream bos=new ByteArrayOutputStream();
 		
-		//²Ù×÷
+		//æ“ä½œ
 		byte []flush =new byte[1024];
 		int len;
 		while (-1!=(len=is.read(flush))) {
-			//Ğ´³öµ½×Ö½ÚÊı×éÁ÷ÖĞ
+			//å†™å‡ºåˆ°å­—èŠ‚æ•°ç»„æµä¸­
 			bos.write(flush, 0, len);
 		}
 		bos.flush();
 		
-		//»ñÈ¡Êı¾İ
+		//è·å–æ•°æ®
 		dest=bos.toByteArray();
 		bos.close();
 		is.close();
 		return dest;
 	}
 	/*
-	 * 2.×Ö½ÚÊı×é---³ÌĞò---ÎÄ¼ş
+	 * 2.å­—èŠ‚æ•°ç»„---ç¨‹åº---æ–‡ä»¶
 	 */
 	public static void toFileFromByteArray(byte[] src,String destPath) throws IOException {
-		//´´½¨Ô´
-		//Ä¿µÄµØ
+		//åˆ›å»ºæº
+		//ç›®çš„åœ°
 		File dest =new File(destPath);
 		
-		//Ñ¡ÔñÁ÷
-		//×Ö½ÚÊı×éÊäÈëÁ÷
+		//é€‰æ‹©æµ
+		//å­—èŠ‚æ•°ç»„è¾“å…¥æµ
 		InputStream is=new BufferedInputStream(new ByteArrayInputStream(src));
-		//ÎÄ¼şÊä³öÁ÷
+		//æ–‡ä»¶è¾“å‡ºæµ
 		OutputStream os=new BufferedOutputStream (new FileOutputStream(dest));
 		
-		//²Ù×÷
+		//æ“ä½œ
 		byte []flush =new byte[1024];
 		int len;
 		while (-1!=(len=is.read(flush))) {
-			//Ğ´³öµ½ÎÄ¼ş
+			//å†™å‡ºåˆ°æ–‡ä»¶
 			os.write(flush, 0, len);
 		}
 		os.flush();
 		
-		//ÊÍ·Å×ÊÔ´
+		//é‡Šæ”¾èµ„æº
 		os.close();
 		is.close();
 	}

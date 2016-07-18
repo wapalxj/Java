@@ -14,22 +14,22 @@ import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 
 /*
- * ×ª»»Á÷£º×Ö½Ú×ª×Ö·û
- * 1.Êä³öÁ÷£ºOutputStreamWriter:±àÂë
- * 2.Êä³öÁ÷£ºInputStreamReader£º½âÂë
+ * è½¬æ¢æµï¼šå­—èŠ‚è½¬å­—ç¬¦
+ * 1.è¾“å‡ºæµï¼šOutputStreamWriter:ç¼–ç 
+ * 2.è¾“å‡ºæµï¼šInputStreamReaderï¼šè§£ç 
  */
 public class ConvertDemo02 {
 
 	public static void main(String[] args) throws IOException {
-		//ÄÚ²¿Ê¹ÓÃ×Ö½ÚÁ÷InputStreamReaderÖ¸¶¨½âÂë×Ö·û¼¯£¨Ô´ÎÄ¼şÒÑ¾­±»´æÎªUTF-8£©
+		//å†…éƒ¨ä½¿ç”¨å­—èŠ‚æµInputStreamReaderæŒ‡å®šè§£ç å­—ç¬¦é›†ï¼ˆæºæ–‡ä»¶å·²ç»è¢«å­˜ä¸ºUTF-8ï¼‰
 		BufferedReader br=new BufferedReader(
-				new InputStreamReader(//´Ë´¦¾ÍÎª×ª»»Á÷
-				//°´GBK¶ÁÈ¡		
+				new InputStreamReader(//æ­¤å¤„å°±ä¸ºè½¬æ¢æµ
+				//æŒ‰GBKè¯»å–		
 //				new FileInputStream(new File("E:/others/char.txt")),"GBK")
-				//°´UTF-8¶ÁÈ¡
+				//æŒ‰UTF-8è¯»å–
 						new FileInputStream(new File("E:/others/char.txt")),"UTF-8")
 		);
-		//Ğ´³ö
+		//å†™å‡º
 //		BufferedWriter bw=new BufferedWriter(new FileWriter("E:/others/char4.txt"));
 		BufferedWriter bw=new BufferedWriter(
 				new OutputStreamWriter(
@@ -42,7 +42,7 @@ public class ConvertDemo02 {
 		while (null!=(info=br.readLine())) {
 			System.out.println(info);
 			bw.write(info,0,info.length());
-			bw.newLine();//»»ĞĞ
+			bw.newLine();//æ¢è¡Œ
 		}
 
 		bw.flush();

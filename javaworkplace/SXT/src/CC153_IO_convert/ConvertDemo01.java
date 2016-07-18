@@ -6,34 +6,34 @@ public class ConvertDemo01 {
 
 	public static void main(String[] args) throws UnsupportedEncodingException {
 		test1();
-		String str="ÖĞ¹ú";
+		String str="ä¸­å›½";
 		byte[] data=str.getBytes();
-		//ÂÒÂë2£º×Ö½ÚÊı²»ÍêÕû
-		System.out.println("×Ö½ÚÊı²»ÍêÕûµÄÖĞ¹ú£º"+new String(data,0,3));
+		//ä¹±ç 2ï¼šå­—èŠ‚æ•°ä¸å®Œæ•´
+		System.out.println("å­—èŠ‚æ•°ä¸å®Œæ•´çš„ä¸­å›½ï¼š"+new String(data,0,3));
 		
 	}
 	/*
-	 * ÂÒÂë1.±àÂëÓë½âÂë×Ö·û¼¯±ØĞëÏàÍ¬£¬·ñÔòÂÒÂë
+	 * ä¹±ç 1.ç¼–ç ä¸è§£ç å­—ç¬¦é›†å¿…é¡»ç›¸åŒï¼Œå¦åˆ™ä¹±ç 
 	 */
 	public static void test1()  throws UnsupportedEncodingException{
-		//½âÂëbyte-->char
-		String str="ÖĞ¹ú";
-		//±àÂëchar-->byte
+		//è§£ç byte-->char
+		String str="ä¸­å›½";
+		//ç¼–ç char-->byte
 		byte[] data=str.getBytes();
-		System.out.println("Ä¬ÈÏµÄÆ½Ì¨±àÂëÓë½âÂëÖĞ¹ú£º"+new String(data));
+		System.out.println("é»˜è®¤çš„å¹³å°ç¼–ç ä¸è§£ç ä¸­å›½ï¼š"+new String(data));
 		
-		//Éè¶¨±àÂë×Ö·û¼¯
+		//è®¾å®šç¼–ç å­—ç¬¦é›†
 		data =str.getBytes("utf-8");
-		//±àÂë½âÂë×Ö·û¼¯²»Í³Ò»Ôò³öÏÖÂÒÂë
-		System.out.println("utf-8±àÂëµÄÖĞ¹ú£¬Ä¬ÈÏ½âÂëµÄÖĞ¹ú£º "+new String(data));
+		//ç¼–ç è§£ç å­—ç¬¦é›†ä¸ç»Ÿä¸€åˆ™å‡ºç°ä¹±ç 
+		System.out.println("utf-8ç¼–ç çš„ä¸­å›½ï¼Œé»˜è®¤è§£ç çš„ä¸­å›½ï¼š "+new String(data));
 		
 		System.out.println("****UTF-8******");
-		//±àÂë
-		byte[] data2="ÖĞ¹ú".getBytes("utf-8");
-		//½âÂë
+		//ç¼–ç 
+		byte[] data2="ä¸­å›½".getBytes("utf-8");
+		//è§£ç 
 		str=new String(data2,"utf-8");
-//				str=new String(data2);//²»ÖÆ¶¨½âÂë¸ñÊ½¾ÍÊÇÂÒµÄ
-		System.out.println("°´utf-8±àÂëºÍ½âÂëµÄÖĞ¹ú£º "+new String(str));
+//				str=new String(data2);//ä¸åˆ¶å®šè§£ç æ ¼å¼å°±æ˜¯ä¹±çš„
+		System.out.println("æŒ‰utf-8ç¼–ç å’Œè§£ç çš„ä¸­å›½ï¼š "+new String(str));
 		
 	}
 }
