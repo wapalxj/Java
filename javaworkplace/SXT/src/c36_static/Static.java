@@ -1,12 +1,20 @@
-package c36;
+package c36_static;
 
-import c31.Computer;
 //static:类变量，类方法
 public class Static {
 	String name;
 	int id;
 	static int age;
-	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Static.age=50;
+		System.out.println(Static.age);
+		Static c1=new Static();
+
+		System.out.println(c1.age);
+	}
+
 	public static void prints() {
 		System.out.println(age);
 //		this.id=2;静态的方法改变对象的状态。

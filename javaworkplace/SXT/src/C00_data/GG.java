@@ -9,6 +9,7 @@ public class GG {
     private double d;
     private boolean b;
     private int [] arr;//null
+    private String str;
     public static void main(String[] args) {
         new GG();
     }
@@ -17,6 +18,7 @@ public class GG {
         System.out.println(this.i);
         System.out.println(this.d);
         System.out.println(this.b);
-        System.out.println(arr[1]);//运行出错
+        System.out.println(this.str==null);
+//        System.out.println(arr[1]);//运行出错
     }
 }

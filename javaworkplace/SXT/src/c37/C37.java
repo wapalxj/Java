@@ -1,13 +1,13 @@
 package c37;
 
-public class Test {
+public class C37 {
 
+	public static int a=999;
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+        System.out.println("C37---main");
 	}
 
 }

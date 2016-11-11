@@ -11,10 +11,14 @@ public class Test_dataType {
     private static int yy;
     public static void main(String[] args) {
         byte b1=127;
+
 //        byte b2=128;//编译错误
         short s1=32767;
 //        short s2=32768;//编译错误
         int c=500;
+
+        float f=1.2f;
+//        float f=1.2;//编译错误
 
 //        b1=c;//编译错误
 //        b1=s1;//编译错误
@@ -37,6 +41,16 @@ public class Test_dataType {
             System.out.println("null属于java.lang.Object类型");
         } else {
             System.out.println("null不属于java.lang.Object类型");
+        }
+
+
+        //switch
+        byte a=1;
+        switch (a){
+            case 1:
+                break;
+            default:
+                break;
         }
 
     }

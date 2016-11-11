@@ -15,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/JLAB/src/edu/ynu/lab9/DrawNamesTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JLAB/src/edu/ynu/labz10/ChangeColorFrame.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JLAB/src/edu/ynu/labz10/DrawBall.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/C00_data/Unicode.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/C00_data/Unicode2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC127_1TreeSet/TreeSetDemo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC146_IO_Stream/CopyFile.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC146_IO_Stream/Demo01.java" charset="UTF-8" />
@@ -47,7 +49,7 @@
     <file url="file://$PROJECT_DIR$/SXT/src/CC205_XML/PersonHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC210_ORM/Demo01.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC216_byteCode/Demo02.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SXT/src/c36/Static.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/c36_static/Static.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c37/This.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c38_inher/Animal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c38_inher/Animal2.java" charset="UTF-8" />

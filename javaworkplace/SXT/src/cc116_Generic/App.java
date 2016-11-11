@@ -1,10 +1,7 @@
 package cc116_Generic;
 
-import c36.Static;
-
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * 测试类型转换
