@@ -19,6 +19,8 @@ public class GG {
         System.out.println(this.d);
         System.out.println(this.b);
         System.out.println(this.str==null);
+        System.out.println(this.str=="");
+        System.out.println(this.str.equals(""));
 //        System.out.println(arr[1]);//运行出错
     }
 }

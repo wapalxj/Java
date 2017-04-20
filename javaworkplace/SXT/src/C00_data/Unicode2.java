@@ -12,6 +12,11 @@ package C00_data;
  */
 public class Unicode2 {
     public static void main(String[] args) {
+        char c=49;
+        System.out.println((int)('1')==c);
+
+
+
         char ch='A';
         int Ach=Integer.valueOf(ch);
         //A的字符编码数:65----二进制：1000001----16进制：41

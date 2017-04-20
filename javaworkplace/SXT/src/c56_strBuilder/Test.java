@@ -5,16 +5,16 @@ import java.util.Arrays;
 public class Test {
 
 	/**
-	 * ¿É±ä×Ö·ûĞòÁĞ:strBuilderºÍstrBuffer
+	 * å¯å˜å­—ç¬¦åºåˆ—:strBuilderå’ŒstrBuffer
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StringBuilder sb =new StringBuilder();//×Ö·û³õÊ¼³¤¶ÈÎª16
-		StringBuilder sb1 =new StringBuilder(32);//×Ö·û³õÊ¼³¤¶ÈÎª32
-		StringBuilder sb2 =new StringBuilder("abcd");//×Ö·û³õÊ¼³¤¶ÈÎª16+4=20,value[]={'a','b','c','d','\u0000','\u0000','\u0000'¡­¡­}
+		StringBuilder sb =new StringBuilder();//å­—ç¬¦åˆå§‹é•¿åº¦ä¸º16
+		StringBuilder sb1 =new StringBuilder(32);//å­—ç¬¦åˆå§‹é•¿åº¦ä¸º32
+		StringBuilder sb2 =new StringBuilder("abcd");//å­—ç¬¦åˆå§‹é•¿åº¦ä¸º16+4=20,value[]={'a','b','c','d','\u0000','\u0000','\u0000'â€¦â€¦}
 //		sb2.append("efg");
-//		sb2.append(123).append(456);//append·½·¨¿ÉĞÎ³ÉÒ»¸ö·½·¨Á´£¬ÒòÎªËüµÄ·µ»ØÖµÊÇthis
+//		sb2.append(123).append(456);//appendæ–¹æ³•å¯å½¢æˆä¸€ä¸ªæ–¹æ³•é“¾ï¼Œå› ä¸ºå®ƒçš„è¿”å›å€¼æ˜¯this
 		System.out.println(sb2);
 		System.out.println("sb2.length "+sb2.capacity());
 		sb2.append("222");
@@ -23,10 +23,10 @@ public class Test {
 		System.out.println(sb2.capacity());
 		System.out.println(sb1.capacity());
 		
-		//JDkÔ´ÂëÖĞÓĞÀàËÆÕâÑùÒ»¶Î´úÂë£¬¿É¼ûÊÇºÏ·¨µÄ
+		//JDkæºç ä¸­æœ‰ç±»ä¼¼è¿™æ ·ä¸€æ®µä»£ç ï¼Œå¯è§æ˜¯åˆæ³•çš„
 		int []a= {1,2,3};
 		int newCapacity =10;
-		a = Arrays.copyOf(a, newCapacity);//µ±appendºóÈİÁ¿²»¹»Ê±£¬ÎªJDKStringBuilderµÄÀ©Èİ·½Ê½
+		a = Arrays.copyOf(a, newCapacity);//å½“appendåå®¹é‡ä¸å¤Ÿæ—¶ï¼Œä¸ºJDKStringBuilderçš„æ‰©å®¹æ–¹å¼
 		System.out.println(a.length);
 		
 		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@");
@@ -34,6 +34,9 @@ public class Test {
 		System.out.println(msb);
 		System.out.println(msb.length());
 		System.out.println(msb.capacity());
+
+		//ä¸èƒ½ç”±Stringèµ‹å€¼
+		//StringBuffer stringBuffer="xxxxx";
 	}
 
 }

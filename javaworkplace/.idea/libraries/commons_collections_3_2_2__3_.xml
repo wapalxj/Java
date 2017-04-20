@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="commons-collections-3.2.2 (3)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Thinking_in_Java/lib/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Thinking_in_Java/lib/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Thinking_in_Java/lib/commons-lang-2.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Thinking_in_Java/lib/ezmorph-1.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Thinking_in_Java/lib/json-lib-2.4-jdk15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

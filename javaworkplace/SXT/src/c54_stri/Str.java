@@ -3,7 +3,7 @@ package c54_stri;
 public class Str {
 
 	/**
-	 * ²»¿É±ä×Ö·ûĞòÁĞ
+	 * ä¸å¯å˜å­—ç¬¦åºåˆ—
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -21,6 +21,13 @@ public class Str {
 		System.out.println(str3==str4);
 		System.out.println(str3.equals(str4));
 		System.out.println(str4.substring(0, 2));
+		System.out.println("=============");
+
+		String strToString="vero".toString().toString();
+		System.out.println(strToString);
+
+		String strAddString="vero".toString()+new String("vvvvv");
+		System.out.println(strAddString);
 	}
 
 }

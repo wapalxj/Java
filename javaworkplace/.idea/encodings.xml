@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/Interview/src/interview1/ThreadTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JLAB/src/Exit.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JLAB/src/edu/ynu/lab2/AverageNumbers.java" charset="UTF-8" />
@@ -66,6 +66,8 @@
     <file url="file://$PROJECT_DIR$/SXT/src/c49_interface/MyInterface.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c51_innerclass/OuterClass.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c52_array/Array.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/c54_stri/Str.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/c56_strBuilder/Test.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c56_strBuilder/Test01.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception2.java" charset="UTF-8" />
@@ -95,6 +97,7 @@
     <file url="file://$PROJECT_DIR$/SXT/src/cc122_sort/Demo05.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/cc122_sort/Demo4.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/cc122_sort/PakageType.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Thinking_in_Java/src/Test/TestTime.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZJXL_java/src/C06_inher/Bird.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZJXL_java/src/C10_Generatic/MyClass.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ZJXL_java/src/C10_Generatic/Pair.java" charset="UTF-8" />
