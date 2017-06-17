@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books>
+    <book>
+       <name>java</name>
+        <price>50</price>
+    </book>
+    <book>
+        <name>c++</name>
+        <price>60&lt;30</price>
+        <![CDATA[
+            if(a>0){
+                printf("vero");
+            }
+        ]]>
+    </book>
+</books>
+

@@ -1,0 +1,14 @@
+<!--root标签为students 子标签可以为0个或多个student标签-->
+<!ELEMENT students (student*)>
+
+<!--student标签有三个子标签-->
+<!ELEMENT student (name,age,sex)>
+
+<!--三个子标签为字符串文本-->
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT sex (#PCDATA)>
+
+<!--student标签有number属性，id标识值是唯一的，#REQUIRED表示必需-->
+<!ATTLIST student number ID #REQUIRED>
+

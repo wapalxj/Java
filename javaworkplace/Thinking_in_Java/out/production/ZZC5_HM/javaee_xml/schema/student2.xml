@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<vero:students
+        xsi:schemaLocation="http://www.vero.cn student.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.vero.cn"
+        xmlns:vero="http://www.vero.cn"
+        xmlns:vnix="http://www.vero.cn"
+    >
+    <!--第1个名称空间 :默认名称空间-->
+    <student number="vero_1234">
+        <name>sasd</name>
+        <age>20</age>
+        <sex>male</sex>
+    </student>
+
+    <!--第2个名称空间：vero-->
+    <vero:student number="vero_1234">
+        <vero:name>sasd</vero:name>
+        <vero:age>20</vero:age>
+        <vero:sex>male</vero:sex>
+    </vero:student>
+
+    <!--第3个名称空间: vnix-->
+    <vnix:student number="vero_1234">
+        <vnix:name>sasd</vnix:name>
+        <vnix:age>20</vnix:age>
+        <vnix:sex>male</vnix:sex>
+    </vnix:student>
+</vero:students>
+

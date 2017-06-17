@@ -1,10 +1,12 @@
-import java.util.Date;
+package android;
+
+import java.util.Iterator;
 
 /**
  * Created by Administrator on 2017/4/14.
  * 双向链表
  */
-public class DoubleLinkedlist {
+public class DoubleLinkedlist implements Iterable{
     public static void main(String[] args) {
         DoubleLinkedlist datas=new DoubleLinkedlist();
         datas.add("aaa");
@@ -15,6 +17,13 @@ public class DoubleLinkedlist {
         datas.remove("bbb");
         System.out.println(datas);
     }
+
+    @Override
+    public Iterator iterator() {
+
+        return null;
+    }
+
     private class Node{
         Object data;//存储数据
         Node prev;//指向前一个结点
