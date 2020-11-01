@@ -18,6 +18,9 @@
     <file url="file://$PROJECT_DIR$/SXT/src/C00_data/Unicode.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/C00_data/Unicode2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC127_1TreeSet/TreeSetDemo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo01.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo02.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo03.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC146_IO_Stream/CopyFile.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC146_IO_Stream/Demo01.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC146_IO_Stream/Demo02.java" charset="UTF-8" />
@@ -29,6 +32,7 @@
     <file url="file://$PROJECT_DIR$/SXT/src/CC153_IO_convert/ConvertDemo01.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC153_IO_convert/ConvertDemo02.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC156_OtherStream_ByteArray/ByteArrayDem02.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC156_OtherStream_ByteArray/ByteArrayDemo01.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC169_Thread/T1_myThread.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC169_Thread/T2_staticProxy.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC169_Thread/T3_Runnable.java" charset="UTF-8" />
@@ -45,11 +49,36 @@
     <file url="file://$PROJECT_DIR$/SXT/src/CC180_Thread5_deadlock/T1_deadlock.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC180_Thread5_deadlock/T2_Movie1.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC180_Thread5_deadlock/T3_Movie2.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyClient.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyClient_object.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer_object.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/Multi_Server.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/MyClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/MyServer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Client.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/CloseUtil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Receive.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Send.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Server.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC195_httpserver/Server2_post_receiveData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC195_httpserver/Server3_respond.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC195_httpserver/Server_get.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC200_httpserver_Package_Request/Request.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC200_httpserver_Package_Request/Server5.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC203_httpserver_Polymorphism/Request.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC205_XML/Person.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC205_XML/PersonHandler.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC208_Annotation/Demo01.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC208_Annotation/SxtAnnotation.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC210_ORM/Demo01.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC210_ORM/SxStudent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC210_ORM/SxTable.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC211_reflection/Demo01_Refelction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06_annotation/Demo06_Annotation.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06_annotation/SxTable.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/SXT/src/CC216_byteCode/Demo02.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/SXT/src/c36_static/Static.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/c36_static/D1_Static.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c37/This.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c38_inher/Animal.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c38_inher/Animal2.java" charset="UTF-8" />
@@ -69,6 +98,7 @@
     <file url="file://$PROJECT_DIR$/SXT/src/c54_stri/Str.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c56_strBuilder/Test.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c56_strBuilder/Test01.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/SXT/src/c64_boxing_Charp4/Test.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1ReadFile.java" charset="UTF-8" />

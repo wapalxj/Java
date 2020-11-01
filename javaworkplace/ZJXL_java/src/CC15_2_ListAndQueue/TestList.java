@@ -7,26 +7,26 @@ public class TestList
 	public static void main(String[] args) 
 	{
 		List books = new ArrayList();
-		//Ïòbooks¼¯ºÏÖÐÌí¼ÓÈý¸öÔªËØ
+		//ï¿½ï¿½booksï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		books.add(new String("One book"));
 		books.add(new String("Two book"));
 		books.add(new String("Three book"));
 		System.out.println(books);
-		//½«ÐÂ×Ö·û´®¶ÔÏó²åÈëÔÚµÚ¶þ¸öÎ»ÖÃ
+		//ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÚ¶ï¿½ï¿½ï¿½Î»ï¿½ï¿½
 		books.add(1 , new String("new book"));
 		for (int i = 0 ; i < books.size() ; i++ )
 		{
 			System.out.println(books.get(i));
 		}
-		//É¾³ýµÚÈý¸öÔªËØ
+		//É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		books.remove(2);
 		System.out.println(books);
-		//ÅÐ¶ÏÖ¸¶¨ÔªËØÔÚList¼¯ºÏÖÐÎ»ÖÃ£ºÊä³ö1£¬±íÃ÷Î»ÓÚµÚ¶þÎ»
+		//ï¿½Ð¶ï¿½Ö¸ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½testListï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½ï¿½1ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ÚµÚ¶ï¿½Î»
 		System.out.println(books.indexOf(new String("new book")));
-		//½«µÚ¶þ¸öÔªËØÌæ»»³ÉÐÂµÄ×Ö·û´®¶ÔÏó
+		//ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½Ôªï¿½ï¿½ï¿½æ»»ï¿½ï¿½ï¿½Âµï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		books.set(1, new String("new book2"));
 		System.out.println(books);
-		//½«books¼¯ºÏµÄµÚ¶þ¸öÔªËØ£¨°üÀ¨£©µ½µÚÈý¸öÔªËØ£¨²»°üÀ¨£©½ØÈ¡×Ó¼¯ºÏ
+		//ï¿½ï¿½booksï¿½ï¿½ï¿½ÏµÄµÚ¶ï¿½ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½Ó¼ï¿½ï¿½ï¿½
 		System.out.println(books.subList(1 , 2));
 
 	}

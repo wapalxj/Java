@@ -14,9 +14,10 @@ public class Call {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
 		//创建2个线程
 		ExecutorService ser=Executors.newFixedThreadPool(2);
-		Race tortoise=new Race("千年王八",1000);
-		Race rabbit=new Race("小兔子",500);
+		RaceCallable tortoise=new RaceCallable("千年王八",1000);
+		RaceCallable rabbit=new RaceCallable("小兔子",500);
 		//获取值
+		//返回的是一个FutureTask
 		Future<Integer> res1=ser.submit(tortoise);
 		Future<Integer> res2=ser.submit(rabbit);
 		
@@ -34,21 +35,21 @@ public class Call {
 
 }
 
-class Race implements Callable<Integer>{
+class RaceCallable implements Callable<Integer>{
 	private String name;
 	private long time;
 	private boolean flag=true;
 	private int step=0;
 	
-	public Race() {
+	public RaceCallable() {
 	
 	}
 
-	public Race(String name) {
+	public RaceCallable(String name) {
 		super();
 		this.name=name;
 	}
-	public Race(String name,long time) {
+	public RaceCallable(String name,long time) {
 		super();
 		this.name=name;
 		this.time=time;

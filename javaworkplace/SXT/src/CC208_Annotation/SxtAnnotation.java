@@ -7,13 +7,13 @@ import java.lang.annotation.Target;
 
 /**
  * Created by Administrator on 2015/12/10.
- * ×Ô¶¨Òå×¢½â
+ * è‡ªå®šä¹‰æ³¨è§£
  */
 @Target(value = ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface SxtAnnotation {
-    //ÀàĞÍString,²ÎÊıÃûveroName£¬Ä¬ÈÏÖµ""
+    //ç±»å‹String,å‚æ•°åveroNameï¼Œé»˜è®¤å€¼""
     String veroName() default "";
-    //ÀàĞÍint,²ÎÊıÃûage£¬Ä¬ÈÏÖµ""
+    //ç±»å‹int,å‚æ•°åageï¼Œé»˜è®¤å€¼""
     int age() default 1;
 }

@@ -15,3 +15,27 @@ public @interface SxField {
     String type();
     int length();
 }
+
+
+
+
+@interface Check {
+    int value();
+}
+
+@Target({ElementType.METHOD,ElementType.FIELD})
+@interface Perform  {
+
+}
+
+class Test{
+
+    @Perform()
+    @Check(1)
+    int a;
+
+    @Perform
+    int b;
+
+}
+

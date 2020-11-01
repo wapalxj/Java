@@ -3,19 +3,19 @@ package CC143_IO_File;
 import java.io.File;
 
 /*
- * Á½¸ö³£ÓÃ³£Á¿
- * 1.Â·¾¶·Ö¸ô·û ;
- * 2.ÎÄ¼ş·Ö¸ô·û  \(windows)    /(·Çwindows)
+ * ä¸¤ä¸ªå¸¸ç”¨å¸¸é‡
+ * 1.è·¯å¾„åˆ†éš”ç¬¦ ;
+ * 2.æ–‡ä»¶åˆ†éš”ç¬¦  \(windows)    /(éwindows)
  */
 public class Demo01 {
 
 	public static void main(String[] args) {
 		System.out.println(File.pathSeparator);
 		System.out.println(File.separator);
-		//Â·¾¶±íÊ¾ĞÎÊ½
-		String path ="F:\\others\\xp.txt";//1(\±¾ÉíÊÇ×ªÒå×Ö·û£¬ËùÒÔĞèÒª\\)
+		//è·¯å¾„è¡¨ç¤ºå½¢å¼
+		String path ="F:\\others\\xp.txt";//1(\æœ¬èº«æ˜¯è½¬ä¹‰å­—ç¬¦ï¼Œæ‰€ä»¥éœ€è¦\\)
 		path ="F"+File.separator+"others"+File.separator+"xp.txt";//2
-		path ="F:/others/xp.txt";//3,ÍÆ¼öµÄ·½Ê½
+		path ="F:/others/xp.txt";//3,æ¨èçš„æ–¹å¼
 	}
 
 }

@@ -11,41 +11,41 @@ public class VideoFrame extends JFrame {
 	 private static final int DEFAULT_HEIGHT = 150;
 	 
 	 public VideoFrame()  { 
-	  setTitle("20121120138¡ª¡ªÄÂ¹ðº£"); 
+	  setTitle("20121120138ï¿½ï¿½ï¿½ï¿½ï¿½Â¹ï¿½"); 
 	        setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);   
-	        JLabel listLabel = new JLabel("Movie List ", SwingConstants.LEFT);     
+	        JLabel listLabel = new JLabel("Movie testList ", SwingConstants.LEFT);
 	        JLabel priceLabel = new JLabel("Yunnan Uni Videos ", SwingConstants.LEFT); 
 	        JPanel northPanel = new JPanel();
 	        JPanel centerPanel = new JPanel();          
 	        listBox = new JComboBox(); 
 	        priceField = new JTextField(10); 
 	        priceField.setText("Movie Price $0.0");          
-	        listBox.setEditable(true); //ÉèÖÃ×éºÏ¿ò 
+	        listBox.setEditable(true); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ 
 	        listBox.addItem("none"); 
-	        listBox.addItem("ÎÞ¼äµÀ"); 
-	        listBox.addItem("»¢ÂèÃ¨°Ö");
-	        listBox.addItem("ËÙ¶ÈÓë¼¤Çé"); 
-	        listBox.addItem("¸´³ðÕßÁªÃË2");
-	        listBox.addItem("ºûµûÐ§Ó¦");
-	        listBox.addItem("°ÄÃÅ·çÔÆ");
-	        listBox.addItem("Õ½ÀÇ"); 
-	        listBox.addItem("ÍòÎïÉú³¤"); 
-	        listBox.addItem("ÖØ·µ20Ëê");
-	        listBox.addItem("³ÁÄ¬µÄ¸áÑò");
-	        northPanel.add(listLabel); //Ìí¼Ó×é¼þ        
+	        listBox.addItem("ï¿½Þ¼ï¿½ï¿½"); 
+	        listBox.addItem("ï¿½ï¿½ï¿½ï¿½Ã¨ï¿½ï¿½");
+	        listBox.addItem("ï¿½Ù¶ï¿½ï¿½ë¼¤ï¿½ï¿½"); 
+	        listBox.addItem("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½2");
+	        listBox.addItem("ï¿½ï¿½ï¿½ï¿½Ð§Ó¦");
+	        listBox.addItem("ï¿½ï¿½ï¿½Å·ï¿½ï¿½ï¿½");
+	        listBox.addItem("Õ½ï¿½ï¿½"); 
+	        listBox.addItem("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); 
+	        listBox.addItem("ï¿½Ø·ï¿½20ï¿½ï¿½");
+	        listBox.addItem("ï¿½ï¿½Ä¬ï¿½Ä¸ï¿½ï¿½ï¿½");
+	        northPanel.add(listLabel); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½        
 	        northPanel.add(listBox); 
 	        centerPanel.add(priceLabel);
 	        centerPanel.add(priceField);  
-	        add(northPanel,BorderLayout.NORTH);  //Ìí¼ÓÃæ°å 
+	        add(northPanel,BorderLayout.NORTH);  //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 	        add(centerPanel,BorderLayout.CENTER);   
 	        
-	        listBox.addActionListener(new ActionListener(){   //ÊÂ¼þ´¦Àí      
+	        listBox.addActionListener(new ActionListener(){   //ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½      
 	        public void actionPerformed(ActionEvent event){ 
 		          String str = (String)listBox.getSelectedItem(); 
 		          if(str.equals("none")) 
 		           priceField.setText("Movie Price $0.0"); 
 		          
-		          else if(str.equals("ÖØ·µ20Ëê") ||str.equals("ºûµûÐ§Ó¦")|| str.equals("³ÁÄ¬µÄ¸áÑò")) 
+		          else if(str.equals("ï¿½Ø·ï¿½20ï¿½ï¿½") ||str.equals("ï¿½ï¿½ï¿½ï¿½Ð§Ó¦")|| str.equals("ï¿½ï¿½Ä¬ï¿½Ä¸ï¿½ï¿½ï¿½")) 
 		           priceField.setText("Movie Price $2.5"); 
 		          else 
 		           priceField.setText("Movie Price $2.0"); 

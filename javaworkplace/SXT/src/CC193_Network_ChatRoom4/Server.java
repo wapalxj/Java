@@ -1,6 +1,6 @@
 package CC193_Network_ChatRoom4;
 /*
- * ÕâÒ»²½ÍêÉÆÁËÁÄÌìÊÒ
+ * è¿™ä¸€æ­¥å®Œå–„äº†èŠå¤©å®¤
  */
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Server {
-	private List<MyChannel> all=new ArrayList<MyChannel>();//ÓÃÀ´¹ÜÀíËùÓĞ¹ÜµÀ(Socket)
+	private List<MyChannel> all=new ArrayList<MyChannel>();//ç”¨æ¥ç®¡ç†æ‰€æœ‰ç®¡é“(Socket)
 	public static void main(String[] args) throws IOException {
 		new Server().start();
 			
@@ -19,25 +19,25 @@ public class Server {
 	
 	public void start() throws IOException {
 		ServerSocket server=new ServerSocket(9999);
-		//Á¬½Ó¶à¸ö¿Í»§¶Ë
+		//è¿æ¥å¤šä¸ªå®¢æˆ·ç«¯
 		while (true) {
 			Socket client=server.accept();
 			MyChannel channel =new MyChannel(client);
 			all.add(channel);
-			new Thread(channel).start();//Ò»ÌõµÀÂ·
+			new Thread(channel).start();//ä¸€æ¡é“è·¯
 		}
 	}
 	/**
-	 * Ò»¸ö¿Í»§¶Ë¶ÔÓ¦Ò»ÌõµÀÂ·
-	 * 1.ÊäÈëÁ÷£º½ÓÊÕÊı¾İ
-	 * 2.Êä³öÁ÷£º·¢ËÍÊı¾İ
+	 * ä¸€ä¸ªå®¢æˆ·ç«¯å¯¹åº”ä¸€æ¡é“è·¯
+	 * 1.è¾“å…¥æµï¼šæ¥æ”¶æ•°æ®
+	 * 2.è¾“å‡ºæµï¼šå‘é€æ•°æ®
 	 * @author Administrator
 	 *
 	 */
 	private class MyChannel implements Runnable{
-		//ÊäÈëÁ÷:´Ó¿Í»§¶Ë½ÓÊÕ
+		//è¾“å…¥æµ:ä»å®¢æˆ·ç«¯æ¥æ”¶
 		private DataInputStream dis;
-		//Êä³öÁ÷£ºÊä³öµ½¿Í»§¶Ë
+		//è¾“å‡ºæµï¼šè¾“å‡ºåˆ°å®¢æˆ·ç«¯
 		private DataOutputStream dos;
 		private boolean isRunnng=true;
 		private String name;
@@ -46,8 +46,8 @@ public class Server {
 				dis=new DataInputStream(client.getInputStream());
 				dos=new DataOutputStream(client.getOutputStream());
 				this.name=dis.readUTF();
-				send("»¶Ó­½øÈëÁÄÌìÊÒ");
-				sendOthers(this.name+"½øÈëÁËÁÄÌìÊÒ",true);
+				send("æ¬¢è¿è¿›å…¥èŠå¤©å®¤");
+				sendOthers(this.name+"è¿›å…¥äº†èŠå¤©å®¤",true);
 				
 			} catch (IOException e) {
 //				e.printStackTrace();
@@ -57,7 +57,7 @@ public class Server {
 			}
 		}
 		/*
-		 * ½ÓÊÕÊı¾İ
+		 * æ¥æ”¶æ•°æ®
 		 */
 		private String receive() {
 			String msg="";
@@ -68,12 +68,12 @@ public class Server {
 				CloseUtil.closeAll(dis);
 				isRunnng=false;
 				all.remove(this);
-				sendOthers(this.name+"Àë¿ªÁËÁÄÌìÊÒ",true);
+				sendOthers(this.name+"ç¦»å¼€äº†èŠå¤©å®¤",true);
 			}
 			return msg;
 		}
 		/*
-		 * ·¢ËÍÊı¾İ¸ø¿Í»§¶Ë
+		 * å‘é€æ•°æ®ç»™å®¢æˆ·ç«¯
 		 */
 		private void send(String msg) {
 			if(null==msg||msg.equals("")){
@@ -87,35 +87,35 @@ public class Server {
 				CloseUtil.closeAll(dos);
 				isRunnng=false;		
 				all.remove(this);
-				sendOthers(this.name+"Àë¿ªÁËÁÄÌìÊÒ",true);
+				sendOthers(this.name+"ç¦»å¼€äº†èŠå¤©å®¤",true);
 			}
 		}
 		/*
-		 * ·¢ËÍ¸øÆäËû¿Í»§¶Ë
+		 * å‘é€ç»™å…¶ä»–å®¢æˆ·ç«¯
 		 * 
 		 */
 		public void sendOthers(String msg,boolean sys) {
-			//Ë½ÁÄ
+			//ç§èŠ
 			if (msg.startsWith("@")&&(msg.indexOf(":")>-1)) {
-				//»ñÈ¡name
+				//è·å–name
 				String name =msg.substring(1,msg.indexOf(":"));
 				String content =msg.substring(msg.indexOf(":")+1);
 				for (MyChannel other : all) {
 					if (other.name.equals(name)) {
-						other.send(this.name+"¶ÔÄãÇÄÇÄËµ£º"+content);
+						other.send(this.name+"å¯¹ä½ æ‚„æ‚„è¯´ï¼š"+content);
 					}
 				}
 			}else {
-				//Èº·¢±éÀú
+				//ç¾¤å‘éå†
 				for (MyChannel other : all) {
 					if (other==this) {
 						continue;
 					}
-					if (sys) {//ÏµÍ³ĞÅÏ¢
-						other.send("ÏµÍ³ĞÅÏ¢:"+msg);
+					if (sys) {//ç³»ç»Ÿä¿¡æ¯
+						other.send("ç³»ç»Ÿä¿¡æ¯:"+msg);
 					}else{
-						//·¢ËÍ¸øÆäËûµÄ¿Í»§¶Ë
-						other.send(this.name+"¶ÔËùÓĞÈËËµ£º"+msg);
+						//å‘é€ç»™å…¶ä»–çš„å®¢æˆ·ç«¯
+						other.send(this.name+"å¯¹æ‰€æœ‰äººè¯´ï¼š"+msg);
 					}
 					
 				}

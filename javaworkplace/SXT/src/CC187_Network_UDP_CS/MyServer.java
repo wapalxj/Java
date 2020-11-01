@@ -6,25 +6,25 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 /*
- * ·şÎñ¶Ë:ÏÈÔËĞĞ·şÎñ¶Ë
- * Èç¹û²»ÏÈ´ò¿ª·şÎñÆ÷£¬Ò²²»»á±¨´í£¬ÒòÎªUDP²»ÊÇÃæÏòÁ¬½ÓµÄ
+ * æœåŠ¡ç«¯:å…ˆè¿è¡ŒæœåŠ¡ç«¯
+ * å¦‚æœä¸å…ˆæ‰“å¼€æœåŠ¡å™¨ï¼Œä¹Ÿä¸ä¼šæŠ¥é”™ï¼Œå› ä¸ºUDPä¸æ˜¯é¢å‘è¿æ¥çš„
  */
 public class MyServer {
 
 	public static void main(String[] args) throws IOException {
-		//1.´´½¨·şÎñÆ÷+¶Ë¿Ú
+		//1.åˆ›å»ºæœåŠ¡å™¨+ç«¯å£
 		DatagramSocket server =new DatagramSocket(8888);
-		//2.×¼±¸½ÓÊÕÈİÆ÷
+		//2.å‡†å¤‡æ¥æ”¶å®¹å™¨
 		byte[] container =new byte[1024];
-		//3.·â×°³É°ü
+		//3.å°è£…æˆåŒ…
 		DatagramPacket packet =new DatagramPacket(container, container.length);
-		//4.½ÓÊÕÊı¾İ
+		//4.æ¥æ”¶æ•°æ®
 		server.receive(packet);
-		//5.·ÖÎöÊı¾İ
+		//5.åˆ†ææ•°æ®
 		byte [] data =packet.getData();
 		int len=packet.getLength();
 		System.err.println(new String(data,0,len));
-		//6.ÊÍ·Å
+		//6.é‡Šæ”¾
 		server.close();
 	}
 

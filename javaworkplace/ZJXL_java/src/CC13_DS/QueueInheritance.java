@@ -2,7 +2,7 @@ package CC13_DS;
 
 //QueueInheritance.java
 //Class QueueInheritance definition
-//Derived from List
+//Derived from testList
 
 
 public class QueueInheritance extends List {

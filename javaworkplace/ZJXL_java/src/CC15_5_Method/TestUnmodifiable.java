@@ -8,19 +8,19 @@ public class TestUnmodifiable
 {
 	public static void main(String[] args)
 	{
-		//创建一个空的、不可改变的List对象
+		//锟斤拷锟斤拷一锟斤拷锟秸的★拷锟斤拷锟缴改憋拷锟絫estList锟斤拷锟斤拷
 		List unmodifiableList = Collections.emptyList();
-		//创建一个只有一个元素，且不可改变的Set对象
+		//锟斤拷锟斤拷一锟斤拷只锟斤拷一锟斤拷元锟截ｏ拷锟揭诧拷锟缴改憋拷锟絊et锟斤拷锟斤拷
 		Set unmodifiableSet = Collections.singleton("example string");
-		//创建一个普通Map对象
+		//锟斤拷锟斤拷一锟斤拷锟斤拷通Map锟斤拷锟斤拷
 		Map scores = new HashMap();
-		scores.put("语文" , 80);
+		scores.put("锟斤拷锟斤拷" , 80);
 		scores.put("Java" , 82);
-		//返回普通Map对象对应的不可变版本
+		//锟斤拷锟斤拷锟斤拷通Map锟斤拷锟斤拷锟接︼拷牟锟斤拷杀锟芥本
 		Map unmodifiableMap = Collections.unmodifiableMap(scores);
-		//下面任意一行代码都将引发UnsupportedOperationException异常
-		unmodifiableList.add("测试元素");
-		unmodifiableSet.add("测试元素");
-		unmodifiableMap.put("语文" , 90);
+		//锟斤拷锟斤拷锟斤拷锟斤拷一锟叫达拷锟诫都锟斤拷锟斤拷锟斤拷UnsupportedOperationException锟届常
+		unmodifiableList.add("锟斤拷锟斤拷元锟斤拷");
+		unmodifiableSet.add("锟斤拷锟斤拷元锟斤拷");
+		unmodifiableMap.put("锟斤拷锟斤拷" , 90);
 	}
 }

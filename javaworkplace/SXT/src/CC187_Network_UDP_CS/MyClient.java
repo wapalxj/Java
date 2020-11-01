@@ -1,8 +1,8 @@
 package CC187_Network_UDP_CS;
 /*
  *
- * ¿Í»§¶Ë£ºÔÙÔËĞĞ¿Í»§¶Ë
- * Èç¹û²»ÏÈ´ò¿ª·şÎñÆ÷£¬Ò²²»»á±¨´í£¬ÒòÎªUDP²»ÊÇÃæÏòÁ¬½ÓµÄ
+ * å®¢æˆ·ç«¯ï¼šå†è¿è¡Œå®¢æˆ·ç«¯
+ * å¦‚æœä¸å…ˆæ‰“å¼€æœåŠ¡å™¨ï¼Œä¹Ÿä¸ä¼šæŠ¥é”™ï¼Œå› ä¸ºUDPä¸æ˜¯é¢å‘è¿æ¥çš„
  *
  */
 import java.io.ByteArrayOutputStream;
@@ -18,17 +18,17 @@ import java.net.SocketException;
 public class MyClient {
 	
 	public static void main(String[] args) throws IOException {
-		//1.´´½¨¿Í»§¶Ë+¶Ë¿Ú£¨Á¬½ÓÊ±¶Ë¿ÚÓë·şÎñÆ÷²»Í¬£ºÒòÎª²»ÊÇÃæÏòÁ¬½ÓµÄ£©
+		//1.åˆ›å»ºå®¢æˆ·ç«¯+ç«¯å£ï¼ˆè¿æ¥æ—¶ç«¯å£ä¸æœåŠ¡å™¨ä¸åŒï¼šå› ä¸ºä¸æ˜¯é¢å‘è¿æ¥çš„ï¼‰
 		DatagramSocket client =new DatagramSocket(6666);
-		//2.×¼±¸Êı¾İ
+		//2.å‡†å¤‡æ•°æ®
 		String msg="udp grammer";
-		//3.´ò°ü
+		//3.æ‰“åŒ…
 		byte [] data=msg.getBytes();
-					//ÔÚÊı¾İÖĞÖ¸¶¨·şÎñÆ÷µØÖ·ºÍ¶Ë¿Ú£¬ÒòÎªÊÇÊı¾İÈ¥ÕÒ·şÎñÆ÷
+					//åœ¨æ•°æ®ä¸­æŒ‡å®šæœåŠ¡å™¨åœ°å€å’Œç«¯å£ï¼Œå› ä¸ºæ˜¯æ•°æ®å»æ‰¾æœåŠ¡å™¨
 		DatagramPacket packet=new DatagramPacket(data, data.length,new InetSocketAddress("localhost",8888));
-		//4.·¢ËÍ
+		//4.å‘é€
 		client.send(packet);
-		//5.ÊÍ·Å
+		//5.é‡Šæ”¾
 		client.close();
 	}
 

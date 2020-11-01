@@ -7,20 +7,20 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/*Ò»¸ö·şÎñÆ÷£¬¶à¸ö¿Í»§¶Ë
+/*ä¸€ä¸ªæœåŠ¡å™¨ï¼Œå¤šä¸ªå®¢æˆ·ç«¯
  */
 public class Multi_Server {
 
 	public static void main(String[] args) throws IOException {
-		//1.´´½¨·şÎñ¶Ë,Ö¸¶¨¶Ë¿Ú
+		//1.åˆ›å»ºæœåŠ¡ç«¯,æŒ‡å®šç«¯å£
 		ServerSocket server=new ServerSocket(8888);
-		//2.½ÓÊÕ¿Í»§¶ËÁ¬½Ó:×èÈûÊ½£ºµÈ´ı¿Í»§¶ËÁ¬½Ó
-		while (true) {//ËÀÑ­»·£¬Ò»¸öaccept,Ò»¸ö¿Í»§¶Ë
+		//2.æ¥æ”¶å®¢æˆ·ç«¯è¿æ¥:é˜»å¡å¼ï¼šç­‰å¾…å®¢æˆ·ç«¯è¿æ¥
+		while (true) {//æ­»å¾ªç¯ï¼Œä¸€ä¸ªaccept,ä¸€ä¸ªå®¢æˆ·ç«¯
 			Socket socket=server.accept();
 			System.out.println("sssssssssss");
-			//3.·¢ËÍÊı¾İ
+			//3.å‘é€æ•°æ®
 			String msg="vero";
-			//Êä³öÁ÷£º
+			//è¾“å‡ºæµï¼š
 			DataOutputStream dos=new DataOutputStream(socket.getOutputStream());
 			dos.writeUTF(msg);
 			dos.flush();

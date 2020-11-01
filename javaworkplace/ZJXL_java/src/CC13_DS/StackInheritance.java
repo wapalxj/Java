@@ -1,10 +1,10 @@
 package CC13_DS;
 
 //StackInheritance.java
-//Derived from class List
+//Derived from class testList
 
 /*
- * �ü̳�ʵ��ջ
+ * �ü̳�ʵ��ջ
  */
 public class StackInheritance extends List {
 		

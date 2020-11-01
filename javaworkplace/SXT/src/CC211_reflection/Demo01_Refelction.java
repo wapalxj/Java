@@ -3,7 +3,7 @@ package CC211_reflection;
 /**
  * Created by Administrator on 2015/12/12.
  * java.lang.Class
- * ²âÊÔ¸÷ÖÖÀàĞÍ¶ÔÓ¦µÄClass¶ÔÏó
+ * æµ‹è¯•å„ç§ç±»å‹å¯¹åº”çš„Classå¯¹è±¡
  */
 public class Demo01_Refelction {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
@@ -13,19 +13,19 @@ public class Demo01_Refelction {
         Class clazz2 = Class.forName(path);
         System.out.println(clazz.getName());
         System.out.println(clazz.hashCode());
-        //Ò»¸öÀàClass¶ÔÏó(·´Éä¶ÔÏó)ÊÇÎ¨Ò»µÄ,µ«ÊÇÔÙÊµÀı³öÀ´µÄ¶ÔÏó²»Í¬
+        //ä¸€ä¸ªç±»Classå¯¹è±¡(åå°„å¯¹è±¡)æ˜¯å”¯ä¸€çš„,ä½†æ˜¯å†å®ä¾‹å‡ºæ¥çš„å¯¹è±¡ä¸åŒ
         System.out.println(clazz2.hashCode());
         User u1=(User)clazz.newInstance();
         User u2=(User)clazz.newInstance();
         System.out.println("u1==u2:"+(u1==u2));
 
-        //»ñÈ¡Class
+        //è·å–Class
         Class strClass =String.class;
         Class strClass2 =path.getClass();
-        //StringµÄClass¶ÔÏóÒ²ÊÇÎ¨Ò»µÄ
+        //Stringçš„Classå¯¹è±¡ä¹Ÿæ˜¯å”¯ä¸€çš„
         System.out.println(strClass==strClass2);
 
-        //»ù±¾Êı¾İÀàĞÍµÄClass¶ÔÏó,×¢Òâ¶şÎ¬Êı×éºÍÒ»Î¬ËØ×éÊÇ²»Ò»ÑùµÄ
+        //åŸºæœ¬æ•°æ®ç±»å‹çš„Classå¯¹è±¡,æ³¨æ„äºŒç»´æ•°ç»„å’Œä¸€ç»´ç´ ç»„æ˜¯ä¸ä¸€æ ·çš„
         Class intClass=int.class;
         int []a1=new int[21];
         int []a2=new int[30];

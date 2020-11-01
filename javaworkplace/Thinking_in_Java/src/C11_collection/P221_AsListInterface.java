@@ -10,12 +10,12 @@ public class P221_AsListInterface {
 
 	/**
 	 * @param args
-	 * ·ºÐÍÃ»ÓÐ±àÒëÊ±¶àÌ¬
+	 * ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð±ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ì¬
 	 */
 	public static void main(String[] args) {
 		List<Snow> snow1=Arrays.asList(new Crusty(),new Slush(),new Powder());
 		
-		//List<Snow> snow2=Arrays.asList(new Light(),new Heavy());
+		//testList<Snow> snow2=Arrays.asList(new Light(),new Heavy());
 		List<Snow> snow3=new ArrayList<>();
 		Collections.addAll(snow3, new Light(),new Heavy());
 		

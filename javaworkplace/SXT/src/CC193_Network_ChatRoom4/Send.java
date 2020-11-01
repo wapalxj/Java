@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 /*
- * ÓÃÓÚÊı¾İµÄ·¢ËÍ
+ * ç”¨äºæ•°æ®çš„å‘é€
  */
 public class Send implements Runnable{
 	private BufferedReader console;
@@ -16,12 +16,12 @@ public class Send implements Runnable{
 	private boolean isRunning=true;
 	private String name;
 	public Send() {
-		//¿ØÖÆÌ¨ÊäÈëÁ÷
+		//æ§åˆ¶å°è¾“å…¥æµ
 		console=new BufferedReader(new InputStreamReader(System.in));
 	}
 	public Send(Socket client,String name){
 		this();
-	//Êä³öÁ÷£ºÍ¨¹ı´«²Î
+	//è¾“å‡ºæµï¼šé€šè¿‡ä¼ å‚
 		try {
 			dos=new DataOutputStream(client.getOutputStream());
 			this.name=name;
@@ -34,8 +34,8 @@ public class Send implements Runnable{
 	}
 	
 	/*
-	 * 1.´Ó¿ØÖÆÌ¨½ÓÊÕÊı¾İ
-	 * 2.·¢ËÍÊı¾İ
+	 * 1.ä»æ§åˆ¶å°æ¥æ”¶æ•°æ®
+	 * 2.å‘é€æ•°æ®
 	 */
 	private String getMsgFromConsole() {
 		try {

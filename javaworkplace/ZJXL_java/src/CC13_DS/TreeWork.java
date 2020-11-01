@@ -3,7 +3,7 @@
 //import java.util.spi.CurrencyNameProvider;
 //
 ///*
-// * ¶þ²æÊ÷µÄ±éÀú
+// * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½
 // */
 //public class TreeWork {	
 //	public static void main(String[] args) {
@@ -68,13 +68,13 @@
 //	 TreeNode root;
 //	 String name; // String like "list" used in printing
 //
-//	// Constructor: Construct an empty List with s as the name
+//	// Constructor: Construct an empty testList with s as the name
 //	public Tree(String s) {
 //		name = s;
 //		root= null;
 //	}
 //
-//	// Constructor: Construct an empty List with
+//	// Constructor: Construct an empty testList with
 //	// "list" as the name
 //	public Tree() {
 //		this("tree");

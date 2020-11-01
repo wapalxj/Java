@@ -10,13 +10,13 @@ public class Algorithms1
 {
 	public static void main( String[] args )
 	{
-	   // create and display a List< Character >
+	   // create and display a testList< Character >
 	   Character[] letters = { 'P', 'C', 'M' };
-	   List< Character > list = Arrays.asList( letters ); // get List
+	   List< Character > list = Arrays.asList( letters ); // get testList
 	   System.out.println( "list contains: " );
 	   output( list );
 	
-	   // reverse and display the List< Character >
+	   // reverse and display the testList< Character >
 	   Collections.reverse( list ); // reverse order the elements
 	   System.out.println( "\nAfter calling reverse, list contains: " );
 	   output( list );
@@ -36,7 +36,7 @@ public class Algorithms1
 	   output( list );
 	} // end main
 	
-	// output List information
+	// output testList information
 	private static void output( List< Character > listRef )
 	{
 	   System.out.print( "The list is: " );

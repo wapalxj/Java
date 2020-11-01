@@ -10,7 +10,7 @@ public class Sort3
 {
 	public static void main( String[] args )
 	{
-	  List< Time2 > list = new ArrayList< Time2 >(); // create List
+	  List< Time2 > list = new ArrayList< Time2 >(); // create testList
 	
 	  list.add( new Time2(  6, 24, 34 ) );
 	  list.add( new Time2( 18, 14, 58 ) );
@@ -18,12 +18,12 @@ public class Sort3
 	  list.add( new Time2( 12, 14, 58 ) );
 	  list.add( new Time2(  6, 24, 22 ) );
 	  
-	  // output List elements
+	  // output testList elements
 	  System.out.printf( "Unsorted array elements:\n%s\n", list );
 	
 	  // sort in order using a comparator
 	  Collections.sort( list, new TimeComparator() ); 
-	  // output List elements
+	  // output testList elements
 	  System.out.printf( "Sorted list elements:\n%s\n", list );
 	} // end main
 } // end class Sort3

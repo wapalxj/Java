@@ -10,7 +10,7 @@ import com.sun.xml.internal.messaging.saaj.util.ByteOutputStream;
 
 
 /*
- * ×Ö½ÚÊı×é½ÚµãÁ÷
+ * å­—èŠ‚æ•°ç»„èŠ‚ç‚¹æµ
  */
 public class ByteArrayDemo01 {
 
@@ -19,35 +19,33 @@ public class ByteArrayDemo01 {
 
 	}
 	/**
-	 * ÊäÈëÁ÷£º²Ù×÷ÓëÎÄ¼şÊäÈëÁ÷Ò»ÖÂ
+	 * è¾“å…¥æµï¼šæ“ä½œä¸æ–‡ä»¶è¾“å…¥æµä¸€è‡´
 	 * @throws IOException 
 	 */
 	public static void read(byte[] src) throws IOException {
-		//Êı¾İÔ´£ºsrc
-		//Ñ¡ÔñÁ÷£º×Ö½ÚÊı×éÊäÈëÁ÷(ÎŞĞÂÔö·½·¨¿ÉÒÔÊ¹ÓÃ¶àÌ¬)
-		InputStream is =new BufferedInputStream(
-				new ByteArrayInputStream(src)
-		);
-		//²Ù×÷
+		//æ•°æ®æºï¼šsrc
+		//é€‰æ‹©æµï¼šå­—èŠ‚æ•°ç»„è¾“å…¥æµ(æ— æ–°å¢æ–¹æ³•å¯ä»¥ä½¿ç”¨å¤šæ€)
+		InputStream is =new BufferedInputStream(new ByteArrayInputStream(src));
+		//æ“ä½œ
 		byte[] flush =new byte[1024];
 		int len=0;
 		while (-1!=(len=is.read(flush))) {
 			System.out.println(new String(flush,0,len));
 
 		}
-		//ÊÍ·Å
+		//é‡Šæ”¾
 		is.close();
 	}
 	public static byte[] write() throws IOException {
-		//Ä¿µÄµØ
+		//ç›®çš„åœ°
 		byte[] dest;
-		//Ñ¡ÔñÁ÷:×Ö½ÚÊı×éÊä³öÁ÷(ÓĞĞÂÔö·½·¨²»¿ÉÒÔÊ¹ÓÃ¶àÌ¬)
+		//é€‰æ‹©æµ:å­—èŠ‚æ•°ç»„è¾“å‡ºæµ(æœ‰æ–°å¢æ–¹æ³•ä¸å¯ä»¥ä½¿ç”¨å¤šæ€)
 		ByteArrayOutputStream bos =new ByteArrayOutputStream ();
-		//Ğ´³ö
-		String msg="²Ù×÷";
+		//å†™å‡º
+		String msg="æ“ä½œ";
 		byte[] info=msg.getBytes();
 		bos.write(info,0,info.length);
-		//»ñÈ¡
+		//è·å–
 		dest=bos.toByteArray();
 		bos.close();
 		return dest;

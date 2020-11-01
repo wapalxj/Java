@@ -8,29 +8,29 @@ import java.net.DatagramSocket;
 import java.net.SocketException;
 
 /*
- * ´«ÊäÆäËûÊı¾İÀàĞÍ
- * ×Ö½ÚÊı×é---->double
+ * ä¼ è¾“å…¶ä»–æ•°æ®ç±»å‹
+ * å­—èŠ‚æ•°ç»„---->double
  * 
  */
 public class MyServer_object {
 
 	public static void main(String[] args) throws IOException {
-		//1.´´½¨·şÎñÆ÷+¶Ë¿Ú
+		//1.åˆ›å»ºæœåŠ¡å™¨+ç«¯å£
 		DatagramSocket server =new DatagramSocket(8888);
-		//2.×¼±¸½ÓÊÕÈİÆ÷
+		//2.å‡†å¤‡æ¥æ”¶å®¹å™¨
 		byte[] container =new byte[1024];
-		//3.·â×°³É°ü
+		//3.å°è£…æˆåŒ…
 		DatagramPacket packet =new DatagramPacket(container, container.length);
-		//4.½ÓÊÕÊı¾İ
+		//4.æ¥æ”¶æ•°æ®
 		server.receive(packet);
-		//5.·ÖÎöÊı¾İ
+		//5.åˆ†ææ•°æ®
 		double data =convert(packet.getData());
 		System.err.println(data);
-		//6.ÊÍ·Å
+		//6.é‡Šæ”¾
 		server.close();
 	}
 	/*
-	 * ×Ö½ÚÊı×é+data ÊäÈëÁ÷
+	 * å­—èŠ‚æ•°ç»„+data è¾“å…¥æµ
 	 */
 	public static double convert(byte []data) throws IOException {
 		DataInputStream dis=new DataInputStream(new ByteArrayInputStream(data));

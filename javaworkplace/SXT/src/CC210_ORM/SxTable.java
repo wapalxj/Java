@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 /**
  * Created by Administrator on 2015/12/10.
- * –ﬁ Œ¿‡SxStudent
+ * ‰øÆÈ•∞Á±ªSxStudent
  */
 @Target(value = {ElementType.METHOD,ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)

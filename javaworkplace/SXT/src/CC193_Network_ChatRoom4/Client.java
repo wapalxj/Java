@@ -1,5 +1,5 @@
 package CC193_Network_ChatRoom4;
-/*¶ÔÉÏÒ»²½¼ÓÈëÃû³Æ:×öË½ÁÄ
+/*å¯¹ä¸Šä¸€æ­¥åŠ å…¥åç§°:åšç§èŠ
  */
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -12,7 +12,7 @@ import java.net.UnknownHostException;
 public class Client {
 
 	public static void main(String[] args) throws UnknownHostException, IOException {
-		System.out.println("ÊäÈëÃû³Æ:");
+		System.out.println("è¾“å…¥åç§°:");
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 		String name=br.readLine();
 		if (name.equals("")) {

@@ -7,23 +7,23 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-/*»¹ÊÇĞèÒªÏÈÆô¶¯·şÎñÆ÷
- * 1.´´½¨·şÎñ¶Ë,Ö¸¶¨¶Ë¿Ú
- * 2.½ÓÊÕ¿Í»§¶ËÁ¬½Ó
- * 3.·¢ËÍºÍ½ÓÊÕÊı¾İ
+/*è¿˜æ˜¯éœ€è¦å…ˆå¯åŠ¨æœåŠ¡å™¨
+ * 1.åˆ›å»ºæœåŠ¡ç«¯,æŒ‡å®šç«¯å£
+ * 2.æ¥æ”¶å®¢æˆ·ç«¯è¿æ¥
+ * 3.å‘é€å’Œæ¥æ”¶æ•°æ®
  */
 public class MyServer {
 
 	public static void main(String[] args) throws IOException {
-		//1.´´½¨·şÎñ¶Ë,Ö¸¶¨¶Ë¿Ú
+		//1.åˆ›å»ºæœåŠ¡ç«¯,æŒ‡å®šç«¯å£
 		ServerSocket server=new ServerSocket(8888);
-		//2.½ÓÊÕ¿Í»§¶ËÁ¬½Ó:×èÈûÊ½£ºµÈ´ı¿Í»§¶ËÁ¬½Ó
+		//2.æ¥æ”¶å®¢æˆ·ç«¯è¿æ¥:é˜»å¡å¼ï¼šç­‰å¾…å®¢æˆ·ç«¯è¿æ¥
 		Socket socket=server.accept();
 		System.out.println("sssssssssss");
-		//3.·¢ËÍÊı¾İ
+		//3.å‘é€æ•°æ®
 		String msg="vero";
 		
-		//Êä³öÁ÷1
+		//è¾“å‡ºæµ1
 //		BufferedWriter bw= new BufferedWriter(
 //				new OutputStreamWriter(
 //					socket.getOutputStream())
@@ -31,7 +31,7 @@ public class MyServer {
 //		bw.write(msg);
 //		bw.newLine();
 //		bw.flush();
-		//»òÕß2£º
+		//æˆ–è€…2ï¼š
 		DataOutputStream dos=new DataOutputStream(socket.getOutputStream());
 		dos.writeUTF(msg);
 		dos.flush();

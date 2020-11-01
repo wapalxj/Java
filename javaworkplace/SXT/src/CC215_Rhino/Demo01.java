@@ -13,42 +13,42 @@ import java.util.List;
  */
 public class Demo01 {
     public static void main(String[] args) throws Exception {
-        //»ñµÃ½Å±¾ÒýÇæ¶ÔÏó
+        //ï¿½ï¿½Ã½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         ScriptEngineManager sem =new ScriptEngineManager();
         ScriptEngine engine=sem.getEngineByName("js");
 
-        //´æ´¢µ½ÒýÇæÉÏÏÂÎÄ
+        //ï¿½æ´¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         engine.put("msg","vero javascript");
         String  jsStr="var user={name:'vero',age:18};";
                 jsStr+="print(user.name);";
 
-        //Ö´ÐÐ½Å±¾
+        //Ö´ï¿½Ð½Å±ï¿½
         engine.eval(jsStr);
         engine.eval("msg='vnix  jjs';");
 
         System.out.println(engine.get("msg"));
         System.out.println("###########################");
 
-        //¶¨ÒåJSº¯Êý
+        //ï¿½ï¿½ï¿½ï¿½JSï¿½ï¿½ï¿½ï¿½
         engine.eval("function add(a,b){var sum=a+b;return sum};");
-        //Ö´ÐÐ
-        //È¡µÃµ÷ÓÃ½Ó¿Ú
+        //Ö´ï¿½ï¿½
+        //È¡ï¿½Ãµï¿½ï¿½Ã½Ó¿ï¿½
         Invocable jsInvo=(Invocable)engine;
-        //Ö´ÐÐ
+        //Ö´ï¿½ï¿½
         Object o =jsInvo.invokeFunction("add",10,2);
         System.out.println(o);
 
-//        Ê¹ÓÃÆäËûJava°ü--¿ÉÄÜÊÇÒòÎªJDK8£¬Õâ¶Î´úÂëÒÑ¾­»á³ö´í
+//        Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½ï¿½--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÎªJDK8ï¿½ï¿½ï¿½ï¿½Î´ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //        System.out.println("###########################");
 //        String jsCode="importPackage(java.util); var list=Arrays.asList([\"vewro\",\"vnix\"]);";
 //        engine.eval(jsCode);
-//        List<String> list=(List<String>)engine.get("list");
+//        testList<String> list=(testList<String>)engine.get("list");
 //        for (String temp:list) {
 //            System.out.println(temp);
 //        }
 
-        //µ÷ÓÃÍâ²¿JS
-        System.out.println("##############Íâ²¿JS#############");
+        //ï¿½ï¿½ï¿½ï¿½ï¿½â²¿JS
+        System.out.println("##############ï¿½â²¿JS#############");
         URL url=Demo01.class.getClassLoader().getResource("CC215_Rhino/a.js");
         FileReader fr=new FileReader(url.getPath());
         engine.eval(fr);

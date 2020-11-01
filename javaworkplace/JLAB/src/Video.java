@@ -16,7 +16,7 @@ public class Video extends JApplet {
 			@Override
 			public void run() {
 				setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);   
-		        JLabel listLabel = new JLabel("Movie List ", SwingConstants.LEFT);     
+		        JLabel listLabel = new JLabel("Movie testList ", SwingConstants.LEFT);
 		        JLabel priceLabel = new JLabel("Yunnan Uni Videos ", SwingConstants.LEFT); 
 		        JPanel northPanel = new JPanel();
 		        JPanel centerPanel = new JPanel();          

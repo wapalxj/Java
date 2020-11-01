@@ -1,38 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f262160-a301-4124-b6fc-344680e9af63" name="Default" comment="" />
-    <ignored path="javaworkplace.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.dltk.core/.org.eclipse.dltk.core.external.folders/bin/" />
-    <ignored path="$PROJECT_DIR$/forr/bin/" />
-    <ignored path="$PROJECT_DIR$/Frame/bin/" />
-    <ignored path="$PROJECT_DIR$/Interview/bin/" />
-    <ignored path="$PROJECT_DIR$/JLAB/bin/" />
-    <ignored path="$PROJECT_DIR$/Lab/bin/" />
-    <ignored path="$PROJECT_DIR$/MyVideoPlayer/bin/" />
-    <ignored path="$PROJECT_DIR$/Object/bin/" />
-    <ignored path="$PROJECT_DIR$/OBook/bin/" />
-    <ignored path="$PROJECT_DIR$/OMyTest/bin/" />
-    <ignored path="$PROJECT_DIR$/PHP/bin/" />
-    <ignored path="$PROJECT_DIR$/ShangXueTang2/bin/" />
-    <ignored path="$PROJECT_DIR$/SXT/bin/" />
-    <ignored path="$PROJECT_DIR$/TEST/bin/" />
-    <ignored path="$PROJECT_DIR$/testproject/bin/" />
-    <ignored path="$PROJECT_DIR$/TMyVideoPlayer/bin/" />
-    <ignored path="$PROJECT_DIR$/TTTTT/bin/" />
-    <ignored path="$PROJECT_DIR$/ZJK_java/bin/" />
-    <ignored path="$PROJECT_DIR$/ZJK_SWING/bin/" />
-    <ignored path="$PROJECT_DIR$/ZJXL_java/bin/" />
-    <ignored path="$PROJECT_DIR$/ZSNAAKE/bin/" />
-    <ignored path="$PROJECT_DIR$/zssss/bin/" />
-    <ignored path=".idea/dataSources.local.xml" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
+    <list default="true" id="7f262160-a301-4124-b6fc-344680e9af63" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_9_2__6_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_collections_3_2_2__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_6__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ezmorph_1_0_6__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15__3_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15__4_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15__5_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15__6_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/json_lib_2_4_jdk15__7_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestKotlin/TestKotlin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/Android.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/source.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_test/1_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1_test/1_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JLAB/src/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/JLAB/src/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JLAB/src/edu/ynu/labz11/VideoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/JLAB/src/edu/ynu/labz11/VideoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JLAB/src/edu/ynu/labz13/VideoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/JLAB/src/edu/ynu/labz13/VideoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/SXT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/SXT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/bin/SXT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/bin/SXT.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC128_Collections/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC128_Collections/DeckOfCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC133_Sysread/Demo02.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC133_Sysread/Demo02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC143_IO_File/Demo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC156_OtherStream_ByteArray/ByteArrayDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC156_OtherStream_ByteArray/ByteArrayDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC173_Thread2_Callable/Call.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC173_Thread2_Callable/Call.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer_object.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC187_Network_UDP_CS/MyServer_object.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/Multi_Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/Multi_Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/MyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC189_Network_TCP_Socket/MyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Send.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Send.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC193_Network_ChatRoom4/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC203_httpserver_Polymorphism/WebHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC203_httpserver_Polymorphism/WebHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC208_Annotation/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC208_Annotation/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC208_Annotation/SxtAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC208_Annotation/SxtAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxField.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC210_ORM/SxTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo01_Refelction.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo01_Refelction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06/Demo06_Annotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06/SxField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06/SxStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC211_reflection/Demo06/SxTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/CC215_Rhino/Demo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/CC215_Rhino/Demo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/c36_static/Statc_2_sequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/c36_static/Static.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/c64_boxing_Charp4/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/c64_boxing_Charp4/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_03_Throwable.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_03_Throwable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_04_.java" beforeDir="false" afterPath="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_04_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thinking_in_Java/src/C11_collection/P221_AsListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/Thinking_in_Java/src/C11_collection/P221_AsListInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/C10_Generatic_method/GenericList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/C10_Generatic_method/GenericList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/C10_Generatic_method/GenericPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/C10_Generatic_method/GenericPolymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListWork1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListWork1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListWork2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/ListWork2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/QueueInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/QueueInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/StackComposition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/StackComposition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/StackInheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/StackInheritance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/TreeWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC13_DS/TreeWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_2_ListAndQueue/FixedSizeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_2_ListAndQueue/FixedSizeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_2_ListAndQueue/TestList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_2_ListAndQueue/TestList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Algorithms1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Algorithms1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/DeckOfCards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/Sort3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/TestUnmodifiable.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Method/TestUnmodifiable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Works/Co4_yinShu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZJXL_java/src/CC15_5_Works/Co4_yinShu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZZC5_HM/ZZC5_HM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ZZC5_HM/ZZC5_HM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZZC5_HM/src/d14_thread/ThreadDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/Android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/Android.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javaworkplace$Demo8_producer_consumer.coverage" NAME="Demo8_producer_consumer Coverage Results" MODIFIED="1497960773384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>d14_thread.*</FILTER>
+    </SUITE>
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -45,124 +105,8 @@
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="javaworkplace" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test1Exception.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZZZ_03_Throwable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_03_Throwable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZZZ_04_.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_04_.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZZZ05_OOM.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ05_OOM.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/d14_thread/ThreadDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#242#243#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo04_close.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo04_close.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCRUD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/TestCRUD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/DBUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo02_drivermanagerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc/Demo02_drivermanagerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -170,71 +114,48 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="FxmlFile" />
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>read(</find>
+      <find>hasNext()</find>
+      <find>beginObject()</find>
+      <find>doPeek(</find>
+      <find>push</find>
+      <find>doPeek()</find>
+      <find>nextName()</find>
+      <find>nextName</find>
+      <find>nextInt(</find>
+      <find>dopeek</find>
+      <find>nextNonWhitespace</find>
+      <find>stackSize</find>
+      <find>endObject</find>
+      <find>name(</find>
+      <find>value</find>
+      <find>value(</find>
+      <find>beginObject</find>
+      <find>endObject()</find>
+      <find>beginArray(</find>
+      <find>peek(</find>
+      <find>skipValue</find>
+      <find>peek()</find>
+      <find>$Gson$Preconditions</find>
+      <find>canonicalize</find>
+      <find>getRawType</find>
+      <find>create(</find>
+      <find>ObjectTypeAdapter</find>
+      <find>toJson</find>
+      <find>fromJson</find>
+      <find>registerTypeAdapter</find>
+    </findStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/SXT/src/C00_data/Unicode2.java" />
-        <option value="$PROJECT_DIR$/android/src/test_hex/Test_hex.java" />
-        <option value="$PROJECT_DIR$/1_test/src/testCollection/testList.java" />
-        <option value="$PROJECT_DIR$/SXT/src/c54_stri/Str.java" />
-        <option value="$PROJECT_DIR$/SXT/src/c56_strBuilder/Test.java" />
-        <option value="$PROJECT_DIR$/SXT/src/c52_array/Array.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/linkedlist.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/DoubleLinkedlist.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/android/DoubleLinkedlist.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/test.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/demo01.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/JUnit/Cal.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/JUnit/TestCalcTest.groovy" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/JUnit/TestCalc.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/JUnit/TestCalcTest.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/JUnit/Calculator.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/test/JUnit/CalculatorTest.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo03_TestCRUD.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo02_drivermanager.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc/Demo03_CRUDTest.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Users.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/User.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo03_CRUD.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo03.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/DBUtils.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/dbinfo.properties" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo04_close.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc2/Demo05_CRUDTest.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/Demo05_CRUD.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo03_crud.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/User.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/dbinfo.properties" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/DBUtils.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/User.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/DBUtils.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/Login.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/DoLogin.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/TestCRUD.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/sml.fxml" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/xml.xml" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/student.dtd" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/student.xml" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/student.xsd" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/student2.xml" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/TestDom4j.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/TestXpath.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc/Demo02_drivermanagerTest.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo01.java" />
-        <option value="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_04_.java" />
-        <option value="$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ05_OOM.java" />
-        <option value="$PROJECT_DIR$/ZZC5_HM/src/d14_thread/ThreadDemo.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -242,140 +163,30 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="696" />
-    <option name="width" value="1226" />
-    <option name="height" value="1047" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>ImportsJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>UNUSED_IMPORT</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JUnit4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZZC5_HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ZZC5_HM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaworkplace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SXT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-    </panes>
+  <component name="ProjectId" id="1YNp2CDgrDrXpnbanKdsrKK6ZwL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="toJson&#9;PSI&#9;JAVA://com.google.gson.Gson#toJson&#10;Gson&#9;PSI&#9;JAVA://com.google.gson.Gson&#10;InstanceCreator&#9;PSI&#9;JAVA://com.google.gson.InstanceCreator&#10;ConstructorConstructor&#9;PSI&#9;JAVA://com.google.gson.internal.ConstructorConstructor&#10;TypeAda&#9;PSI&#9;JAVA://com.google.gson.TypeAdapter&#10;JSONE&#9;PSI&#9;JAVA://com.google.gson.JsonElement&#10;TypeTo&#9;PSI&#9;JAVA://com.google.gson.reflect.TypeToken&#10;WildcardTypeImpl&#9;PSI&#9;JAVA://com.google.gson.internal.$Gson$Types.WildcardTypeImpl&#10;TypeVariableImpl&#9;PSI&#9;JAVA://sun.reflect.generics.reflectiveObjects.TypeVariableImpl&#10;ParameterizedTypeImpl&#9;PSI&#9;JAVA://gson.gson.type.ParameterizedTypeImpl&#10;$Gson$Types&#9;FILE&#9;file://G:/GIT/Java/Java/javaworkplace/source/src/com/google/gson/internal/$Gson$Types.java&#10;J&#9;FILE&#9;file://G:/GIT/Java/Java/javaworkplace/source/src/com/google/gson/stream/JsonScope.java&#10;j&#9;FILE&#9;file://G:/GIT/Java/Java/javaworkplace/source/src/com/google/gson/stream/JsonWriter.java&#10;JsScop&#9;PSI&#9;JAVA://com.google.gson.stream.JsonScope&#10;JsonToken&#9;PSI&#9;JAVA://com.google.gson.stream.JsonToken&#10;JsonWrit&#9;PSI&#9;JAVA://com.google.gson.stream.JsonWriter&#10;JsonRead&#9;FILE&#9;jar://C:/Users/wapal/.ideaLibSources/gson-2.8.1-sources.jar!/com/google/gson/stream/JsonReader.java&#10;Reader&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/io/Reader.java&#10;JsonReader&#9;PSI&#9;JAVA://com.google.gson.stream.JsonReader&#10;JsonR&#9;PSI&#9;JAVA://com.google.gson.stream.JsonReader&#10;JsonRe&#9;FILE&#9;jar://C:/Users/wapal/.ideaLibSources/gson-2.8.1-sources.jar!/com/google/gson/stream/JsonReader.java&#10;StringWriter&#9;PSI&#9;JAVA://java.io.StringWriter&#10;StringR&#9;PSI&#9;JAVA://java.io.StringReader" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Web_Front/Web_Front/web" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../imooc/datastructure" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/GIT/Java/Java/javaworkplace/SXT/src/C00_data/Unicode.java" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="create.test.in.the.same.root" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -388,11 +199,11 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\GIT\Java\Java\javaworkplace\android\lib" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\android" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\android\src\byd" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\android\src" />
       <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src\javaee_xml\schema" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src\javaee_xml\dtd" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\lib" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\1_test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="javaee_jdbc3_login" />
@@ -402,153 +213,29 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src\javaee_xml\parseXML" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src\javaee_xml" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\ZZC5_HM\src" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\Thinking_in_Java\src" />
-      <recent name="G:\GIT\Java\Java\javaworkplace\TIJ\src" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\android\lib" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\source\src" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\source\src\com" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\source\src\gson" />
+      <recent name="G:\GIT\Java\Java\javaworkplace\android\src\gson" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="android.imooc.retrofit.hook" />
       <recent name="JUnit" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.ZZZ05_OOM">
-    <configuration default="false" name="TestCRUD.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javaee_jdbc2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="ZZC5_HM" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="javaee_jdbc2" />
-      <option name="MAIN_CLASS_NAME" value="javaee_jdbc2.TestCRUD" />
-      <option name="METHOD_NAME" value="testUpdate" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestDom4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javaee_xml.parseXML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javaee_xml.parseXML.TestDom4j" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ZZC5_HM" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="javaee_xml.parseXML.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="javaee_xml.parseXML.TestXpath" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ZZC5_HM" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ZZZ_04_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="c72_Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="c72_Exception.ZZZ_04_" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SXT" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ZZZ05_OOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="c72_Exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="c72_Exception.ZZZ05_OOM" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SXT" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+  <component name="RunManager" selected="Application.TestPkg">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="PM_INSTALL_OPTIONS" value="" />
       <option name="ACTIVITY_EXTRA_FLAGS" value="" />
       <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -556,11 +243,7 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
-        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
-        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
-        <option name="SUPPORT_LIB_ENABLED" value="true" />
-        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -594,100 +277,99 @@
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-      <method />
+    </configuration>
+    <configuration name="Computer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c31.Computer" />
+      <module name="SXT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c31.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CC211_reflection.test.Test" />
+      <module name="SXT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CC211_reflection.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pattern.Test" />
+      <module name="SXT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPkg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testPkg.TestPkg" />
+      <module name="1_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_dataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="C00_data.Test_dataType" />
+      <module name="SXT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="C00_data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name=".org.eclipse.dltk.core.external.folders" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name=".org.eclipse.dltk.core.external.folders" />
-      <envs />
-      <method />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -695,88 +377,66 @@
       <option name="passParentEnvs" value="true" />
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <properties />
       <listeners />
-      <method />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestCRUD.testUpdate" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestDom4j" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestXpath" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ZZZ_04_" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ZZZ05_OOM" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Computer" />
+      <item itemvalue="Application.Test_dataType" />
+      <item itemvalue="Application.Test (2)" />
+      <item itemvalue="Application.TestPkg" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ZZZ05_OOM" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ZZZ_04_" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestXpath" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestDom4j" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestCRUD.testUpdate" />
+      <list>
+        <item itemvalue="Application.TestPkg" />
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test_dataType" />
+        <item itemvalue="Application.Computer" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <Java />
-      <Profilers>
-        <option name="GAPID_DISABLE_PCS" value="false" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -913,12 +573,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestCRUD_testDelete - 2017.05.29 at 16h 26m 12s.xml">
-      <configuration name="TestCRUD.testDelete" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestCRUD_testInsert - 2017.05.29 at 16h 23m 30s.xml">
-      <configuration name="TestCRUD.testInsert" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestCRUD_testInsert - 2017.05.29 at 22h 21m 06s.xml">
       <configuration name="TestCRUD.testInsert" configurationId="JUnit" />
     </history-entry>
@@ -943,6 +597,12 @@
     <history-entry file="TestCRUD_testUpdate - 2017.05.29 at 22h 24m 39s.xml">
       <configuration name="TestCRUD.testUpdate" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestKotlin - 2017.06.25 at 10h 24m 14s.xml">
+      <configuration name="TestKotlin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestKotlin - 2017.06.25 at 10h 24m 28s.xml">
+      <configuration name="TestKotlin" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="209461000" />
@@ -956,74 +616,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="696" y="0" width="1226" height="1047" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14317925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1535163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24309392" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28182808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27395716" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32694477" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28182808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27529925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33898306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16022964" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
@@ -1035,371 +627,53 @@
       <collection />
     </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1589632284870">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589632284870" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1596879379630">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596879379630" />
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1593332056167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593332056167" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1593332056167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593332056167" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1593332056166">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593332056166" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1593332056167">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593332056167" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1596879301603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596879301603" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/android/src/disklru/lru/DiskLruCache.java</url>
+          <line>723</line>
+          <properties class="disklru.lru.DiskLruCache" method="trimToSize">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/android/DoubleLinkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="223" column="23" lean-forward="false" selection-start-line="223" selection-start-column="23" selection-end-line="223" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/test/JUnit/CalculatorTest.java" />
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/JUnit/Calculator.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="130" column="13" lean-forward="false" selection-start-line="130" selection-start-column="13" selection-end-line="130" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7176">
-          <caret line="330" column="36" lean-forward="false" selection-start-line="330" selection-start-column="36" selection-end-line="330" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ZZC5_HM/lib/mysql-connector-java-5.0.8-bin.jar!/com/mysql/jdbc/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo02_drivermanager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc/Demo03_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc2/Demo05_CRUDTest.java" />
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo03_crud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="68" column="26" lean-forward="true" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="205" column="9" lean-forward="false" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="25" lean-forward="false" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="29" column="32" lean-forward="false" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc3_login/DoLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="18" lean-forward="false" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/src/test_hex/Test_hex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/sml.fxml" />
-    <entry file="file://$PROJECT_DIR$/SXT/src/CC205_XML/Petri net 1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-506">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/CC205_XML/person.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/dtd/student.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/CC205_XML/Pull/Text_Pull.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/dtd/student.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/dom4j-1.6.1.jar!/org/dom4j/bean/BeanAttribute.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/schema/student2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/schema/student.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/dom4j-1.6.1.jar!/org/dom4j/Element.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="112" column="12" lean-forward="false" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/Bookstore.xml" />
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/TestDom4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/Book.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/Dom4jTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/dbinfo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_xml/parseXML/TestXpath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/DBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/bin/c51_innerclass/Outer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/bin/c51_innerclass/OuterClass.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/baidu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/test/javaee_jdbc/Demo02_drivermanagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/TestCRUD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="42" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo04_close.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="64" lean-forward="false" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_03_Throwable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/Test1Exception2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ_04_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SXT/src/c72_Exception/ZZZ05_OOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ZZC5_HM/src/d14_thread/ThreadDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -1452,7 +726,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ZZC5_HM</last-edited>
+          <last-edited>TIJ</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

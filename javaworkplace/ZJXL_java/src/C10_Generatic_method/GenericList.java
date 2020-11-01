@@ -8,18 +8,18 @@ public class GenericList
 {
 	public static void main(String[] args) throws IllegalArgumentException, SecurityException, IllegalAccessException, InvocationTargetException, NoSuchMethodException 
 	{
-		//´´½¨Ò»¸öÖ»Ïë±£´æ×Ö·û´®µÄList¼¯ºÏ
+		//ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ö»ï¿½ë±£ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½testListï¿½ï¿½ï¿½ï¿½
 		List<String> strList = new ArrayList<String>();
 		strList.add("One string");
 		strList.add("Two string");
 		strList.add("Three string");
-		//ÏÂÃæ´úÂë½«ÒýÆð±àÒë´íÎó
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë½«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		//strList.add(5);
-		//µ«Ê¹ÓÃ·´Éä¿ÉÒÔÈÆ¿ª±àÒëÆ÷µÄÓï·¨¼ì²é
+		//ï¿½ï¿½Ê¹ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï·¨ï¿½ï¿½ï¿½
 		//strList.getClass().getMethod("add", Object.class).invoke(strList, 5);
 		for (int i = 0; i < strList.size() ; i++ )
 		{
-			//ÏÂÃæ´úÂëÎÞÐèÇ¿ÖÆÀàÐÍ×ª»»
+			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½
 			String str = strList.get(i);
 			System.out.println(strList.get(i));
 		}

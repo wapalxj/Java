@@ -8,30 +8,32 @@ public class Test {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		Integer a =new Integer(10);
-		Integer a =10;//after jkd5.0:×Ô¶¯×°Ïä£¬±àÒëÆ÷°ïÖú¸Ä½ø´úÂë£ºInteger a =new Integer(10);
+		Integer a =10;//after jkd5.0:è‡ªåŠ¨è£…ç®±ï¼Œç¼–è¯‘å™¨å¸®åŠ©æ”¹è¿›ä»£ç ï¼šInteger a =new Integer(10);
 		
 		Integer b =1000;
 		
 		
-		int c=new Integer(1500);//×Ô¶¯²ğÏä£º±àÒëÆ÷»á¸Ä½ø:Integer(1500).intValue().
-		int d=b;//×Ô¶¯²ğÏä£º±àÒëÆ÷»á¸Ä½ø:d=b.intValue()
+		int c=new Integer(1500);//è‡ªåŠ¨æ‹†ç®±ï¼šç¼–è¯‘å™¨ä¼šæ”¹è¿›:Integer(1500).intValue().
+		int d=b;//è‡ªåŠ¨æ‹†ç®±ï¼šç¼–è¯‘å™¨ä¼šæ”¹è¿›:d=b.intValue()
 		
 		
 		
 		System.out.println(d);
 		
-		Integer q1 =1000;//×Ô¶¯×°Ïä³ÉInteger¶ÔÏó£¬
-		Integer q2 =1000;//×Ô¶¯×°ÏäInteger£¬
+		Integer q1 =1000;//è‡ªåŠ¨è£…ç®±æˆIntegerå¯¹è±¡ï¼Œ
+		Integer q2 =1000;//è‡ªåŠ¨è£…ç®±Integerï¼Œ
 		
 		System.out.println(q1==q2);
 		System.out.println(q1.equals(q2));
 		System.out.println("########################");
 		
-		Integer d3 =123;//[-128,127]Ö®¼äµÄÊı£¬ËäÈ»×Ô¶¯×°ÏäÁË£¬µ«ÈÔÈ»±»µ±×ö»ù±¾Êı¾İÀàĞÍ´¦Àí
+		Integer d3 =123;//[-128,127]ä¹‹é—´çš„æ•°ï¼Œè™½ç„¶è‡ªåŠ¨è£…ç®±äº†ï¼Œä½†ä»ç„¶è¢«å½“åšåŸºæœ¬æ•°æ®ç±»å‹å¤„ç†
 		Integer d4 =123;
 		
 		System.out.println(d3==d4);
 		System.out.println(d3.equals(d4));
+
+		System.out.println(Integer.TYPE);
 	}
 
 }

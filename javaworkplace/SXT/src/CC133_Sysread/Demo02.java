@@ -8,17 +8,17 @@ import java.util.Set;
 
 
 /*
- * Ö»¶ÁÉèÖÃ£º
-	emptyXXX()¿ÕµÄ²»¿É±ä¼¯ºÏ
+ * Ö»ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½
+	emptyXXX()ï¿½ÕµÄ²ï¿½ï¿½É±ä¼¯ï¿½ï¿½
 		emptList()
 		emptMap()
 		emptSet()
-	singletonXXX()Ò»¸öÔªËØ²»¿É±ä¼¯ºÏ
+	singletonXXX()Ò»ï¿½ï¿½Ôªï¿½Ø²ï¿½ï¿½É±ä¼¯ï¿½ï¿½
 		singleton(T o)
 		singletonList(T o)
 		singletonMap(K  key, V value)
-	UnmodifiableXXX()²»¿É±äÈÝÆ÷
-		UnmodifiableList(List<? extends T> list)
+	UnmodifiableXXX()ï¿½ï¿½ï¿½É±ï¿½ï¿½ï¿½ï¿½ï¿½
+		UnmodifiableList(testList<? extends T> list)
 		UnmodifiableSet(Set<? extends T> s)
 		UnmodifiableMap(Map<? extends K,? extends V> m)
 	
@@ -30,21 +30,21 @@ public class Demo02 {
 		map.put("vero", "qqq");
 		map.put("vnix", "www");
 		
-//1.Ö»¶Á¿ØÖÆ:UnmodifiableXXX():²»¿É±äÈÝÆ÷
+//1.Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:UnmodifiableXXX():ï¿½ï¿½ï¿½É±ï¿½ï¿½ï¿½ï¿½ï¿½
 		Map<String, String> map2 =Collections.unmodifiableMap(map);
-//		map2.put("a", "a");//¼ÓÈëÖ»¶Á¿ØÖÆ£¬²»ÄÜÔÙÌí¼ÓÔªËØ
+//		map2.put("a", "a");//ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		System.out.println(map2.size());
 		
-//2.singletonXXX():Ö»ÓÐÒ»¸öÔªËØµÄÈÝÆ÷
+//2.singletonXXX():Ö»ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½
 		List<String> list =Collections.singletonList(new String("Alicc"));
-//		list.add("vnix");//²»ÄÜÔÙÌí¼ÓÔªËØ
+//		list.add("vnix");//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½
 		System.out.println(list.get(0));
 			
 	}
 //3.emptyXXX()
 	public static Set<String> oper(Set<String> set) {
 		if (null==set) {
-			return Collections.EMPTY_SET;//Íâ²¿»ñÈ¡±ÜÃâ¿ÕÖ¸ÕëÒì³£
+			return Collections.EMPTY_SET;//ï¿½â²¿ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ì³£
 		}
 		return set;
 	}

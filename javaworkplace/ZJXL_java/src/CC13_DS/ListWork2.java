@@ -19,7 +19,7 @@ public class ListWork2 {
 }
 
 class ListNode2 {
-	// package access data so class List can access it directly
+	// package access data so class testList can access it directly
 	Object data;
 	ListNode2 next;
 	ListNode2 pre;
@@ -29,7 +29,7 @@ class ListNode2 {
 	}
 
 	// Constructor: Create a ListNode that refers to Object o and
-	// to the next ListNode in the List.
+	// to the next ListNode in the testList.
 	ListNode2(Object o, ListNode2 nextNode,ListNode2 preNode) {
 		data = o; // this node refers to Object o
 		next = nextNode; // set next to refer to next
@@ -66,20 +66,20 @@ class ListNode2 {
 	}
 
 }
-// Class List definition
+// Class testList definition
 class List3 {
 	private ListNode2 firstNode;
 	private ListNode2 lastNode;
 	private String name; // String like "list" used in printing
 	private String []words;
 	private int size;
-	// Constructor: Construct an empty List with s as the name
+	// Constructor: Construct an empty testList with s as the name
 	public List3(String s) {
 		name = s;
 		firstNode = lastNode = null;
 	}
 
-	// Constructor: Construct an empty List with
+	// Constructor: Construct an empty testList with
 	// "list" as the name
 	public List3() {
 		this("table");
@@ -111,7 +111,7 @@ class List3 {
 	}
 
 	
-	// Return true if the List is empty
+	// Return true if the testList is empty
 	public synchronized boolean isEmpty() {
 		return firstNode == null;
 	}
@@ -133,7 +133,7 @@ class List3 {
 		}
 		return pos;
 	}
-	// Output the List contents
+	// Output the testList contents
 	public synchronized void print() {
 		if (isEmpty()) {
 			System.out.println("Empty " + name);
@@ -143,7 +143,7 @@ class List3 {
 		System.out.print("The " + name + " is: ");
 
 		ListNode2 current = firstNode;
-		System.out.print(current.data.toString() + " ");//´òÓ¡×îºóÒ»¸ö×Ö·û
+		System.out.print(current.data.toString() + " ");//ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½
 		current = current.next;
 		
 		for (int i = 0; current!= firstNode; current = current.next) {
@@ -168,7 +168,7 @@ class List3 {
 			System.out.print(current.data.toString() + " ");	
 		}
 		
-		System.out.print(current.data.toString() + " ");//´òÓ¡µÚÒ»¸ö×Ö·û
+		System.out.print(current.data.toString() + " ");//ï¿½ï¿½Ó¡ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½
 
 		System.out.println("\n");
 	}

@@ -2,15 +2,15 @@ package CC13_DS;
 
 public class ListTest {
 	public static void main(String args[]) {
-		List objList = new List(); // create the List container
+		List objList = new List(); // create the testList container
 
-		// Create objects to store in the List
+		// Create objects to store in the testList
 		Boolean b = Boolean.TRUE;
 		Character c = new Character('$');
 		Integer i = new Integer(34567);
 		String s = "hello";
 
-		// Use the List insert methods
+		// Use the testList insert methods
 		objList.insertAtFront(b);
 		objList.print();
 		objList.insertAtFront(c);
@@ -20,7 +20,7 @@ public class ListTest {
 		objList.insertAtBack(s);
 		objList.print();
 
-		// Use the List remove methods
+		// Use the testList remove methods
 		Object removedObj;
 
 		try {
@@ -51,9 +51,9 @@ class EmptyListException extends RuntimeException {
 	}
 }
 
-// Class ListNode and class List definitions
+// Class ListNode and class testList definitions
 class ListNode {
-	// package access data so class List can access it directly
+	// package access data so class testList can access it directly
 	Object data;
 	ListNode next;
 
@@ -63,7 +63,7 @@ class ListNode {
 	}
 
 	// Constructor: Create a ListNode that refers to Object o and
-	// to the next ListNode in the List.
+	// to the next ListNode in the testList.
 	ListNode(Object o, ListNode nextNode) {
 		data = o; // this node refers to Object o
 		next = nextNode; // set next to refer to next
@@ -80,26 +80,26 @@ class ListNode {
 	}
 }
 
-// Class List definition
+// Class testList definition
 class List {
 	private ListNode firstNode;
 	private ListNode lastNode;
 	private String name; // String like "list" used in printing
 
-	// Constructor: Construct an empty List with s as the name
+	// Constructor: Construct an empty testList with s as the name
 	public List(String s) {
 		name = s;
 		firstNode = lastNode = null;
 	}
 
-	// Constructor: Construct an empty List with
+	// Constructor: Construct an empty testList with
 	// "list" as the name
 	public List() {
 		this("list");
 	}
 
-	// Insert an Object at the front of the List
-	// If List is empty, firstNode and lastNode will refer to
+	// Insert an Object at the front of the testList
+	// If testList is empty, firstNode and lastNode will refer to
 	// the same object. Otherwise, firstNode refers to new node.
 	public synchronized void insertAtFront(Object insertItem) {
 		if (isEmpty())
@@ -108,8 +108,8 @@ class List {
 			firstNode = new ListNode(insertItem, firstNode);
 	}
 
-	// Insert an Object at the end of the List
-	// If List is empty, firstNode and lastNode will refer to
+	// Insert an Object at the end of the testList
+	// If testList is empty, firstNode and lastNode will refer to
 	// the same Object. Otherwise, lastNode's next instance
 	// variable refers to new node.
 	public synchronized void insertAtBack(Object insertItem) {
@@ -119,7 +119,7 @@ class List {
 			lastNode = lastNode.next = new ListNode(insertItem);
 	}
 
-	// Remove the first node from the List.
+	// Remove the first node from the testList.
 	public synchronized Object removeFromFront() throws EmptyListException {
 		Object removeItem = null;
 
@@ -137,7 +137,7 @@ class List {
 		return removeItem;
 	}
 
-	// Remove the last node from the List.
+	// Remove the last node from the testList.
 	public synchronized Object removeFromBack() throws EmptyListException {
 		Object removeItem = null;
 
@@ -163,12 +163,12 @@ class List {
 		return removeItem;
 	}
 
-	// Return true if the List is empty
+	// Return true if the testList is empty
 	public synchronized boolean isEmpty() {
 		return firstNode == null;
 	}
 
-	// Output the List contents
+	// Output the testList contents
 	public synchronized void print() {
 		if (isEmpty()) {
 			System.out.println("Empty " + name);

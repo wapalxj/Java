@@ -20,6 +20,18 @@ public class ZZZ_03_Throwable {
             Thread.sleep(300);
             System.out.println("main,,,"+i);
         }
+        System.out.println(changeStr("[]{}\""));
+    }
+
+    public static String changeStr(String json){
+        json.replaceAll(",","，");
+        json.replaceAll(":","：");
+        json.replaceAll("\\[","【");
+        json.replaceAll("\\]","】");
+        json.replaceAll("\\{","<");
+        json.replaceAll("\\}",">");
+        json.replaceAll("\"","“");
+        return json.toString();
     }
 }
 

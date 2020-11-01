@@ -12,7 +12,7 @@ public class Co4_yinShu {
 		int sum =54;
 		int flag;
 		System.out.print(sum+"= ");
-//1.²»ÓÃÈÝÆ÷	
+//1.ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½	
 //		for (int i = 2; i < 8; i++) {
 //			flag=0;
 //			if (sum%i==0) {
@@ -27,8 +27,8 @@ public class Co4_yinShu {
 			
 			
 //		}
-//2.ÓÃArrayList
-//		List<Integer> list =new ArrayList<Integer>();
+//2.ï¿½ï¿½ArrayList
+//		testList<Integer> list =new ArrayList<Integer>();
 //		for (int i = 2; i < 8; i++) {
 //			if (sum%i==0) {
 //				list.add(i);
@@ -47,12 +47,12 @@ public class Co4_yinShu {
 //			System.out.print(i+"*");
 //		}
 		
-//3.¶ÓÁÐ
+//3.ï¿½ï¿½ï¿½ï¿½
 //		LinkedList<Integer> link =new LinkedList<Integer>();
 //		for (int i = 2; i < 8; i++) {
 //			if (sum%i==0) {
-////				link.push(i);//Ïò¶ÔÍ·²å
-//				link.offer(i);//Ïò¶ÓÎ²¼Ó
+////				link.push(i);//ï¿½ï¿½ï¿½Í·ï¿½ï¿½
+//				link.offer(i);//ï¿½ï¿½ï¿½Î²ï¿½ï¿½
 //				sum/=i;
 //				i=2;
 //				continue;

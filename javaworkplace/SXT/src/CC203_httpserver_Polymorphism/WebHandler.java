@@ -24,19 +24,19 @@ public class WebHandler extends DefaultHandler {
     private boolean isMapping;
 
 
-    //¸ù±êÇ©root
+    //ï¿½ï¿½ï¿½ï¿½Ç©root
     @Override
     public void startDocument() throws SAXException {
         super.startDocument();
-        System.out.println("´¦ÀíÎÄµµ¿ªÊ¼");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½Ê¼");
         entityList=new ArrayList<>();
         mappingList=new ArrayList<>();
     }
-    //×Ó±êÇ©
-    //×ó±êÇ©left
+    //ï¿½Ó±ï¿½Ç©
+    //ï¿½ï¿½ï¿½Ç©left
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-        System.out.println("¿ªÊ¼Ò»¸öÔªËØ"+qName);
+        System.out.println("ï¿½ï¿½Ê¼Ò»ï¿½ï¿½Ôªï¿½ï¿½"+qName);
         if (qName!=null){
             beginTag=qName;
             if (qName.equals("servlet")){
@@ -49,7 +49,7 @@ public class WebHandler extends DefaultHandler {
         }
 
     }
-    //±êÇ©Öµ
+    //ï¿½ï¿½Ç©Öµ
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
         String str = new String(ch, start, length);
@@ -69,10 +69,10 @@ public class WebHandler extends DefaultHandler {
             }
         }
     }
-    //±Õ±êÇ©
+    //ï¿½Õ±ï¿½Ç©
     @Override
     public void endElement(String uri, String localName, String qName) throws SAXException {
-        System.out.println("½áÊøÒ»¸öÔªËØ"+qName);
+        System.out.println("ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ôªï¿½ï¿½"+qName);
         if (qName!=null){
             if (qName.equals("servlet")){
                 entityList.add(webEntity);
@@ -82,10 +82,10 @@ public class WebHandler extends DefaultHandler {
         }
         beginTag=null;
     }
-    //±Õ¸ù±êÇ©
+    //ï¿½Õ¸ï¿½ï¿½ï¿½Ç©
     @Override
     public void endDocument() throws SAXException {
-        System.out.println("´¦ÀíÎÄµµ½áÊø");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ï¿½");
     }
 
     public List<WebEntity> getEntityList() {
@@ -95,7 +95,7 @@ public class WebHandler extends DefaultHandler {
     public List<WebMapping> getMappingList() {
         return mappingList;
     }
-    //²âÊÔ½âÎö
+    //ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
 //        SAXParserFactory factory=SAXParserFactory.newInstance();
 //        SAXParser parser=factory.newSAXParser();
@@ -104,11 +104,11 @@ public class WebHandler extends DefaultHandler {
 //                .getResourceAsStream("CC203_httpserver_Polymorphism\\Web.xml")
 //                ,handler);
 
-//        List<WebEntity> entities =handler.getEntityList();
+//        testList<WebEntity> entities =handler.getEntityList();
 //        for (WebEntity servlet:entities){
 //            System.out.println(servlet.getName()+"--->"+servlet.getClz());
 //        }
-//        List<WebMapping> mappings =handler.getMappingList();
+//        testList<WebMapping> mappings =handler.getMappingList();
 //        for (WebMapping mapping:mappings){
 //            System.out.println(mapping.getName()+"--->"+mapping.getUrlPattern());
 //        }

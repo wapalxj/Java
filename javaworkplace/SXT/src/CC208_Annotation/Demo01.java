@@ -7,23 +7,23 @@ import java.util.Date;
  */
 public class Demo01 {
 
-    @Override//×¢½â:ËµÃ÷Õâ¸ö·½·¨ÖØĞ´×Ô¸¸Àà
+    @Override//æ³¨è§£:è¯´æ˜è¿™ä¸ªæ–¹æ³•é‡å†™è‡ªçˆ¶ç±»
     public String toString() {
         return super.toString();
     }
-//    @Override //²»ÊÇÖØĞ´µÄ·½·¨---±¨´í
+//    @Override //ä¸æ˜¯é‡å†™çš„æ–¹æ³•---æŠ¥é”™
 //    public String tostring() {
 //        return super.toString();
 //    }
     public static void main(String[] args) {
         Date date=new Date();
-        //@Deprecated×¢½â£º²»½¨ÒéÊ¹ÓÃµÄ
+        //@Deprecatedæ³¨è§£ï¼šä¸å»ºè®®ä½¿ç”¨çš„
         date.parse("dd");
         myAnno();
     }
     @SuppressWarnings("all")
-    @Deprecated//×Ô¼ºµÄ²»½¨ÒéÊ¹ÓÃ·½·¨
+    @Deprecated//è‡ªå·±çš„ä¸å»ºè®®ä½¿ç”¨æ–¹æ³•
     public static void myAnno(){
-        System.out.println("ÉùÃ÷Îª@Deprecated£º²»½¨ÒéÊ¹ÓÃ");
+        System.out.println("å£°æ˜ä¸º@Deprecatedï¼šä¸å»ºè®®ä½¿ç”¨");
     }
 }

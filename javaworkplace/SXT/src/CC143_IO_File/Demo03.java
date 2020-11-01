@@ -6,22 +6,22 @@ import java.io.IOException;
 /*
  *
  * 
-³£ÓÃ·½·¨
-1.ÎÄ¼şÃû
-	getName()ÎÄ¼şÃû¡¢Â·¾¶Ãû
-	getPath()Â·¾¶Ãû
-	getAbsoluteFile()¾ø¶ÔÂ·¾¶Ëù¶ÔÓ¦µÄFile¶ÔÏó
-	getAbsolutePath()¾ø¶ÔÂ·Ãû
-	getParent()¸¸Ä¿Â¼£¬Ïà¶ÔÂ·¾¶µÄ¸¸Ä¿Â¼£¬¿ÉÄÜÎªNULL
-2.ÅĞ¶ÏĞÅÏ¢
+å¸¸ç”¨æ–¹æ³•
+1.æ–‡ä»¶å
+	getName()æ–‡ä»¶åã€è·¯å¾„å
+	getPath()è·¯å¾„å
+	getAbsoluteFile()ç»å¯¹è·¯å¾„æ‰€å¯¹åº”çš„Fileå¯¹è±¡
+	getAbsolutePath()ç»å¯¹è·¯å
+	getParent()çˆ¶ç›®å½•ï¼Œç›¸å¯¹è·¯å¾„çš„çˆ¶ç›®å½•ï¼Œå¯èƒ½ä¸ºNULL
+2.åˆ¤æ–­ä¿¡æ¯
     Exists()
 	canWrite()
 	isFile()
 	isDirectory()
     isAbsolute()
-3.³¤¶È:³¤¶È£¨×Ö½ÚÊı,Ö»ÄÜ¶ÁÈ¡ÎÄ¼şµÄ³¤¶È£¬²»ÄÜ¶ÁÈ¡ÎÄ¼ş¼Ğ£¬ÎÄ¼ş¼Ğ³¤¶È¶ÁÈ¡Îª0£©
+3.é•¿åº¦:é•¿åº¦ï¼ˆå­—èŠ‚æ•°,åªèƒ½è¯»å–æ–‡ä»¶çš„é•¿åº¦ï¼Œä¸èƒ½è¯»å–æ–‡ä»¶å¤¹ï¼Œæ–‡ä»¶å¤¹é•¿åº¦è¯»å–ä¸º0ï¼‰
     length()
-4.´´½¨£¬É¾³ı
+4.åˆ›å»ºï¼Œåˆ é™¤
 	createNewFile()
 	delete()
 	static createTempFile()
@@ -32,7 +32,7 @@ public class Demo03 {
 
 	public static void main(String[] args) {
 		System.out.println("######test0#########");
-		File src =new File("F:/oo");//ÎÄ¼ş²»´æÔÚ¾ÍÎŞ·¨ÅĞ¶ÏÊÇ²»ÊÇÎÄ¼ş¼Ğ
+		File src =new File("F:/oo");//æ–‡ä»¶ä¸å­˜åœ¨å°±æ— æ³•åˆ¤æ–­æ˜¯ä¸æ˜¯æ–‡ä»¶å¤¹
 		System.out.println(src.isDirectory());
 		System.out.println("######test1#########");
 		test1();
@@ -44,7 +44,7 @@ public class Demo03 {
 			test3();
 		} catch (Exception e) {
 			e.printStackTrace();
-			System.out.println("ÎÄ¼ş´´½¨Ê§°Ü");
+			System.out.println("æ–‡ä»¶åˆ›å»ºå¤±è´¥");
 		}
 
 	}
@@ -52,50 +52,50 @@ public class Demo03 {
 	public static void test1() {
 //		File src =new File("F:/others/xp.txt");
 		File src =new File("test.txt");
-		System.out.println(src.getName());//·µ»ØÃû³Æ
-		System.out.println(src.getPath());//Èç¹ûÊÇ¾ø¶ÔÂ·¾¶£¬·µ»ØÍêÕûÂ·¾¶£¬·ñÕ¦·µ»ØÏà¶ÔÂ·¾¶
+		System.out.println(src.getName());//è¿”å›åç§°
+		System.out.println(src.getPath());//å¦‚æœæ˜¯ç»å¯¹è·¯å¾„ï¼Œè¿”å›å®Œæ•´è·¯å¾„ï¼Œå¦å’‹è¿”å›ç›¸å¯¹è·¯å¾„
 		System.out.println(src.getAbsolutePath());
-		System.out.println(src.getParent());//·µ»ØÉÏ¼¶Ä¿Â¼£¬Èç¹ûÊÇÏà¶Ô£¬Ôò·µ»ØNULL
+		System.out.println(src.getParent());//è¿”å›ä¸Šçº§ç›®å½•ï¼Œå¦‚æœæ˜¯ç›¸å¯¹ï¼Œåˆ™è¿”å›NULL
 	}
 //2.
 	public static void test2() {
 //		String path ="test.txt";
 		String path ="F:/others/xp.txt";
 		File src =new File(path);
-		//ÊÇ·ñ´æÔÚ
-		System.out.println("ÊÇ·ñ´æÔÚ:"+src.exists());
-		//ÊÇ·ñ¿ÉĞ´
-		System.out.println("ÊÇ·ñ¿ÉĞ´:"+src.canWrite());
+		//æ˜¯å¦å­˜åœ¨
+		System.out.println("æ˜¯å¦å­˜åœ¨:"+src.exists());
+		//æ˜¯å¦å¯å†™
+		System.out.println("æ˜¯å¦å¯å†™:"+src.canWrite());
 		//isFile()isDirectory()
 		if (src.isFile()) {
-			System.out.println("ÊÇÎÄ¼ş");
+			System.out.println("æ˜¯æ–‡ä»¶");
 		}else if (src.isDirectory()) {
-			System.out.println("ÊÇÎÄ¼ş¼Ğ");
+			System.out.println("æ˜¯æ–‡ä»¶å¤¹");
 		}else{
-			System.out.println("²»´æÔÚ");
+			System.out.println("ä¸å­˜åœ¨");
 		}
-		//ÊÇ·ñ¾ø¶ÔÂ·¾¶(¾ø¶ÔÂ·¾¶ÒÔÅÌ·û¿ªÍ·Èç£ºE:)
-		System.out.println("ÊÇ·ñ¾ø¶ÔÂ·¾¶:"+src.isAbsolute());
-		//3.³¤¶È£¨×Ö½ÚÊı,Ö»ÄÜ¶ÁÈ¡ÎÄ¼şµÄ³¤¶È£¬²»ÄÜ¶ÁÈ¡ÎÄ¼ş¼Ğ£¬ÎÄ¼ş¼Ğ³¤¶È¶ÁÈ¡Îª0£©
-		System.out.println("³¤¶ÈÎª"+src.length());
+		//æ˜¯å¦ç»å¯¹è·¯å¾„(ç»å¯¹è·¯å¾„ä»¥ç›˜ç¬¦å¼€å¤´å¦‚ï¼šE:)
+		System.out.println("æ˜¯å¦ç»å¯¹è·¯å¾„:"+src.isAbsolute());
+		//3.é•¿åº¦ï¼ˆå­—èŠ‚æ•°,åªèƒ½è¯»å–æ–‡ä»¶çš„é•¿åº¦ï¼Œä¸èƒ½è¯»å–æ–‡ä»¶å¤¹ï¼Œæ–‡ä»¶å¤¹é•¿åº¦è¯»å–ä¸º0ï¼‰
+		System.out.println("é•¿åº¦ä¸º"+src.length());
 		
 	}
-//4.´´½¨É¾³ıÎÄ¼ş
+//4.åˆ›å»ºåˆ é™¤æ–‡ä»¶
 	public static void test3() throws IOException, InterruptedException {
 		String path ="F:/others/com10.txt";
 		File src =new File(path);
-		//´´½¨
+		//åˆ›å»º
 		boolean flag =src.createNewFile();
-		System.out.println(flag?"´´½¨³É¹¦":"´´½¨Ê§°Ü");
-		//É¾³ı
+		System.out.println(flag?"åˆ›å»ºæˆåŠŸ":"åˆ›å»ºå¤±è´¥");
+		//åˆ é™¤
 		flag =src.delete();
-		System.out.println(flag?"É¾³ı³É¹¦":"É¾³ıÊ§°Ü");
+		System.out.println(flag?"åˆ é™¤æˆåŠŸ":"åˆ é™¤å¤±è´¥");
 		
 		
 		//static createTempFile()
 		File temp=File.createTempFile("tes", ".temp",new File("F:/others"));
 		Thread.sleep(1000);
-		temp.deleteOnExit();//1ÃëÖÓÖ®ºóÉ¾³ı
+		temp.deleteOnExit();//1ç§’é’Ÿä¹‹ååˆ é™¤
 		
 		
 	}

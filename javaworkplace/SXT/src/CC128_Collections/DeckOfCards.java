@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 //class to represent a Card in a deck of cards
-//±íÊ¾Ò»¸±ÅÆ
+//ï¿½ï¿½Ê¾Ò»ï¿½ï¿½ï¿½ï¿½
 class Card 
 	{    
 	public static enum Face { Ace, Deuce, Three, Four, Five, Six,
@@ -46,7 +46,7 @@ class Card
 	//class DeckOfCards declaration
 public class DeckOfCards 
 {
-	private List< Card > list; // declare List that will store Cards
+	private List< Card > list; // declare testList that will store Cards
 	
 	// set up deck of Cards and shuffle
 	public DeckOfCards()
@@ -64,7 +64,7 @@ public class DeckOfCards
 	      } // end for
 	   } // end for
 	
-	   list = Arrays.asList( deck ); // get List
+	   list = Arrays.asList( deck ); // get testList
 	   Collections.shuffle( list );  // shuffle deck
 	} // end DeckOfCards constructor
 	

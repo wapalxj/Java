@@ -14,20 +14,20 @@ public class ListWork1 {
 	}
 
 }
-// Class List definition
+// Class testList definition
 class List2 {
 	private ListNode firstNode;
 	private ListNode lastNode;
 	private String name; // String like "list" used in printing
 	private String []words;
 	private int size;
-	// Constructor: Construct an empty List with s as the name
+	// Constructor: Construct an empty testList with s as the name
 	public List2(String s) {
 		name = s;
 		firstNode = lastNode = null;
 	}
 
-	// Constructor: Construct an empty List with
+	// Constructor: Construct an empty testList with
 	// "list" as the name
 	public List2() {
 		this("table");
@@ -55,7 +55,7 @@ class List2 {
 	}
 
 	
-	// Return true if the List is empty
+	// Return true if the testList is empty
 	public synchronized boolean isEmpty() {
 		return firstNode == null;
 	}
@@ -77,7 +77,7 @@ class List2 {
 		}
 		return pos;
 	}
-	// Output the List contents
+	// Output the testList contents
 	public synchronized void print() {
 		if (isEmpty()) {
 			System.out.println("Empty " + name);

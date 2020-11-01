@@ -2,16 +2,16 @@ package CC210_ORM;
 
 /**
  * Created by Administrator on 2015/12/10.
- * 反射机制读取注解
+ * 鍙嶅皠鏈哄埗璇诲彇娉ㄨВ
  */
 @SxTable("tb_student")
 public class SxStudent {
-    
-    @SxField(columnName = "id",type = "int",length = 10)
+
+    @SxField(columnName = "id", type = "int", length = 10)
     private int id;
-    @SxField(columnName = "sname",type = "varchar",length = 10)
+    @SxField(columnName = "sname", type = "varchar", length = 10)
     private String studentName;
-    @SxField(columnName = "age",type = "int",length = 10)
+    @SxField(columnName = "age", type = "int", length = 10)
     private int age;
 
 

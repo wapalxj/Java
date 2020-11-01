@@ -1,9 +1,9 @@
 package CC13_DS;
 
 //StackComposition.java
-//Class StackComposition definition with composed List object
+//Class StackComposition definition with composed testList object
 /*
- * ÓÃ×éºÏÊµÏÖÕ»
+ * ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½Õ»
  */
 
 public class StackComposition {

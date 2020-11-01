@@ -19,7 +19,7 @@ public class GenericPolymorphism {
 		List<Integer> ints =new ArrayList<Integer>();
 		ints.add(1);
 		ints.add(2);
-//		List<Number> nums2 =ints;//错误，课件实际意义上的多态是不可行的
+//		testList<Number> nums2 =ints;//错误，课件实际意义上的多态是不可行的
 //		nums2.add(3.14);
 	}
 }
