@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f262160-a301-4124-b6fc-344680e9af63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1_test/xx_java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xxjava/xxjava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xx_java/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xx_java/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/NewThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEST/bin/META-INF/1_test.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/xx_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/xx_java.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +102,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -110,7 +111,6 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -283,47 +283,12 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name=".org.eclipse.dltk.core.external.folders" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -552,40 +517,6 @@
     <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
       <collection />
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="609" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1611155991226">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="609" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1611155991226" />
-    <state x="989" y="274" key="FileChooserDialogImpl" timestamp="1614605830446">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="989" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614605830446" />
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1614605570926">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1614605570926" />
-    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1614605570926">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1614605570926" />
-    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1614605570926">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1614605570926" />
-    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1614605570926">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614605570926" />
-    <state x="334" y="129" key="new project wizard" timestamp="1614605833778">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="334" y="129" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1614605833778" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1615106198566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615106198566" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
