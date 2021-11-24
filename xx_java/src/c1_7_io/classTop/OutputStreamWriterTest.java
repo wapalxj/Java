@@ -27,7 +27,7 @@ public class OutputStreamWriterTest {
 		bwdef.write(STRING);
 		bwdef.newLine();
 		bwdef.flush();
-//		bwdef.close();  //Ϊʲô��������д
+//		bwdef.close();  //不能在这里写，内部会关闭fos,下面又要用fos
 		System.out.println("oswDef encoding: " + oswDef.getEncoding());
 		
 		OutputStreamWriter oswGBK = new OutputStreamWriter(fos, "GBK");
