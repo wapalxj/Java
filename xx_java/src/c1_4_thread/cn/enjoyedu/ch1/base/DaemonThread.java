@@ -28,7 +28,7 @@ public class DaemonThread {
 	public static void main(String[] args) 
 			throws InterruptedException, ExecutionException {
 		UseThread useThread = new UseThread();
-		//useThread.setDaemon(true);
+		useThread.setDaemon(true);
 		useThread.start();
 		Thread.sleep(5);
 		useThread.interrupt();

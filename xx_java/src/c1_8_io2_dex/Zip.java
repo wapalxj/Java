@@ -10,7 +10,7 @@ import java.util.zip.*;
 
 public class Zip {
 
-    public static void unZip(File zip, File dir) {
+    public static void unZip(File zip, File dir) {//zip 源file,dir:目标文件夹file
         try {
             dir.delete();
             ZipFile zipFile = new ZipFile(zip);//读取src,解压到dir
@@ -18,6 +18,9 @@ public class Zip {
             while (entries.hasMoreElements()) {
                 ZipEntry zipEntry = entries.nextElement();
                 String name = zipEntry.getName();
+                //获取相对路径的全路径名
+                //res/drawable/abc_vector_test.xml
+//                System.out.println("unZip--name=="+name);
                 //过滤签名文件
                 if (name.equals("META-INF/CERT.RSA") || name.equals("META-INF/CERT.SF") || name
                         .equals("META-INF/MANIFEST.MF")) {

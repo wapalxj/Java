@@ -22,6 +22,8 @@ public class EndThread {
 				System.out.println(threadName+"inner interrrupt flag ="
 						+isInterrupted());
 			}
+			//调用上面的!isInterrupted()后，这里为true
+			//调用上面的!Thread.isInterrupted()后，这里为false
 			System.out.println(threadName+" interrrupt flag ="+isInterrupted());
 		}
 	}
@@ -31,6 +33,7 @@ public class EndThread {
 		endThread.start();
 		Thread.sleep(20);
 		endThread.interrupt();//中断线程，其实设置线程的标识位true
+
 
 
 	}

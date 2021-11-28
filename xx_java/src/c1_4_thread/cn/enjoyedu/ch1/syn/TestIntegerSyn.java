@@ -24,6 +24,8 @@ public class TestIntegerSyn {
 
         @Override
         public void run() {
+            //i++ 会导致i这个对象发生改变
+//            synchronized (i) {
             synchronized (o) {
                 Thread thread=Thread.currentThread();
                 System.out.println(thread.getName()+"--@"
@@ -36,8 +38,8 @@ public class TestIntegerSyn {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                System.out.println(thread.getName()+"-------"+i+"--@"
-                        +System.identityHashCode(i));
+//                System.out.println(thread.getName()+"-------"+i+"--@"
+//                        +System.identityHashCode(i));
             }
 
         }

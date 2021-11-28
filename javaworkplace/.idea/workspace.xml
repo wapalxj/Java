@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f262160-a301-4124-b6fc-344680e9af63" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../xx_java/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xx_java/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/NewThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/xx_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/xx_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/base/NewThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/base/NewThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/base/safeend/EndThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/base/safeend/EndThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/MyMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/MyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/Signature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/Signature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/Zip.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_8_io2_dex/Zip.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

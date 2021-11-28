@@ -20,7 +20,7 @@ public class HasInterrputException {
 					System.out.println(Thread.currentThread().getName()
 							+" in InterruptedException interrupt flag is "
 							+isInterrupted());
-					//资源释放
+					//资源释放,再次将isInterrupted改为true
 					interrupt();
 					e.printStackTrace();
 				}

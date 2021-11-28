@@ -18,9 +18,10 @@ public class SynTest {
 
 	/*用在同步块上*/
 	public void incCount(){
-		synchronized (obj){
-			count++;
-		}
+		count++;
+//		synchronized (obj){
+//			count++;
+//		}
 	}
 
 	/*用在方法上*/
@@ -34,6 +35,12 @@ public class SynTest {
 			count++;
 		}
 	}
+//	int i2=10;
+//	public void incCount4(){
+//		synchronized (i2){
+//			count++;
+//		}
+//	}
 
 	//线程
 	private static class Count extends Thread{

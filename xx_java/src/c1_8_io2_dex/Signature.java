@@ -14,7 +14,7 @@ public class Signature {
     public static void signature(File unsignedApk, File signedApk) throws InterruptedException, IOException {
         String cmd[] = {"cmd.exe", "/C ","jarsigner",  "-sigalg", "MD5withRSA",
                 "-digestalg", "SHA1",
-                "-keystore", "C:/Users/allen/.android/debug.keystore",
+                "-keystore", "D:/Android/.android/debug.keystore",
                 "-storepass", "android",
                 "-keypass", "android",
                 "-signedjar", signedApk.getAbsolutePath(),

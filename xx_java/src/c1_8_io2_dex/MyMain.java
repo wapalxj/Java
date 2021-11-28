@@ -37,10 +37,9 @@ public class MyMain {
     	
         /**
          * 第一步 处理原始apk 加密dex
-         *
          */
         AES.init(AES.DEFAULT_PWD);
-        //解压apk
+
         File apkFile = new File(path+"source/apk/app-debug.apk");
         File newApkFile = new File(apkFile.getParent() + File.separator + "temp");
         if(!newApkFile.exists()) {
@@ -69,36 +68,41 @@ public class MyMain {
 		}
         
         
-//    	 /**
-//         * 第二步 处理aar 获得壳dex
-//         */
-//    	File aarFile = new File(path+"source/aar/mylibrary-debug.aar");
-//        File aarDex  = Dx.jar2Dex(aarFile);
-////        aarData = Utils.getBytes(aarDex);   //将dex文件读到byte 数组
-//
-//
-//        File tempMainDex = new File(newApkFile.getPath() + File.separator + "classes.dex");
-//        if (!tempMainDex.exists()) {
-//			tempMainDex.createNewFile();
-//		}
-////        System.out.println("MyMain" + tempMainDex.getAbsolutePath());
-//        FileOutputStream fos = new FileOutputStream(tempMainDex);
-//        byte[] fbytes = Utils.getBytes(aarDex);
-//        fos.write(fbytes);
+    	 /**
+         * 第二步 处理aar 获得壳dex
+		  *
+		  * aar中的是.jar,需要先转换成.dex
+         */
+    	File aarFile = new File(path+"source/aar/mylibrary-debug.aar");
+        File aarDex  = Dx.jar2Dex(aarFile);
+//        aarData = Utils.getBytes(aarDex);   //将dex文件读到byte 数组
+
+		//将壳写入newApkFile作为classes.dex，以后用来解密源dex
+        File tempMainDex = new File(newApkFile.getPath() + File.separator + "classes.dex");
+        if (!tempMainDex.exists()) {
+			tempMainDex.createNewFile();
+		}
+//        System.out.println("MyMain" + tempMainDex.getAbsolutePath());
+        FileOutputStream fos = new FileOutputStream(tempMainDex);
+        byte[] fbytes = Utils.getBytes(aarDex);
+        fos.write(fbytes);
 //        fos.flush();
-//        fos.close();
+        fos.close();
 //
 //
-//        /**
-//         * 第3步 打包签名
-//         */
-//        File unsignedApk = new File("result/apk-unsigned.apk");
-//        unsignedApk.getParentFile().mkdirs();
-////        File disFile = new File(apkFile.getAbsolutePath() + File.separator+ "temp");
-//        Zip.zip(newApkFile, unsignedApk);
-//        //不用插件就不能自动使用原apk的签名...
-//        File signedApk = new File("result/apk-signed.apk");
-//        Signature.signature(unsignedApk, signedApk);
+        /**
+         * 第3步 打包签名
+         */
+        File unsignedApk = new File(path+"result/apk-unsigned.apk");
+        unsignedApk.getParentFile().mkdirs();
+		//压缩上一步的newApkFile到unsignedApk
+        Zip.zip(newApkFile, unsignedApk);
+
+        //不用插件(源工程的lib aar)就不能自动使用原apk的签名...
+		//或者可以用自己的keystore对unsignedApk进行签名
+		//apk-signed.apk 签名生成的apk
+        File signedApk = new File(path+"result/apk-signed.apk");
+        Signature.signature(unsignedApk, signedApk);
     }
 
     
