@@ -7,20 +7,30 @@ import c1_4_thread.cn.enjoyedu.tools.SleepTools;
  */
 public class ThreadLocalUnsafe implements Runnable {
 
-    public Number number = new Number(0);
+    public static ThreadLocal<Number> sThreadLocal = new ThreadLocal<Number>();
+    //static : number成共享变量了
+    public static Number number = new Number(0);
+
+    //解决：方式1：这里去掉static
+    //解决：方式2：使用initialValue()
+
+//    public static ThreadLocal<Number> sThreadLocal = new ThreadLocal<Number>(){
+//        @Override
+//        protected Number initialValue() {
+//            return new Number(0);
+//        }
+//    };
 
     public void run() {
         //每个线程计数加一
         number.setNum(number.getNum()+1);
       //将其存储到ThreadLocal中
-        value.set(number);
+        sThreadLocal.set(number);
         SleepTools.ms(2);
         //输出num值
-        System.out.println(Thread.currentThread().getName()+"="+value.get().getNum());
+        System.out.println(Thread.currentThread().getName()+"="+ sThreadLocal.get().getNum());
     }
 
-    public static ThreadLocal<Number> value = new ThreadLocal<Number>() {
-    };
 
     public static void main(String[] args) {
         for (int i = 0; i < 5; i++) {

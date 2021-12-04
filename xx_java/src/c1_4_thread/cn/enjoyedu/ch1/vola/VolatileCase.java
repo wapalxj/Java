@@ -9,12 +9,12 @@ import c1_4_thread.cn.enjoyedu.tools.SleepTools;
 public class VolatileCase {
     private volatile static boolean ready;
     private static int number;
-
-    //
     private static class PrintThread extends Thread{
         @Override
         public void run() {
             System.out.println("PrintThread is running.......");
+            //主线程ready = true;
+            //没有volatile,这里居然不可见！
             while(!ready);//无限循环
             System.out.println("number = "+number);
         }
