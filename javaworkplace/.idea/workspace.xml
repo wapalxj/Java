@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7f262160-a301-4124-b6fc-344680e9af63" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/threadlocal/ThreadLocalOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/threadlocal/ThreadLocalOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/threadlocal/ThreadLocalUnsafe.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/threadlocal/ThreadLocalUnsafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/vola/VolatileCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/vola/VolatileCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/wn/Express.java" beforeDir="false" afterPath="$PROJECT_DIR$/../xx_java/src/c1_4_thread/cn/enjoyedu/ch1/wn/Express.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/TestCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/ZZC5_HM/src/javaee_jdbc2/TestCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,6 +78,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -147,7 +152,7 @@
       <recent name="JUnit" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestPkg">
+  <component name="RunManager" selected="Application.Person">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="DEPLOY" value="true" />
@@ -216,13 +221,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CC211_reflection.test.Test" />
-      <module name="SXT" />
+    <configuration name="Person" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reference.Person" />
+      <module name="ZZC5_HM" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CC211_reflection.test.*" />
+          <option name="PATTERN" value="reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,13 +235,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pattern.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CC211_reflection.test.Test" />
       <module name="SXT" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.*" />
+          <option name="PATTERN" value="CC211_reflection.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,16 +318,16 @@
       <item itemvalue="Application.Computer" />
       <item itemvalue="Application.Test (2)" />
       <item itemvalue="Application.TestPkg" />
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test_dataType" />
+      <item itemvalue="Application.Person" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Person" />
         <item itemvalue="Application.TestPkg" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test_dataType" />
         <item itemvalue="Application.Computer" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

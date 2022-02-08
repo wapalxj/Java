@@ -62,10 +62,10 @@ public class Person {
         }.start();
 
         // 测试情况1:对象是虚可达的,会加入到引用队列
-//        PhantomReference<String> abcWeakRef = new PhantomReference<>(abc, referenceQueue);
+        PhantomReference<String> abcWeakRef = new PhantomReference<>(abc, referenceQueue);
 
         // 测试情况2:对象是不可达的,直接就被回收了,不会加入到引用队列
-        new PhantomReference<>(abc, referenceQueue);
+//        new PhantomReference<>(abc, referenceQueue);
         abc = null;
         Thread.sleep(3000);
         System.gc();

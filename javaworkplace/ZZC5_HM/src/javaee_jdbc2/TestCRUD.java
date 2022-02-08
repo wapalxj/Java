@@ -1,6 +1,5 @@
 package javaee_jdbc2;
 
-import org.junit.Test;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -12,7 +11,6 @@ import java.util.List;
  */
 
 public class TestCRUD {
-    @Test
     public void testQuery(){
         Statement statement=null;
         Connection connection=null;
@@ -42,7 +40,6 @@ public class TestCRUD {
             DBUtils.closeAll(resultSet,statement,connection);
         }
     }
-    @Test
     public void testInsert(){
         PreparedStatement statement=null;
         Connection connection=null;
@@ -71,7 +68,6 @@ public class TestCRUD {
         }
     }
 
-    @Test
     public void testUpdate() throws ClassNotFoundException, SQLException {
         PreparedStatement statement=null;
         statement=null;
@@ -96,7 +92,6 @@ public class TestCRUD {
         }
     }
 
-    @Test
     public void testDelete() throws ClassNotFoundException, SQLException {
         Statement statement=null;
         Connection connection=null;
